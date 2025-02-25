@@ -15,6 +15,7 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sons","order":3,"path":"folders/Sons.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"Protagonist","order":1,"path":"folders/Sprites/Protagonist.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"Ataque_Solo","order":21,"path":"sprites/Ataque_Solo/Ataque_Solo.yy",},
