@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"chao_1",
+  "%Name":"chao_int_1",
   "eventList":[],
   "managed":true,
-  "name":"chao_1",
+  "name":"chao_int_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Estruturas",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Chao_externo_1",
-    "path":"sprites/Chao_externo_1/Chao_externo_1.yy",
+    "name":"Chao_interno_1",
+    "path":"sprites/Chao_interno_1/Chao_interno_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

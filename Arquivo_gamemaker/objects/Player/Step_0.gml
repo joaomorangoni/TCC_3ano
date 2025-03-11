@@ -1,6 +1,7 @@
 // Controles
 
 var _chao = place_meeting(x, y + 1, chao_1)
+var _chao_int = place_meeting(x, y + 1, chao_int_1)
 
 var _left, _right, _jump;
 _left = keyboard_check(inputs.left);
