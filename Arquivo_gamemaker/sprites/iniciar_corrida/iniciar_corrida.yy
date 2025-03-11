@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"Arquivo_gamemaker",
-    "path":"Arquivo_gamemaker.yyp",
+    "name":"Protagonist",
+    "path":"folders/Sprites/Protagonist.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
