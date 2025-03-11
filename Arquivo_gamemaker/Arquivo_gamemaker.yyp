@@ -39,7 +39,7 @@
   "name":"Arquivo_gamemaker",
   "resources":[
     {"id":{"name":"chao_1","path":"objects/chao_1/chao_1.yy",},},
-    {"id":{"name":"chao_int_1","path":"objects/chao_int_1/chao_int_1.yy",},},
+    {"id":{"name":"Object3","path":"objects/Object3/Object3.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Ataque_Solo","path":"sprites/Ataque_Solo/Ataque_Solo.yy",},},

@@ -1,5 +1,7 @@
 // Colisão - Horizontal
 var _col = instance_place(x + velh, y, chao_1); //Verifica a colisão
+
+
 if (_col) {
 	
 	// Checando se está indo para direita
@@ -7,6 +9,8 @@ if (_col) {
 	{ 
 	 // Ajustando pixel
 		 x = _col.bbox_left + (x - bbox_right);
+		 
+		 
 	}
 	
 	// Checando esquerda

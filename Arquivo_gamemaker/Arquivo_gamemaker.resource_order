@@ -21,7 +21,7 @@
     {"name":"Protagonist","order":1,"path":"folders/Sprites/Protagonist.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"chao_int_1","order":1,"path":"objects/chao_int_1/chao_int_1.yy",},
+    {"name":"Object3","order":1,"path":"objects/Object3/Object3.yy",},
     {"name":"Caindo_Frontal","order":1,"path":"sprites/Caindo_Frontal/Caindo_Frontal.yy",},
     {"name":"Caindo_Lateral","order":2,"path":"sprites/Caindo_Lateral/Caindo_Lateral.yy",},
     {"name":"Chao_interno_1","order":1,"path":"sprites/Chao_interno_1/Chao_interno_1.yy",},
