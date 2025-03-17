@@ -1,6 +1,6 @@
 // Controles
 
-var _chao = place_meeting(x, y + 1, chao_1)
+var _chao = place_meeting(x, y + 2, chao_1)
 
 
 var _left, _right, _jump;
@@ -32,6 +32,14 @@ if (_chao) {
 else
 {
 	// Gravidade
-
+  if (velv < 0)
+  {
+	 sprite_index = Salto_Lateral;
+  }
+  else
+  {
+	sprite_index = Caindo_Lateral;
+  }
+	
 	velv += grav;
 }
