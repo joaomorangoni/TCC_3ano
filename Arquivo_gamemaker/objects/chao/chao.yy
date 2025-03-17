@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object3",
+  "%Name":"chao",
   "eventList":[],
   "managed":true,
-  "name":"Object3",
+  "name":"chao",
   "overriddenProperties":[],
   "parent":{
     "name":"Estruturas",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Chao_externo_1",
-    "path":"sprites/Chao_externo_1/Chao_externo_1.yy",
+    "name":"Col",
+    "path":"sprites/Col/Col.yy",
   },
   "spriteMaskId":null,
   "visible":true,

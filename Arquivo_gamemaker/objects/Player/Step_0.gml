@@ -1,6 +1,6 @@
 // Controles
 
-var _chao = place_meeting(x, y + 1, chao_1)
+var _chao = place_meeting(x, y + 1, chao)
 
 
 var _left, _right, _jump;
