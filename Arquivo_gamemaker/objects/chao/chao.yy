@@ -32,5 +32,5 @@
     "path":"sprites/Col/Col.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
