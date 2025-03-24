@@ -1,4 +1,4 @@
-# *TCC* Nome:
+# *TCC* Nome: Animosity
 Projeto de TCC do 3ºano da ETEC MCM 
 Grupo: João Pedro, Bruno Sorrilha, Bryan Almeida, Daniel Benatti.
-Tema:
+Tema: Saúde Mental, Jogo de Plataforma - Roguelike
