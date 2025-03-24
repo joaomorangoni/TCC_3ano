@@ -2,9 +2,13 @@ var _chao = place_meeting(x, y + 1, chao)
 
 if (_chao) {
 
-	if (velh != 0)
+	velh = vel;
+	
+	// Animação
+	
+		if (velh != 0)
 	{
-		sprite_index = rato_andando ;
+		sprite_index = rato_andando;
 		image_xscale = sign(velh);
 	}
 	else
@@ -22,4 +26,6 @@ else
   }
 
 	velv += grav;
+	
+	velh = 0;
 }

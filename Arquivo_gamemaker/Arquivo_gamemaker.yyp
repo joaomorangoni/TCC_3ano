@@ -49,6 +49,7 @@
     {"id":{"name":"obj_entidade","path":"objects/obj_entidade/obj_entidade.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"Ataque_Solo","path":"sprites/Ataque_Solo/Ataque_Solo.yy",},},
     {"id":{"name":"Caindo_Frontal","path":"sprites/Caindo_Frontal/Caindo_Frontal.yy",},},
     {"id":{"name":"Caindo_Lateral","path":"sprites/Caindo_Lateral/Caindo_Lateral.yy",},},
