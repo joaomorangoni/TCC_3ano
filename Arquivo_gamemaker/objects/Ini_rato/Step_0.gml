@@ -33,7 +33,6 @@ if (_chao) {
 			velh *= -1;
 		}
 		
-		
 	}
 	
 	// Animação
