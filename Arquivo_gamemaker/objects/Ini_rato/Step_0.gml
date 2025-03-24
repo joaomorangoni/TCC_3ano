@@ -12,25 +12,28 @@ if (_chao) {
 		andar = choose(true, false);
 		
 		// Escolher a direção
+		if(andar)
+		{
+			
+			velh = choose(vel, -vel);
 		
-		vel = choose(1.8, -1.8);
-		
+		}
+		else
+		{
+			velh = 0;
+		}
 		// Resetar o timer
 		
-		timer_decisao_andar = room_speed * 2;
+		timer_decisao_andar = room_speed * 3;
+		
+		// se bater na parede troca de direção
+		
+		if (place_meeting(x + velh, y, chao)) 
+		{
+			velh *= -1;
+		}
 		
 		
-		
-	}
-	// Checar se está andando
-	if (andar) {
-		
-		velh = vel;
-	
-	}
-	else
-	{
-		velh = 0;
 	}
 	
 	// Animação

@@ -6,5 +6,5 @@ event_inherited();
 //Decidindo sua direção
 vel = choose(1.8, -1.8);
 
-andar = false;
-timer_decisao_andar = room_speed * 2; //room_speed equivale a 1 segundo
+andar = choose(true, false);
+timer_decisao_andar = room_speed * 3; //room_speed equivale a 1 segundo
