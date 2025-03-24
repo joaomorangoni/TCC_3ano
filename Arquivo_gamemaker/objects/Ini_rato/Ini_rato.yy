@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Player",
+  "%Name":"Ini_rato",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Player",
+  "name":"Ini_rato",
   "overriddenProperties":[],
   "parent":{
-    "name":"Jogador",
-    "path":"folders/Objetos/Jogador.yy",
+    "name":"Inimigos",
+    "path":"folders/Objetos/Inimigos.yy",
   },
   "parentObjectId":{
     "name":"obj_entidade",
@@ -34,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Parado",
-    "path":"sprites/Parado/Parado.yy",
+    "name":"rato_parado",
+    "path":"sprites/rato_parado/rato_parado.yy",
   },
   "spriteMaskId":null,
   "visible":true,
