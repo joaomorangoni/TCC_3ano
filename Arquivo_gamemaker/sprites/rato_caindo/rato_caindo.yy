@@ -26,7 +26,7 @@
   "origin":7,
   "parent":{
     "name":"Rato",
-    "path":"folders/Sprites/Inimigos/Rato.yy",
+    "path":"folders/Sprites/Inimigos/Tutorial/Rato.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
