@@ -71,7 +71,8 @@
     {"id":{"name":"Ini_rato","path":"objects/Ini_rato/Ini_rato.yy",},},
     {"id":{"name":"obj_entidade","path":"objects/obj_entidade/obj_entidade.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Sala_Teste_Entidades","path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},},
+    {"id":{"name":"Sala_Teste_Texturas","path":"rooms/Sala_Teste_Texturas/Sala_Teste_Texturas.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"Ataque_Solo","path":"sprites/Ataque_Solo/Ataque_Solo.yy",},},
     {"id":{"name":"Caindo_Frontal","path":"sprites/Caindo_Frontal/Caindo_Frontal.yy",},},
@@ -102,7 +103,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Sala_Teste_Entidades","path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},},
+    {"roomId":{"name":"Sala_Teste_Texturas","path":"rooms/Sala_Teste_Texturas/Sala_Teste_Texturas.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

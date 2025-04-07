@@ -49,6 +49,7 @@
     {"name":"Tiles","order":16,"path":"folders/Tiles.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Sala_Teste_Entidades","order":1,"path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},
     {"name":"Caindo_Frontal","order":1,"path":"sprites/Caindo_Frontal/Caindo_Frontal.yy",},
     {"name":"Caindo_Lateral","order":2,"path":"sprites/Caindo_Lateral/Caindo_Lateral.yy",},
     {"name":"Chao_em_movimento","order":6,"path":"sprites/Chao_em_movimento/Chao_em_movimento.yy",},
