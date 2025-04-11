@@ -17,6 +17,7 @@ if (timer_dano <= 0)
 
 // Salto
 if (_chao) {
+	show_debug_message(dano);
 	if (_jump)
 	{
 		velv = -vel_jump;
@@ -59,14 +60,35 @@ if (dano)
 	{
 		timer_dano--;
 	}
+	else
+	{
+		dano = false;
+	}
 	sprite_index = Hit;
 }
 
-if (_inimigo)
+
+if (_inimigo && inv_timer <= 0)
 {
 	timer_dano = tempo_dano;
+	inv_timer = inv_tempo;
 	if (_inimigo.morto == false)
 	{
 	dano = true;
+	velh = 0;
+	velv = 0;
 	}
 }
+
+if (inv_timer > 0)
+	{
+		inv_timer--;
+		if (inv_timer = room_speed * 1)
+		{
+		   image_alpha = .5;
+		}
+	}
+	else
+	{
+		image_alpha = 1;
+	}

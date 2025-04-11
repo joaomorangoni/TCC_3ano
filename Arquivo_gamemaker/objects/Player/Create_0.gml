@@ -12,6 +12,11 @@ dano = false;
 tempo_dano = room_speed * 0.5;
 timer_dano = 0;
 
+//invencibilidade
+
+inv_tempo = room_speed * 1.5;
+inv_timer = 0;
+
 // Inputs 
 
 inputs = {
