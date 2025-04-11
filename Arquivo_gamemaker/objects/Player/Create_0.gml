@@ -26,3 +26,5 @@ inputs = {
 
 }
 
+estado = estado_player.livre;
+
