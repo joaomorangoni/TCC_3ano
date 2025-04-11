@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"Arquivo_gamemaker",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -59,17 +59,19 @@
     {"$GMFolder":"","%Name":"Flaming","folderPath":"folders/Sprites/Protagonist/Flaming.yy","name":"Flaming","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tiles","folderPath":"folders/Tiles.yy","name":"Tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"Arquivo_gamemaker",
   "resources":[
     {"id":{"name":"chao","path":"objects/chao/chao.yy",},},
     {"id":{"name":"Ini_rato","path":"objects/Ini_rato/Ini_rato.yy",},},
     {"id":{"name":"obj_entidade","path":"objects/obj_entidade/obj_entidade.yy",},},
+    {"id":{"name":"obj_inimigos","path":"objects/obj_inimigos/obj_inimigos.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Sala_Teste_Entidades","path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},},
     {"id":{"name":"Sala_Teste_Texturas","path":"rooms/Sala_Teste_Texturas/Sala_Teste_Texturas.yy",},},

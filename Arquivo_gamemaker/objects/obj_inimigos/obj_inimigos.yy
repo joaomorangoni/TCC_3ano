@@ -1,17 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Player",
+  "%Name":"obj_inimigos",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Player",
+  "name":"obj_inimigos",
   "overriddenProperties":[],
   "parent":{
-    "name":"Jogador",
-    "path":"folders/Objetos/Jogador.yy",
+    "name":"Entidade",
+    "path":"folders/Objetos/Entidade.yy",
   },
   "parentObjectId":{
     "name":"obj_entidade",
@@ -34,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Parado",
-    "path":"sprites/Parado/Parado.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

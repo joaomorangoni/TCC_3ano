@@ -60,3 +60,10 @@ else
 	
 	velh = 0;
 }
+
+// sistema de dano
+
+if (dano)
+{
+	sprite_index = rato_sofrendodano;
+}

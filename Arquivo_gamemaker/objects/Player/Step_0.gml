@@ -8,7 +8,12 @@ _left = keyboard_check(inputs.left);
 _right = keyboard_check(inputs.right);
 _jump = keyboard_check_pressed(inputs.jump);
 
-velh = (_right - _left) * vel;
+//Perder os comandos por um tempo ao sofrer dano
+
+if (timer_dano <= 0)
+{
+	velh = (_right - _left) * vel;
+}
 
 // Salto
 if (_chao) {
@@ -42,4 +47,26 @@ else
   }
 	
 	velv += grav;
+}
+
+//sistema de dano
+
+var _inimigo = instance_place(x, y, obj_inimigos);
+
+if (dano) 
+{
+	if (timer_dano > 0)
+	{
+		timer_dano--;
+	}
+	sprite_index = Hit;
+}
+
+if (_inimigo)
+{
+	timer_dano = tempo_dano;
+	if (_inimigo.morto == false)
+	{
+	dano = true;
+	}
 }
