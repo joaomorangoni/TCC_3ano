@@ -78,6 +78,7 @@ case(estado_player.livre):
 	    {
 	        dano = false;
 	    }
+		
 	}
 
 
@@ -114,4 +115,13 @@ case(estado_player.livre):
 		
 	}
 	
+	if(vida <= 0) 
+	{
+		estado = estado_player.morto;
+	}
+	break;
+	
+	case(estado_player.morto):
+	// Caso ele morra.
+	sprite_index = Morrendo;
 }

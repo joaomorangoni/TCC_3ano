@@ -30,6 +30,8 @@ estado = estado_player.livre;
 
 // Atributos
 
+vida = 5;
+vida_max = 5;
 ataque = false;
 
 
