@@ -16,30 +16,35 @@ case(estado_player.livre):
 	{
 		velh = (_right - _left) * vel;
 	}
-
+	
+	
 	// Salto
 	if (_chao) {
-		show_debug_message(dano);
 		if (_jump)
 		{
 			velv = -vel_jump;
 		}
 	
 		// se está no chão e se movendo
-		if (velh != 0)
+		if (!ataque) 
 		{
-			sprite_index = Correndo;
-			image_xscale = sign(velh);
-		}
-		else
-		{
-			sprite_index = Parado;
+			if (velh != 0)
+			{
+				sprite_index = Correndo;
+				image_xscale = sign(velh);
+			}
+			else
+			{
+					sprite_index = Parado;
+			}
 		}
 	
 	}
 	else
 	{
 		// Gravidade
+	if (!ataque)
+	{
 	  if (velv < 0)
 	  {
 		sprite_index = Salto_Lateral;
@@ -48,6 +53,7 @@ case(estado_player.livre):
 	  {
 		sprite_index = Caindo_Lateral;
 	  }
+	}
 	
 		velv += grav;
 	}
@@ -56,17 +62,22 @@ case(estado_player.livre):
 
 	var _inimigo = instance_place(x, y, obj_inimigos);
 
-	if (dano) 
+	if (dano)
 	{
-		if (timer_dano > 0)
-		{
-			timer_dano--;
-		}
-		else
-		{
-			dano = false;
-		}
-		sprite_index = Hit;
+	    if (sprite_index != Hit)
+	    {
+	        sprite_index = Hit;
+	        image_index = 0;
+	    }
+
+	    if (timer_dano > 0)
+	    {
+	        timer_dano--;
+	    }
+	    else
+	    {
+	        dano = false;
+	    }
 	}
 
 
@@ -90,8 +101,17 @@ case(estado_player.livre):
 			   image_alpha = .5;
 			}
 		}
-		else
-		{
-			image_alpha = 1;
-		}
+	else
+	{
+		image_alpha = 1;
+	}
+		
+	if (mouse_check_button(mb_left) && !ataque && !dano)
+	{
+		ataque = true;
+		sprite_index = Sequencia_Ataque1;
+		image_index = 0;
+		
+	}
+	
 }

@@ -28,3 +28,9 @@ inputs = {
 
 estado = estado_player.livre;
 
+// Atributos
+
+ataque = false;
+
+
+
