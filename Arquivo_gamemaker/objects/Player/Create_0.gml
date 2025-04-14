@@ -11,6 +11,7 @@ vel_jump = 10;
 dano = false;
 tempo_dano = room_speed * 0.5;
 timer_dano = 0;
+dano_recebido = 0.5;
 
 //invencibilidade
 
@@ -33,6 +34,8 @@ estado = estado_player.livre;
 vida = 5;
 vida_max = 5;
 ataque = false;
+
+
 
 
 

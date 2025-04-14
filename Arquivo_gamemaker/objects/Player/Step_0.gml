@@ -64,6 +64,7 @@ case(estado_player.livre):
 
 	if (dano)
 	{
+		
 	    if (sprite_index != Hit)
 	    {
 	        sprite_index = Hit;
@@ -84,8 +85,10 @@ case(estado_player.livre):
 
 	if (_inimigo && inv_timer <= 0)
 	{
+		vida -= 2.5;
 		timer_dano = tempo_dano;
 		inv_timer = inv_tempo;
+		
 		if (_inimigo.morto == false)
 		{
 		dano = true;
@@ -96,6 +99,7 @@ case(estado_player.livre):
 
 	if (inv_timer > 0)
 		{
+			
 			inv_timer--;
 			if (inv_timer = room_speed * 1)
 			{
