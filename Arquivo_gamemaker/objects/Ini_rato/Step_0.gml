@@ -1,3 +1,5 @@
+event_inherited()
+
 var _chao = place_meeting(x, y + 1, chao)
 
 if (_chao) {

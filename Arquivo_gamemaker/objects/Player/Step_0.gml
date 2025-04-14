@@ -82,21 +82,6 @@ case(estado_player.livre):
 		
 	}
 
-
-	if (_inimigo && inv_timer <= 0)
-	{
-		vida -= 2.5;
-		timer_dano = tempo_dano;
-		inv_timer = inv_tempo;
-		
-		if (_inimigo.morto == false)
-		{
-		dano = true;
-		velh = 0;
-		velv = 0;
-		}
-	}
-
 	if (inv_timer > 0)
 		{
 			
