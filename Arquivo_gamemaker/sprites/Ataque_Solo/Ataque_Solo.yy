@@ -16,6 +16,7 @@
     {"$GMSpriteFrame":"","%Name":"9a9b2881-b8c3-474c-b740-c2af2d187360","name":"9a9b2881-b8c3-474c-b740-c2af2d187360","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"adbf830e-b1fb-4ead-a917-8976ba02ed6d","name":"adbf830e-b1fb-4ead-a917-8976ba02ed6d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"f9727b7d-c920-4aff-8b86-4ed93fc0fcdb","name":"f9727b7d-c920-4aff-8b86-4ed93fc0fcdb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"5eb3bfd7-ea9f-4018-bd6c-303590b72358","name":"5eb3bfd7-ea9f-4018-bd6c-303590b72358","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"bbf20c5b-b226-4f2b-b817-aea68ddc4eb0","name":"bbf20c5b-b226-4f2b-b817-aea68ddc4eb0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
@@ -53,7 +54,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":5.0,
+    "length":6.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -87,8 +88,11 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f9727b7d-c920-4aff-8b86-4ed93fc0fcdb","path":"sprites/Ataque_Solo/Ataque_Solo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"b6a6157a-3307-4e06-8665-be4394f4a4cc","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5eb3bfd7-ea9f-4018-bd6c-303590b72358","path":"sprites/Ataque_Solo/Ataque_Solo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4983f4d3-e97c-4316-9229-f2ba715d670a","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bbf20c5b-b226-4f2b-b817-aea68ddc4eb0","path":"sprites/Ataque_Solo/Ataque_Solo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"29bf18e7-95b3-47e4-bc85-14225b4f5374","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"29bf18e7-95b3-47e4-bc85-14225b4f5374","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
