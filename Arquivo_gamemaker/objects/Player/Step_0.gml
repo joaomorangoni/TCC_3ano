@@ -11,7 +11,7 @@ case(estado_player.livre):
 	_jump = keyboard_check_pressed(inputs.jump);
 
 	//Perder os comandos por um tempo ao sofrer dano
-
+	
 	if (timer_dano <= 0)
 	{
 		velh = (_right - _left) * vel;
@@ -86,8 +86,19 @@ case(estado_player.livre):
 		ataque = true;
 		sprite_index = Sequencia_Ataque1;
 		image_index = 0;
-		
+		image_speed = 1;
+		show_debug_message("image_index: " + string(image_index));
 	}
+	
+	if (ataque) 
+	{
+			if (!instance_exists(hitbox_atkleve1) && image_index >= 3 && image_index < 5 ) 
+		{
+			instance_create_layer(x + 23 * image_xscale, y - 5, "Colisores", hitbox_atkleve1);
+			show_debug_message("Criando hitbox");
+		}
+	}
+		
 	
 	//if (mouse_check_button(mb_left) && velh != 0 && !ataque && !dano)
 	//{

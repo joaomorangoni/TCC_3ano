@@ -6,3 +6,4 @@ dano_inimigo = 1;
 dano = false;
 morto = false;
 
+estado = estado_inimigos.livre;

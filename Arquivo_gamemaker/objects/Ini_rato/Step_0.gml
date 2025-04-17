@@ -1,71 +1,71 @@
 event_inherited()
 
 var _chao = place_meeting(x, y + 1, chao)
-
-if (_chao) {
+if (!morto && !dano) {
+	if (_chao) {
 	
-	//rodar o tempo de decisão
-	timer_decisao_andar -= 1;
+		//rodar o tempo de decisão
+		timer_decisao_andar -= 1;
 	
-	// Decisão
+		// Decisão
 	
-	if (timer_decisao_andar <= 0)
-	{
-		andar = choose(true, false);
-		
-		// Escolher a direção
-		if(andar)
+		if (timer_decisao_andar <= 0)
 		{
-			
-			velh = choose(vel, -vel);
+			andar = choose(true, false);
 		
+			// Escolher a direção
+			if(andar)
+			{
+			
+				velh = choose(vel, -vel);
+		
+			}
+			else
+			{
+				velh = 0;
+			}
+			// Resetar o timer
+		
+			timer_decisao_andar = room_speed * 3;
+		
+			// se bater na parede troca de direção
+		
+			if (place_meeting(x + velh, y, chao)) 
+			{
+				velh *= -1;
+			}
+		
+		}
+	
+		// Animação
+	
+		if (velh != 0)
+		{
+			sprite_index = rato_andando;
+			image_xscale = sign(velh);
 		}
 		else
 		{
-			velh = 0;
+			sprite_index = rato_parado;
 		}
-		// Resetar o timer
-		
-		timer_decisao_andar = room_speed * 3;
-		
-		// se bater na parede troca de direção
-		
-		if (place_meeting(x + velh, y, chao)) 
-		{
-			velh *= -1;
-		}
-		
-	}
 	
-	// Animação
-	
-	if (velh != 0)
-	{
-		sprite_index = rato_andando;
-		image_xscale = sign(velh);
 	}
 	else
 	{
-		sprite_index = rato_parado;
+		// Gravidade
+	  if (velv > 0)
+	  {
+		sprite_index = rato_caindo;
+	  }
+
+		velv += grav;
+	
+		velh = 0;
 	}
-	
 }
-else
-{
-	// Gravidade
-  if (velv > 0)
-  {
-	sprite_index = rato_caindo;
-  }
+	// sistema de dano
 
-	velv += grav;
-	
-	velh = 0;
-}
-
-// sistema de dano
-
-if (dano)
-{
-	sprite_index = rato_sofrendodano;
-}
+	if (dano)
+	{
+		sprite_index = rato_sofrendodano;
+	}
