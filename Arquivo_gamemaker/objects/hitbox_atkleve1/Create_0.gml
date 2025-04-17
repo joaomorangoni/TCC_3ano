@@ -1,2 +1,2 @@
-tempo = 5;
-dano = 10;
+tempo = 2;
+Dano = 1;

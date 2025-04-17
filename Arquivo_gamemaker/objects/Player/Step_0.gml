@@ -94,7 +94,7 @@ case(estado_player.livre):
 	{
 			if (!instance_exists(hitbox_atkleve1) && image_index >= 3 && image_index < 5 ) 
 		{
-			instance_create_layer(x + 23 * image_xscale, y - 5, "Colisores", hitbox_atkleve1);
+			instance_create_layer(x + 25 * image_xscale, y - 5, "Colisores", hitbox_atkleve1);
 			show_debug_message("Criando hitbox");
 		}
 	}

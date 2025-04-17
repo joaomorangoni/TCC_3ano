@@ -1,71 +1,96 @@
 event_inherited()
-
 var _chao = place_meeting(x, y + 1, chao)
-if (!morto && !dano) {
-	if (_chao) {
+
+switch(estado) {
+	case(estado_inimigos.livre):
+		if (_chao) {
 	
-		//rodar o tempo de decisão
-		timer_decisao_andar -= 1;
+			//rodar o tempo de decisão
+			timer_decisao_andar -= 1;
 	
-		// Decisão
+			// Decisão
 	
-		if (timer_decisao_andar <= 0)
-		{
-			andar = choose(true, false);
-		
-			// Escolher a direção
-			if(andar)
+			if (timer_decisao_andar <= 0)
 			{
-			
-				velh = choose(vel, -vel);
+				andar = choose(true, false);
 		
+				// Escolher a direção
+				if(andar)
+				{
+			
+					velh = choose(vel, -vel);
+		
+				}
+				else
+				{
+					velh = 0;
+				}
+				// Resetar o timer
+		
+				timer_decisao_andar = room_speed * 3;
+		
+				// se bater na parede troca de direção
+		
+				if (place_meeting(x + velh, y, chao)) 
+				{
+					velh *= -1;
+				}
+		
+			}
+	
+			// Animação
+	
+			if (velh != 0)
+			{
+				sprite_index = rato_andando;
+				image_xscale = sign(velh);
 			}
 			else
 			{
-				velh = 0;
+				sprite_index = rato_parado;
 			}
-			// Resetar o timer
-		
-			timer_decisao_andar = room_speed * 3;
-		
-			// se bater na parede troca de direção
-		
-			if (place_meeting(x + velh, y, chao)) 
-			{
-				velh *= -1;
-			}
-		
-		}
 	
-		// Animação
-	
-		if (velh != 0)
-		{
-			sprite_index = rato_andando;
-			image_xscale = sign(velh);
 		}
 		else
 		{
-			sprite_index = rato_parado;
+			// Gravidade
+		  if (velv > 0)
+		  {
+			sprite_index = rato_caindo;
+		  }
+
+			velv += grav;
+	
+			velh = 0;
 		}
+		
+		if (dano)
+		{
+			estado = estado_inimigos.dano;
+		}
+	break;
+	case(estado_inimigos.dano):
 	
-	}
-	else
-	{
-		// Gravidade
-	  if (velv > 0)
-	  {
-		sprite_index = rato_caindo;
-	  }
-
-		velv += grav;
+		if (sprite_index != rato_sofrendodano)
+		    {
+		        sprite_index = rato_sofrendodano;
+		        image_index = 0;
+		    }
+	// knockback
+		 x += vel_knockback;
+		vel_knockback *= 0.9;
+		
+		if (abs(vel_knockback) < 0.5)
+		 {
+	        vel_knockback = 0;
+	        dano = false;
+	        estado = estado_inimigos.livre;
+		 }
+	break;
+	case(estado_inimigos.morto):
 	
-		velh = 0;
-	}
+		instance_destroy()
+		
+	break;
+	
 }
-	// sistema de dano
-
-	if (dano)
-	{
-		sprite_index = rato_sofrendodano;
-	}

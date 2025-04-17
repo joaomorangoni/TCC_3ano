@@ -9,6 +9,7 @@ vel_jump = 10;
 // Dano e tempo stun
 
 dano = false;
+ataque = false;
 tempo_dano = room_speed * 0.5;
 timer_dano = 0;
 dano_recebido = 0.5;
