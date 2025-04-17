@@ -16,7 +16,7 @@ dano_recebido = 0.5;
 
 //invencibilidade
 
-inv_tempo = room_speed * 1.5;
+inv_tempo = room_speed * 0.7;
 inv_timer = 0;
 
 // Inputs 
@@ -34,7 +34,10 @@ estado = estado_player.livre;
 
 vida = 5;
 vida_max = 5;
-ataque = false;
+adr = 0;
+adr_max = 100;
+adr_dano = 20;
+tempo_adr = 0;
 
 
 

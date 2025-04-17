@@ -1,4 +1,21 @@
 
+if (adr > 0) {
+    // Se não está atacando nem apanhando, aumenta tempo parado
+    if (!ataque && !dano) {
+        tempo_adr += 1;
+    } 
+	else 
+	{
+        tempo_adr = 0; // reseta o tempo
+    }
+
+    // 60 frames = 1s
+    if (tempo_adr > 180) 
+	{
+        scr_esvaziar_adrenalina(self);
+    }
+}
+
 switch(estado) {
 case(estado_player.livre):
 	// Controles
@@ -68,14 +85,15 @@ case(estado_player.livre):
 	}
 
 	if (inv_timer > 0)
-		{
-			
+	{
 			inv_timer--;
-			if (inv_timer = room_speed * 1)
-			{
-			   image_alpha = .5;
-			}
-		}
+			if (inv_timer mod 8 < 4) {
+				  image_alpha = 1; 
+			} 
+			else {
+				  image_alpha = 0.4;
+			 }
+	}
 	else
 	{
 		image_alpha = 1;

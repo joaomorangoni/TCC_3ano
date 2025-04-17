@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_esvaziar_adrenalina",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_esvaziar_adrenalina",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

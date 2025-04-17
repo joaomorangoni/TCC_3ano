@@ -9,3 +9,5 @@ morto = false;
 vel_knockback = 0;
 
 estado = estado_inimigos.livre;
+
+//variavel para ganho de adrenalina
