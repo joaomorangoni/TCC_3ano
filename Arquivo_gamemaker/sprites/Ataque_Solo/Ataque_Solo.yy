@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"Classic",
-    "path":"folders/Sprites/Protagonist/Classic.yy",
+    "name":"ataques",
+    "path":"folders/Sprites/Protagonist/Classic/ataques.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

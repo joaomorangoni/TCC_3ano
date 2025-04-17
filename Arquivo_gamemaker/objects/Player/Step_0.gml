@@ -64,22 +64,7 @@ case(estado_player.livre):
 
 	if (dano)
 	{
-		
-	    if (sprite_index != Hit)
-	    {
-	        sprite_index = Hit;
-	        image_index = 0;
-	    }
-
-	    if (timer_dano > 0)
-	    {
-	        timer_dano--;
-	    }
-	    else
-	    {
-	        dano = false;
-	    }
-		
+		estado = estado_player.dano;
 	}
 
 	if (inv_timer > 0)
@@ -104,10 +89,43 @@ case(estado_player.livre):
 		
 	}
 	
+	//if (mouse_check_button(mb_left) && velh != 0 && !ataque && !dano)
+	//{
+	//	ataque = true;
+	//	sprite_index = Ataque_correndo;
+	//	image_xscale = sign(velh);
+	//	image_index = 0;
+		
+	//}
+	
 	if(vida <= 0) 
 	{
 		estado = estado_player.morto;
 	}
+	break;
+	
+	case(estado_player.dano):
+	
+		if (sprite_index != Hit)
+		    {
+		        sprite_index = Hit;
+		        image_index = 0;
+		    }
+
+		    if (timer_dano > 0)
+		    {
+		        timer_dano--;
+		    }
+		    else
+		    {
+		        dano = false;
+		    }
+		
+		if (!dano)
+		{
+			estado = estado_player.livre;
+		}
+	
 	break;
 	
 	case(estado_player.morto):

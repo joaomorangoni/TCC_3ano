@@ -8,6 +8,10 @@ if (sprite_index == Sequencia_Ataque1) {
     ataque = false;
 }
 
+if (sprite_index == Ataque_correndo) {
+    ataque = false;
+}
+
 if (sprite_index == Morrendo) {
 	image_speed = 0;
 	instance_destroy();

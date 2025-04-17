@@ -1,7 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
-dano_inimigo = 3;
+vida_inimigo = 5;
+dano_inimigo = 1;
 dano = false;
 morto = false;
 

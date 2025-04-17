@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"Classic",
-    "path":"folders/Sprites/Protagonist/Classic.yy",
+    "name":"dano",
+    "path":"folders/Sprites/Protagonist/Classic/dano.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

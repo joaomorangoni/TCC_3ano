@@ -13,3 +13,5 @@ if (_player && _player.inv_timer <= 0)
 		_player.velv = 0;
 		}
 	}
+	
+
