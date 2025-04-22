@@ -72,7 +72,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"Arquivo_gamemaker",
   "resources":[
@@ -89,6 +89,7 @@
     {"id":{"name":"scr_estado_inimigos","path":"scripts/scr_estado_inimigos/scr_estado_inimigos.yy",},},
     {"id":{"name":"scr_estado_player","path":"scripts/scr_estado_player/scr_estado_player.yy",},},
     {"id":{"name":"scr_esvaziar_adrenalina","path":"scripts/scr_esvaziar_adrenalina/scr_esvaziar_adrenalina.yy",},},
+    {"id":{"name":"scr_knockback_stun","path":"scripts/scr_knockback_stun/scr_knockback_stun.yy",},},
     {"id":{"name":"Ataque_correndo","path":"sprites/Ataque_correndo/Ataque_correndo.yy",},},
     {"id":{"name":"Ataque_Solo","path":"sprites/Ataque_Solo/Ataque_Solo.yy",},},
     {"id":{"name":"Caindo_Frontal","path":"sprites/Caindo_Frontal/Caindo_Frontal.yy",},},

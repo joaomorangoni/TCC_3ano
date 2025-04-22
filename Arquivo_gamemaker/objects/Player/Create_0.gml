@@ -1,3 +1,5 @@
+event_inherited()
+
 // Velocidades
 
 velh = 0;

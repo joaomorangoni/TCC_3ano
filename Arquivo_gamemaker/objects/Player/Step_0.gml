@@ -144,6 +144,7 @@ case(estado_player.livre):
 		    if (timer_dano > 0)
 		    {
 		        timer_dano--;
+				scr_knockback_stun(self, obj_inimigos);
 		    }
 		    else
 		    {

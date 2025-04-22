@@ -6,8 +6,6 @@ dano_inimigo = 1;
 dano = false;
 morto = false;
 
-vel_knockback = 0;
-
 estado = estado_inimigos.livre;
 
 //variavel para ganho de adrenalina
