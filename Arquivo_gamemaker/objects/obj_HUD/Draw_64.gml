@@ -6,8 +6,8 @@ if (player != noone) {
     var vida_max = player.vida_max;
     var coracoes = ceil(vida_max); // número total de corações
 
-    var x_base = 20;
-    var y_base = 32;
+    var x_base = 35;
+    var y_base = 40;
     var espacamento = 40; // espaço entre corações
 
     for (var i = 0; i < coracoes; i++) {
@@ -29,9 +29,9 @@ if (player != noone) {
     var adr_max = player.adr_max;
 
     var barra_largura = 200;
-    var barra_altura = 15;
-    var barra_x = 32;
-    var barra_y = y_base + 55; // fica abaixo dos corações
+    var barra_altura = 18;
+    var barra_x = 10;
+    var barra_y = y_base + 10; // fica abaixo dos corações
 
     var proporcao = adr / adr_max;
     var largura_preenchida = barra_largura * proporcao;

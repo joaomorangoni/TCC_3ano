@@ -5,7 +5,7 @@ event_inherited();
 
 //Decidindo sua direção
 vel = choose(1.8, -1.8);
-dano_inimigo = 0.5;
+dano_inimigo = 1;
 vida_inimigo = 10;
 
 andar = choose(true, false);
