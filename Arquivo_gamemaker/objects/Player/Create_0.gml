@@ -26,8 +26,8 @@ inv_timer = 0;
 inputs = {
 	left  : ord("A"),
 	right : ord("D"),
-	jump  : vk_space
-
+	jump  : vk_space,
+	dashin  : vk_shift
 }
 
 estado = estado_player.livre;
@@ -40,6 +40,10 @@ adr = 0;
 adr_max = 100;
 adr_dano = 20;
 tempo_adr = 0;
+
+// Skills
+
+dash_cd = room_speed * 0.7
 
 
 

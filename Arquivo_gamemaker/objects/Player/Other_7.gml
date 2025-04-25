@@ -16,3 +16,8 @@ if (sprite_index == Morrendo) {
 	image_speed = 0;
 	instance_destroy();
 }
+
+if (sprite_index == dash) {
+	estado = estado_player.livre;
+	
+}

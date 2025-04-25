@@ -88,8 +88,7 @@ switch(estado) {
 		 }
 	break;
 	case(estado_inimigos.morto):
-	
-		instance_destroy()
+		sprite_index = rato_morto;
 		
 	break;
 	

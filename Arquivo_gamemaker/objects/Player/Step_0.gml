@@ -1,4 +1,5 @@
 
+
 if (adr > 0) {
     // Se não está atacando nem apanhando, aumenta tempo parado
     if (!ataque && !dano) {
@@ -15,17 +16,17 @@ if (adr > 0) {
         scr_esvaziar_adrenalina(self);
     }
 }
-
 switch(estado) {
 case(estado_player.livre):
 	// Controles
 	var _chao = place_meeting(x, y + 1, chao)
 
 
-	var _left, _right, _jump;
+	var _left, _right, _jump, _dash;
 	_left = keyboard_check(inputs.left);
 	_right = keyboard_check(inputs.right);
 	_jump = keyboard_check_pressed(inputs.jump);
+	_dash = keyboard_check_pressed(inputs.dashin);
 
 	//Perder os comandos por um tempo ao sofrer dano
 	
@@ -34,6 +35,9 @@ case(estado_player.livre):
 		velh = (_right - _left) * vel;
 	}
 	
+	if (_dash) {
+	  estado = estado_player.dash;
+	}
 	
 	// Salto
 	if (_chao) {
@@ -99,33 +103,34 @@ case(estado_player.livre):
 		image_alpha = 1;
 	}
 		
-	if (mouse_check_button(mb_left) && !ataque && !dano)
+	if (mouse_check_button(mb_left) && !ataque && !dano && velh == 0)
 	{
+		
 		ataque = true;
 		sprite_index = Sequencia_Ataque1;
 		image_index = 0;
 		image_speed = 1;
-		show_debug_message("image_index: " + string(image_index));
-	}
-	
-	if (ataque) 
-	{
-			if (!instance_exists(hitbox_atkleve1) && image_index >= 3 && image_index < 5 ) 
+		
+			if (!instance_exists(hitbox_atkleve1) && image_index > 0.5) 
 		{
-			instance_create_layer(x + 25 * image_xscale, y - 5, "Colisores", hitbox_atkleve1);
-			show_debug_message("Criando hitbox");
+			instance_create_layer(x + 28 * image_xscale, y - 5, "Colisores", hitbox_atkleve1);
 		}
 	}
 		
 	
-	//if (mouse_check_button(mb_left) && velh != 0 && !ataque && !dano)
-	//{
-	//	ataque = true;
-	//	sprite_index = Ataque_correndo;
-	//	image_xscale = sign(velh);
-	//	image_index = 0;
+	if (mouse_check_button(mb_left) && velh != 0 && !ataque && !dano)
+	{
+		ataque = true;
+		sprite_index = Ataque_correndo;
+		image_xscale = sign(velh);
+		image_index = 0;
 		
-	//}
+			if (!instance_exists(hitbox_atkleve1) && image_index >= 1 && image_index < 3) 
+		{
+			instance_create_layer(x + 28 * image_xscale, y - 5, "Colisores", hitbox_atkleve1);
+		}
+		
+	}
 	
 	if(vida <= 0) 
 	{
@@ -158,7 +163,15 @@ case(estado_player.livre):
 	
 	break;
 	
+	case(estado_player.dash):
+		
+		sprite_index = dash;
+		scr_dash(self);
+	
+	break;
+	
 	case(estado_player.morto):
 	// Caso ele morra.
 	sprite_index = Morrendo;
+	
 }

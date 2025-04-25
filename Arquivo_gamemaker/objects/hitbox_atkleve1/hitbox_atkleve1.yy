@@ -35,5 +35,5 @@
     "path":"sprites/Sequencia_Ataque1_1/Sequencia_Ataque1_1.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

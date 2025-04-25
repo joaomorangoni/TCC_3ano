@@ -72,7 +72,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"Arquivo_gamemaker",
   "resources":[
@@ -86,6 +86,7 @@
     {"id":{"name":"Sala_Teste_Entidades","path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},},
     {"id":{"name":"Sala_Teste_Texturas","path":"rooms/Sala_Teste_Texturas/Sala_Teste_Texturas.yy",},},
     {"id":{"name":"randomizer","path":"scripts/randomizer/randomizer.yy",},},
+    {"id":{"name":"scr_dash","path":"scripts/scr_dash/scr_dash.yy",},},
     {"id":{"name":"scr_estado_inimigos","path":"scripts/scr_estado_inimigos/scr_estado_inimigos.yy",},},
     {"id":{"name":"scr_estado_player","path":"scripts/scr_estado_player/scr_estado_player.yy",},},
     {"id":{"name":"scr_esvaziar_adrenalina","path":"scripts/scr_esvaziar_adrenalina/scr_esvaziar_adrenalina.yy",},},
@@ -100,6 +101,7 @@
     {"id":{"name":"cheio","path":"sprites/cheio/cheio.yy",},},
     {"id":{"name":"Col","path":"sprites/Col/Col.yy",},},
     {"id":{"name":"Correndo","path":"sprites/Correndo/Correndo.yy",},},
+    {"id":{"name":"dash","path":"sprites/dash/dash.yy",},},
     {"id":{"name":"Hit","path":"sprites/Hit/Hit.yy",},},
     {"id":{"name":"iniciar_corrida","path":"sprites/iniciar_corrida/iniciar_corrida.yy",},},
     {"id":{"name":"Levantando","path":"sprites/Levantando/Levantando.yy",},},
@@ -108,6 +110,7 @@
     {"id":{"name":"Parado","path":"sprites/Parado/Parado.yy",},},
     {"id":{"name":"rato_andando","path":"sprites/rato_andando/rato_andando.yy",},},
     {"id":{"name":"rato_caindo","path":"sprites/rato_caindo/rato_caindo.yy",},},
+    {"id":{"name":"rato_morto","path":"sprites/rato_morto/rato_morto.yy",},},
     {"id":{"name":"rato_parado","path":"sprites/rato_parado/rato_parado.yy",},},
     {"id":{"name":"rato_sofrendodano","path":"sprites/rato_sofrendodano/rato_sofrendodano.yy",},},
     {"id":{"name":"Recompensa1","path":"sprites/Recompensa1/Recompensa1.yy",},},
