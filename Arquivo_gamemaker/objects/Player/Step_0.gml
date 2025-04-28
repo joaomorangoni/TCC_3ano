@@ -36,6 +36,8 @@ case(estado_player.livre):
 	}
 	
 	if (_dash) {
+	  velv = 0;
+	  image_index = 0;
 	  estado = estado_player.dash;
 	}
 	
