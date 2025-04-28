@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_knockback_stun",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"geral",
+    "path":"folders/Scripts/geral.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

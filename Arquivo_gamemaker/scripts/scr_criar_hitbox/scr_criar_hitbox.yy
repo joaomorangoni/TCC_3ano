@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_dash",
+  "%Name":"scr_criar_hitbox",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_dash",
+  "name":"scr_criar_hitbox",
   "parent":{
     "name":"scr_player",
     "path":"folders/Scripts/scr_player.yy",

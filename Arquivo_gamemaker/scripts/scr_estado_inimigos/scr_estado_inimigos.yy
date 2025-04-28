@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_estado_inimigos",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"inimigos",
+    "path":"folders/Scripts/inimigos.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

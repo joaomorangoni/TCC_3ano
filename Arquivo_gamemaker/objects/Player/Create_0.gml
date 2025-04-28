@@ -27,7 +27,8 @@ inputs = {
 	left  : ord("A"),
 	right : ord("D"),
 	jump  : vk_space,
-	dashin  : vk_shift
+	dashin  : vk_shift,
+	atk_leve : mb_left
 }
 
 estado = estado_player.livre;

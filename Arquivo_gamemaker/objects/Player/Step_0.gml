@@ -1,3 +1,12 @@
+var _chao = place_meeting(x, y + 1, chao)
+
+
+var _left, _right, _jump, _dash, _atk_l;
+	_left = keyboard_check(inputs.left);
+	_right = keyboard_check(inputs.right);
+	_jump = keyboard_check_pressed(inputs.jump);
+	_dash = keyboard_check_pressed(inputs.dashin);
+	_atk_l = mouse_check_button(inputs.atk_leve);
 
 
 if (adr > 0) {
@@ -18,18 +27,9 @@ if (adr > 0) {
 }
 switch(estado) {
 case(estado_player.livre):
-	// Controles
-	var _chao = place_meeting(x, y + 1, chao)
-
-
-	var _left, _right, _jump, _dash;
-	_left = keyboard_check(inputs.left);
-	_right = keyboard_check(inputs.right);
-	_jump = keyboard_check_pressed(inputs.jump);
-	_dash = keyboard_check_pressed(inputs.dashin);
 
 	//Perder os comandos por um tempo ao sofrer dano
-	
+
 	if (timer_dano <= 0)
 	{
 		velh = (_right - _left) * vel;
@@ -102,34 +102,14 @@ case(estado_player.livre):
 	{
 		image_alpha = 1;
 	}
-		
-	if (mouse_check_button(mb_left) && !ataque && !dano && velh == 0)
-	{
-		
-		ataque = true;
-		sprite_index = Sequencia_Ataque1;
-		image_index = 0;
-		image_speed = 1;
-		
-			if (!instance_exists(hitbox_atkleve1) && image_index > 0.5) 
-		{
-			instance_create_layer(x + 28 * image_xscale, y - 5, "Colisores", hitbox_atkleve1);
-		}
-	}
-		
 	
-	if (mouse_check_button(mb_left) && velh != 0 && !ataque && !dano)
+	if (_atk_l && velh != 0 && !ataque && !dano)
 	{
 		ataque = true;
 		sprite_index = Ataque_correndo;
 		image_xscale = sign(velh);
 		image_index = 0;
-		
-			if (!instance_exists(hitbox_atkleve1) && image_index >= 1 && image_index < 3) 
-		{
-			instance_create_layer(x + 28 * image_xscale, y - 5, "Colisores", hitbox_atkleve1);
-		}
-		
+		criar_hitbox(self);
 	}
 	
 	if(vida <= 0) 
