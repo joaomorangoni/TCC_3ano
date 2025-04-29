@@ -34,6 +34,7 @@
     {"name":"Stage_4","order":6,"path":"folders/Sprites/Inimigos/Stage_4.yy",},
     {"name":"Stage_5","order":7,"path":"folders/Sprites/Inimigos/Stage_5.yy",},
     {"name":"Tutorial","order":2,"path":"folders/Sprites/Inimigos/Tutorial.yy",},
+    {"name":"Bat","order":1,"path":"folders/Sprites/Inimigos/Tutorial/Bat.yy",},
     {"name":"Itens","order":7,"path":"folders/Sprites/Itens.yy",},
     {"name":"Consumiveis","order":1,"path":"folders/Sprites/Itens/Consumiveis.yy",},
     {"name":"Importantes","order":2,"path":"folders/Sprites/Itens/Importantes.yy",},
