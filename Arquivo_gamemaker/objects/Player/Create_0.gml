@@ -44,7 +44,8 @@ tempo_adr = 0;
 
 // Skills
 
-dash_cd = room_speed * 0.7
+hbx_leve = hitbox_atkleve1;
+dash_cd = room_speed * 0.7;
 
 
 

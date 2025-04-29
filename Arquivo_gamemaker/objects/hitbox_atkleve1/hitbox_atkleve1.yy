@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sequencia_Ataque1_1",
-    "path":"sprites/Sequencia_Ataque1_1/Sequencia_Ataque1_1.yy",
+    "name":"atk_leve_hitbox",
+    "path":"sprites/atk_leve_hitbox/atk_leve_hitbox.yy",
   },
   "spriteMaskId":null,
   "visible":true,

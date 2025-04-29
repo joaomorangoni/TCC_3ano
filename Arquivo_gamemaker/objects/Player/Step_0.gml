@@ -36,9 +36,19 @@ case(estado_player.livre):
 	}
 	
 	if (_dash) {
-	  velv = 0;
-	  image_index = 0;
-	  estado = estado_player.dash;
+		 if (ataque) 
+		 {
+		  ataque = false;
+		  velv = 0;
+		  image_index = 0;
+		  estado = estado_player.dash;
+		 }
+		 else 
+		 {
+		  velv = 0;
+		  image_index = 0;
+		  estado = estado_player.dash;
+		 }
 	}
 	
 	// Salto
@@ -105,13 +115,27 @@ case(estado_player.livre):
 		image_alpha = 1;
 	}
 	
-	if (_atk_l && velh != 0 && !ataque && !dano)
+    if (!_dash && _atk_l && velh == 0 && !ataque && !dano)
+	{
+		ataque = true;
+		sprite_index = Sequencia_Ataque1;
+		image_speed = 1;
+		
+	}
+	
+	if (!_dash && _atk_l && velh != 0 && !ataque && !dano)
 	{
 		ataque = true;
 		sprite_index = Ataque_correndo;
 		image_xscale = sign(velh);
 		image_index = 0;
-		criar_hitbox(self);
+		image_speed = 1;
+	}
+	
+	
+	if (ataque) 
+	{
+		criar_hitbox(self , hbx_leve);
 	}
 	
 	if(vida <= 0) 
