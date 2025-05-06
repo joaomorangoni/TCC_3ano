@@ -11,7 +11,7 @@ if (global.menu) {
     // Desenha o título centralizado
     draw_set_alpha(1);
     draw_set_color(c_white);
-    var title = "PAUSED";
+    var title = "AUDIO";
     var title_width = string_width(title);
     var title_x = (gui_w - title_width) / 2;
     draw_text(title_x, gui_h / 2 - 150, title);
@@ -26,10 +26,9 @@ if (global.menu) {
 
         var option_text = "";
         switch(i) {
-            case 0: option_text = "Resume"; break;
-            case 1: option_text = "Achievements"; break;
-            case 2: option_text = "Options"; break;
-            case 3: option_text = "Leave"; break;
+            case 0: option_text = "Music: " + string(round(global.music_volume * 100)) + "%"; break;
+            case 1: option_text = "Sound Effects: " + string(round(global.sfx_volume * 100)) + "%"; break;
+			case 2: option_text = "Back"; break;
         }
 
         var option_width = string_width(option_text);

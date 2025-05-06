@@ -10,22 +10,18 @@ if (global.menu) {
 	// Ação ao selecionar a opção
 	if (keyboard_check_pressed(vk_enter)) {
 	    switch(option) {
-	        case 0: // Retomar
-				global.pause = false;
-				global.menu = false;
-				instance_destroy()
-	            break; // Fecha o menu de pausa
-	        case 1: // Conquistas
-	            // Chame a tela de conquistas aqui
+	        case 0: // Efeitos sonoros
+			instance_create_layer(x , y , "HUD", obj_Audio_menu);
+			instance_destroy()
 	            break;
-	        case 2: // Opções
-				instance_create_layer(x , y , "HUD", obj_Options_Menu);
-				instance_destroy();
+	        case 1: // Controles
 	            break;
-	        case 3: // Sair
-	            // Ação de sair, como voltar ao menu principal ou fechar o jogo
-	            game_end(); // Finaliza o jogo
+	        case 2: // Lingua
 	            break;
+			case 3: //voltar
+			 instance_create_layer(x , y , "HUD", obj_Pause_Menu);
+			 instance_destroy()
+			 
 	    }
-    }
+	}
 }
