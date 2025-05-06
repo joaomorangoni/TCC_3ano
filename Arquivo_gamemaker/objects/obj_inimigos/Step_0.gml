@@ -3,6 +3,10 @@ var _Dano = instance_place(x, y, hitbox_atkleve1);
 var play = instance_find(Player, 0);
 var _col = instance_place(x + velh, y - 2, chao);
 
+if (global.pause) {
+	exit;
+}
+
 if (_player && _player.inv_timer <= 0 && _player.ataque == false)
 	{
 		_player.vida -= dano_inimigo;

@@ -8,6 +8,14 @@ var _left, _right, _jump, _dash, _atk_l;
 	_dash = keyboard_check_pressed(inputs.dashin);
 	_atk_l = mouse_check_button(inputs.atk_leve);
 
+if (global.pause) {
+	image_speed = 0;
+	exit;
+}
+else
+{ 
+	image_speed = 1;
+}
 
 if (adr > 0) {
     // Se não está atacando nem apanhando, aumenta tempo parado

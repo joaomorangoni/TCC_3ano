@@ -42,5 +42,7 @@ if (_col) {
 	velv = 0;
 }
 
+if (!global.pause) {
 x += velh;
 y += velv;
+}

@@ -1,6 +1,15 @@
 event_inherited()
 var _chao = place_meeting(x, y + 1, chao)
 
+if (global.pause) {
+	image_speed = 0;
+	exit;
+}
+else
+{ 
+	image_speed = 1;
+}
+
 switch(estado) {
 	case(estado_inimigos.livre):
 		if (_chao) {
