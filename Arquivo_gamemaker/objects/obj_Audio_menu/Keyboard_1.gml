@@ -7,16 +7,16 @@ if (global.menu) {
 	    option = (option + 1) % option_count; // Diminui o índice de opção para baixo
 	}
 	
-	if (option_count == 0 && keyboard_check_pressed(vk_right)) {
+	if (option == 0 && (keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D")))) {
     global.music_volume = clamp(global.music_volume + 0.05, 0, 1);
 	}
-	if (option_count == 0 && keyboard_check_pressed(vk_left)) {
+	if (option == 0 && (keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A")))) {
 	    global.music_volume = clamp(global.music_volume - 0.05, 0, 1);
 	}
-	if (option_count == 1 && keyboard_check_pressed(vk_right)) {
+	if (option == 1 && (keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D")))) {
 	    global.sfx_volume = clamp(global.sfx_volume + 0.05, 0, 1);
 	}
-	if (option_count == 1 && keyboard_check_pressed(vk_left)) {
+	if (option == 1 && (keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A")))) {
 	    global.sfx_volume = clamp(global.sfx_volume - 0.05, 0, 1);
 	}
 
@@ -28,8 +28,12 @@ if (global.menu) {
 	        case 1: // Efeitos sonoros
 	            break;
 			case 2: //voltar
-			 instance_create_layer(x , y , "HUD", obj_Pause_Menu);
+			 instance_create_layer(x , y , "HUD", obj_Options_Menu);
 			 instance_destroy()	 
 	    }
 	}
+}
+else 
+{
+	instance_destroy();
 }

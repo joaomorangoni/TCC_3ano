@@ -6,7 +6,7 @@ var _left, _right, _jump, _dash, _atk_l;
 	_right = keyboard_check(inputs.right);
 	_jump = keyboard_check_pressed(inputs.jump);
 	_dash = keyboard_check_pressed(inputs.dashin);
-	_atk_l = mouse_check_button(inputs.atk_leve);
+	_atk_l = keyboard_check_pressed(inputs.atk_leve);
 
 if (global.pause) {
 	image_speed = 0;
@@ -180,6 +180,8 @@ case(estado_player.livre):
 	case(estado_player.dash):
 		
 		sprite_index = dash;
+		grav = 0;
+		velv = 0;
 		scr_dash(self);
 	
 	break;

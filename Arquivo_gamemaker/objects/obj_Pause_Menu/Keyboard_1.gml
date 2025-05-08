@@ -29,3 +29,7 @@ if (global.menu) {
 	    }
     }
 }
+else 
+{
+	instance_destroy();
+}

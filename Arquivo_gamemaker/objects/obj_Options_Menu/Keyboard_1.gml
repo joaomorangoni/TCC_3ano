@@ -14,7 +14,9 @@ if (global.menu) {
 			instance_create_layer(x , y , "HUD", obj_Audio_menu);
 			instance_destroy()
 	            break;
-	        case 1: // Controles
+	        case 1: 
+			instance_create_layer(x , y, "HUD" , obj_Controller_Menu);
+			instance_destroy()
 	            break;
 	        case 2: // Lingua
 	            break;
@@ -24,4 +26,8 @@ if (global.menu) {
 			 
 	    }
 	}
+}
+else 
+{
+	instance_destroy();
 }

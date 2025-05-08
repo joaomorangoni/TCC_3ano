@@ -1,16 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"hitbox_atkleve1",
+  "%Name":"obj_Controller_Menu",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":5,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"hitbox_atkleve1",
+  "name":"obj_Controller_Menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"hitbox_atk",
-    "path":"folders/Objetos/hitbox_atk.yy",
+    "name":"Outros",
+    "path":"folders/Objetos/Outros.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"atk_leve_hitbox",
-    "path":"sprites/atk_leve_hitbox/atk_leve_hitbox.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
