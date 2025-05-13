@@ -73,10 +73,6 @@ switch(estado) {
 			velh = 0;
 		}
 		
-		if (dano)
-		{
-			estado = estado_inimigos.dano;
-		}
 	break;
 	case(estado_inimigos.dano):
 	

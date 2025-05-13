@@ -18,6 +18,7 @@ if (sprite_index == Morrendo) {
 }
 
 if (sprite_index == dash) {
+	dashp = false;
 	estado = estado_player.livre;
 	grav = 0.4;
 }

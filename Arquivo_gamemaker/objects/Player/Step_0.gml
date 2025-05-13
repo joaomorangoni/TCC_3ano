@@ -1,14 +1,16 @@
 var _chao = place_meeting(x, y + 1, chao)
+var _inimigo = instance_place(x, y, obj_inimigos);
 
+var _left, _right, _jump, _dash, _atk_l, _int;
+	_left = keyboard_check(global.inputs.left);
+	_right = keyboard_check(global.inputs.right);
+	_jump = keyboard_check_pressed(global.inputs.jump);
+	_dash = keyboard_check_pressed(global.inputs.dashin);
+	_atk_l = mouse_check_button_pressed(global.inputs.atk_leve);
+	_int = keyboard_check_pressed(global.inputs.interact);
 
-var _left, _right, _jump, _dash, _atk_l;
-	_left = keyboard_check(inputs.left);
-	_right = keyboard_check(inputs.right);
-	_jump = keyboard_check_pressed(inputs.jump);
-	_dash = keyboard_check_pressed(inputs.dashin);
-	_atk_l = keyboard_check_pressed(inputs.atk_leve);
-
-if (global.pause) {
+if (global.pause) // Pausar
+{
 	image_speed = 0;
 	exit;
 }
@@ -17,50 +19,39 @@ else
 	image_speed = 1;
 }
 
-if (adr > 0) {
-    // Se não está atacando nem apanhando, aumenta tempo parado
-    if (!ataque && !dano) {
-        tempo_adr += 1;
-    } 
-	else 
-	{
-        tempo_adr = 0; // reseta o tempo
-    }
+// Função de adrenalina
+scr_carregar_adrenalina(self)
 
-    // 60 frames = 1s
-    if (tempo_adr > 180) 
-	{
-        scr_esvaziar_adrenalina(self);
-    }
-}
 switch(estado) {
 case(estado_player.livre):
 
-	//Perder os comandos por um tempo ao sofrer dano
-
-	if (timer_dano <= 0)
+	if (velh != 0) // Trocar sprite de direção
+	{
+		image_xscale = sign(velh);
+	}
+	
+	if (timer_dano <= 0) //Perder os comandos por um tempo ao sofrer dano
 	{
 		velh = (_right - _left) * vel;
 	}
 	
-	if (_dash) {
-		 if (ataque) 
-		 {
+	if (_dash) // Dash 
+	{
+		  dashp = true;
 		  ataque = false;
 		  velv = 0;
 		  image_index = 0;
 		  estado = estado_player.dash;
-		 }
-		 else 
-		 {
-		  velv = 0;
-		  image_index = 0;
-		  estado = estado_player.dash;
-		 }
 	}
 	
-	// Salto
-	if (_chao) {
+	if (_chao) // Sistema de salto e corrida 
+	{
+		
+		if (!reset_jump) 
+		{
+			reset_jump = true;
+		}
+		
 		if (_jump)
 		{
 			velv = -vel_jump;
@@ -71,8 +62,7 @@ case(estado_player.livre):
 		{
 			if (velh != 0)
 			{
-				sprite_index = Correndo;
-				image_xscale = sign(velh);
+				sprite_index = Correndo_def;
 			}
 			else
 			{
@@ -83,7 +73,11 @@ case(estado_player.livre):
 	}
 	else
 	{
-		// Gravidade
+	if (doublejump && reset_jump && _jump) 
+	{
+		reset_jump = false;
+		velv = -vel_jump;
+	}
 	if (!ataque)
 	{
 	  if (velv < 0)
@@ -95,20 +89,16 @@ case(estado_player.livre):
 		sprite_index = Caindo_Lateral;
 	  }
 	}
-	
+	  // Gravidade
 		velv += grav;
 	}
 
-	//sistema de dano
-
-	var _inimigo = instance_place(x, y, obj_inimigos);
-
-	if (dano)
+	if (dano) // Troca pra estado de dano
 	{
 		estado = estado_player.dano;
 	}
 
-	if (inv_timer > 0)
+	if (inv_timer > 0) //I-frame após dano
 	{
 			inv_timer--;
 			if (inv_timer mod 8 < 4) {
@@ -123,7 +113,7 @@ case(estado_player.livre):
 		image_alpha = 1;
 	}
 	
-    if (!_dash && _atk_l && velh == 0 && !ataque && !dano)
+    if (!_dash && _atk_l && velh == 0 && !ataque && !dano) // Ataque parado
 	{
 		ataque = true;
 		sprite_index = Sequencia_Ataque1;
@@ -131,7 +121,7 @@ case(estado_player.livre):
 		
 	}
 	
-	if (!_dash && _atk_l && velh != 0 && !ataque && !dano)
+	if (!_dash && _atk_l && velh != 0 && !ataque && !dano) // Ataque correndo
 	{
 		ataque = true;
 		sprite_index = Ataque_correndo;
@@ -141,15 +131,16 @@ case(estado_player.livre):
 	}
 	
 	
-	if (ataque) 
+	if (ataque) // Chamar hitbox
 	{
 		criar_hitbox(self , hbx_leve);
 	}
 	
-	if(vida <= 0) 
+	if(vida <= 0) // Trocar para estado morto
 	{
 		estado = estado_player.morto;
 	}
+	
 	break;
 	
 	case(estado_player.dano):

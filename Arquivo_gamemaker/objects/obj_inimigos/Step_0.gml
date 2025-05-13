@@ -6,46 +6,48 @@ var _col = instance_place(x + velh, y - 2, chao);
 if (global.pause) {
 	exit;
 }
-
-if (_player && _player.inv_timer <= 0 && _player.ataque == false)
-	{
-		_player.vida -= dano_inimigo;
-		_player.timer_dano = _player.tempo_dano;
-		_player.inv_timer = _player.inv_tempo;
+switch(estado) {
+	case (estado_inimigos.livre): 
+	
+		if (_player && _player.inv_timer <= 0 && !_player.ataque && !_player.dashp)
+			{
+				_player.vida -= dano_inimigo;
+				_player.timer_dano = _player.tempo_dano;
+				_player.inv_timer = _player.inv_tempo;
 		
-		if (morto == false)
-		{
-		_player.dano = true;
-		_player.velh = 0;
-		_player.velv = 0;
-		_player.adr += _player.adr_dano;
-		_player.adr = clamp(_player.adr, 0, _player.adr_max);
-		}
-	}
+				if (!morto)
+				{
+				_player.dano = true;
+				_player.velh = 0;
+				_player.velv = 0;
+				_player.adr += _player.adr_dano;
+				_player.adr = clamp(_player.adr, 0, _player.adr_max);
+				}
+			}
 
-if (_Dano && !morto && !dano)
-{
-	if (_Dano.x < x && !_col)
-	{
-	    vel_knockback = 4; 
-	}
-	else
-	{
-		if (_Dano.x > x && !_col) 
+		if (_Dano && !morto && !dano)
 		{
-	      vel_knockback = -4;
+			if (_Dano.x < x && !_col)
+			{
+			    vel_knockback = 4; 
+			}
+			else
+			{
+				if (_Dano.x > x && !_col) 
+				{
+			      vel_knockback = -4;
+				}
+			}
+			estado = estado_inimigos.dano;
+			dano = true;
+			vida_inimigo -= _Dano.Dano;
+			play.adr += _Dano.adrgot;
+			play.adr = clamp(play.adr, 0, play.adr_max);
 		}
-	}
-	
-	dano = true;
-	vida_inimigo -= _Dano.Dano;
-	play.adr += _Dano.adrgot;
-	play.adr = clamp(play.adr, 0, play.adr_max);
+		break;
 }
-
-if (vida_inimigo <= 0)
-{
-	estado = estado_inimigos.morto;
-}
-	
+      if (vida_inimigo <= 0)
+		{
+			estado = estado_inimigos.morto;
+		}
 

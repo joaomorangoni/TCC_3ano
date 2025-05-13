@@ -23,12 +23,13 @@ inv_timer = 0;
 
 // Inputs 
 
-inputs = {
+global.inputs = {
 	left  : ord("A"),
 	right : ord("D"),
 	jump  : vk_space,
 	dashin  : vk_shift,
-	atk_leve : ord("L")
+	atk_leve : mb_left,
+	interact : ord("X")
 }
 
 estado = estado_player.livre;
@@ -45,7 +46,13 @@ tempo_adr = 0;
 // Skills
 
 hbx_leve = hitbox_atkleve1;
+dashp = false;
 dash_cd = room_speed * 0.7;
+reset_jump = true;
+
+// Permissões
+
+doublejump = true;
 
 
 
