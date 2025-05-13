@@ -1,14 +1,13 @@
 if (global.menu) {
-    // Pega as dimensões da GUI atual
     var gui_w = display_get_gui_width();
     var gui_h = display_get_gui_height();
 
-    // Desenha o fundo do menu (preto semitransparente)
+    // Fundo preto semitransparente
     draw_set_alpha(0.5);
     draw_set_color(c_black);
     draw_rectangle(0, 0, gui_w, gui_h, false);
 
-    // Desenha o título centralizado
+    // Título centralizado
     draw_set_alpha(1);
     draw_set_color(c_white);
     var title = "PAUSED";
@@ -16,12 +15,12 @@ if (global.menu) {
     var title_x = (gui_w - title_width) / 2;
     draw_text(title_x, gui_h / 2 - 150, title);
 
-    // Desenha as opções do menu centralizadas
+    // Opções do menu
     for (var i = 0; i < option_count; i++) {
         if (i == option) {
-            draw_set_color(c_yellow); // Cor para a opção selecionada
+            draw_set_color(c_yellow);
         } else {
-            draw_set_color(c_white); // Cor para as outras opções
+            draw_set_color(c_white);
         }
 
         var option_text = "";

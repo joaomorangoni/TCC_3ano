@@ -25,15 +25,56 @@ if (global.menu) {
         }
 
         var option_text = "";
+        var option_x = (gui_w - 200) / 2;  // Ajustando a posição das opções
+        var option_y = gui_h / 2 - 100 + (i * 60);  // Distância aumentada para espaçamento
+
         switch(i) {
             case 0: option_text = "Music: " + string(round(global.music_volume * 100)) + "%"; break;
             case 1: option_text = "Sound Effects: " + string(round(global.sfx_volume * 100)) + "%"; break;
-			case 2: option_text = "Back"; break;
+            case 2: option_text = "Back"; break;
         }
 
-        var option_width = string_width(option_text);
-        var option_x = (gui_w - option_width) / 2;
-        var option_y = gui_h / 2 - 100 + (i * 40);
+        // Desenha o texto da opção
         draw_text(option_x, option_y, option_text);
+
+        // Posição das barras
+        var bar_width = 200;
+        var bar_height = 20;
+        var bar_x = option_x + 220; // Ajustando a posição da barra (põe a barra após o texto)
+        var bar_y = option_y + 10;
+
+        // Desenha a barra de fundo (fica atrás)
+        draw_set_color(c_white);
+        draw_rectangle(bar_x, bar_y, bar_x + bar_width, bar_y + bar_height, false);
+
+        // Agora, desenha a barra de volume (fica sobre a barra de fundo)
+        if (i == 0) { // Música
+            draw_set_color(c_yellow);
+            draw_rectangle(bar_x, bar_y, bar_x + bar_width * global.music_volume, bar_y + bar_height, false);  // Barra de volume (musica)
+
+            // Controle do volume com o mouse
+            if (mouse_check_button(mb_left)) {
+                if (device_mouse_x_to_gui(0) > bar_x && device_mouse_x_to_gui(0) < bar_x + bar_width &&
+                    device_mouse_y_to_gui(0) > bar_y && device_mouse_y_to_gui(0) < bar_y + bar_height) {
+                    global.music_volume = (device_mouse_x_to_gui(0) - bar_x) / bar_width;
+                    global.music_volume = clamp(global.music_volume, 0, 1);
+                }
+            }
+        }
+
+        // Controla a barra de volume dos efeitos sonoros
+        if (i == 1) { // Efeitos sonoros
+            draw_set_color(c_yellow);
+            draw_rectangle(bar_x, bar_y + 30, bar_x + bar_width * global.sfx_volume, bar_y + 30 + bar_height, false);  // Barra de volume (SFX)
+
+            // Controle do volume com o mouse
+            if (mouse_check_button(mb_left)) {
+                if (device_mouse_x_to_gui(0) > bar_x && device_mouse_x_to_gui(0) < bar_x + bar_width &&
+                    device_mouse_y_to_gui(0) > bar_y + 30 && device_mouse_y_to_gui(0) < bar_y + 30 + bar_height) {
+                    global.sfx_volume = (device_mouse_x_to_gui(0) - bar_x) / bar_width;
+                    global.sfx_volume = clamp(global.sfx_volume, 0, 1);
+                }
+            }
+        }
     }
 }

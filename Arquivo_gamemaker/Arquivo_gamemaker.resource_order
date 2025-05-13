@@ -11,6 +11,7 @@
     {"name":"Objetos","order":9,"path":"folders/Objetos.yy",},
     {"name":"Entidade","order":5,"path":"folders/Objetos/Entidade.yy",},
     {"name":"Estruturas","order":2,"path":"folders/Objetos/Estruturas.yy",},
+    {"name":"Drops","order":8,"path":"folders/Objetos/Drops.yy",},
     {"name":"hitbox_atk","order":7,"path":"folders/Objetos/hitbox_atk.yy",},
     {"name":"Inimigos","order":4,"path":"folders/Objetos/Inimigos.yy",},
     {"name":"Jogador","order":3,"path":"folders/Objetos/Jogador.yy",},
