@@ -1,80 +1,61 @@
-if (global.menu) {
-    // Pega as dimensões da GUI atual
+if (global.menu) { 
     var gui_w = display_get_gui_width();
     var gui_h = display_get_gui_height();
 
-    // Desenha o fundo do menu (preto semitransparente)
+    // Fundo escuro
     draw_set_alpha(0.5);
     draw_set_color(c_black);
     draw_rectangle(0, 0, gui_w, gui_h, false);
 
-    // Desenha o título centralizado
+    // Título
     draw_set_alpha(1);
     draw_set_color(c_white);
-    var title = "AUDIO";
-    var title_width = string_width(title);
-    var title_x = (gui_w - title_width) / 2;
+    var title = "AUDIO SETTINGS";
+    var title_x = (gui_w - string_width(title)) / 2;
     draw_text(title_x, gui_h / 2 - 150, title);
 
-    // Desenha as opções do menu centralizadas
+    // Parâmetros dos elementos
+    var base_y = gui_h / 2 - 100;
+    var slider_x = gui_w / 2 + 50;
+    var slider_width = 150;
+    var slider_height = 16;
+
+    // Loop das opções
     for (var i = 0; i < option_count; i++) {
-        if (i == option) {
-            draw_set_color(c_yellow); // Cor para a opção selecionada
-        } else {
-            draw_set_color(c_white); // Cor para as outras opções
-        }
+        var label = "";
+        if (i == 0) label = "Music Volume";
+        else if (i == 1) label = "SFX Volume";
+        else if (i == 2) label = "Back";
 
-        var option_text = "";
-        var option_x = (gui_w - 200) / 2;  // Ajustando a posição das opções
-        var option_y = gui_h / 2 - 100 + (i * 60);  // Distância aumentada para espaçamento
+        var label_x = gui_w / 2 - 150;
+        var label_y = base_y + i * 40;
 
-        switch(i) {
-            case 0: option_text = "Music: " + string(round(global.music_volume * 100)) + "%"; break;
-            case 1: option_text = "Sound Effects: " + string(round(global.sfx_volume * 100)) + "%"; break;
-            case 2: option_text = "Back"; break;
-        }
+        // Cor da opção selecionada
+        if (i == option) draw_set_color(c_yellow);
+        else draw_set_color(c_white);
 
-        // Desenha o texto da opção
-        draw_text(option_x, option_y, option_text);
+        // Texto da opção
+        draw_text(label_x, label_y, label);
 
-        // Posição das barras
-        var bar_width = 200;
-        var bar_height = 20;
-        var bar_x = option_x + 220; // Ajustando a posição da barra (põe a barra após o texto)
-        var bar_y = option_y + 10;
+        // Desenhar sliders para Music e SFX
+        if (i < 2) {
+            var value = (i == 0) ? global.music_volume : global.sfx_volume;
+            var fill_width = slider_width * value;
 
-        // Desenha a barra de fundo (fica atrás)
-        draw_set_color(c_white);
-        draw_rectangle(bar_x, bar_y, bar_x + bar_width, bar_y + bar_height, false);
+            // Fundo do slider
+            draw_set_color(c_dkgray);
+            draw_rectangle(slider_x, label_y, slider_x + slider_width, label_y + slider_height, false);
 
-        // Agora, desenha a barra de volume (fica sobre a barra de fundo)
-        if (i == 0) { // Música
-            draw_set_color(c_yellow);
-            draw_rectangle(bar_x, bar_y, bar_x + bar_width * global.music_volume, bar_y + bar_height, false);  // Barra de volume (musica)
+            // Preenchimento do volume
+            draw_set_color(c_lime);
+            draw_rectangle(slider_x, label_y, slider_x + fill_width, label_y + slider_height, false);
 
-            // Controle do volume com o mouse
-            if (mouse_check_button(mb_left)) {
-                if (device_mouse_x_to_gui(0) > bar_x && device_mouse_x_to_gui(0) < bar_x + bar_width &&
-                    device_mouse_y_to_gui(0) > bar_y && device_mouse_y_to_gui(0) < bar_y + bar_height) {
-                    global.music_volume = (device_mouse_x_to_gui(0) - bar_x) / bar_width;
-                    global.music_volume = clamp(global.music_volume, 0, 1);
-                }
-            }
-        }
-
-        // Controla a barra de volume dos efeitos sonoros
-        if (i == 1) { // Efeitos sonoros
-            draw_set_color(c_yellow);
-            draw_rectangle(bar_x, bar_y + 30, bar_x + bar_width * global.sfx_volume, bar_y + 30 + bar_height, false);  // Barra de volume (SFX)
-
-            // Controle do volume com o mouse
-            if (mouse_check_button(mb_left)) {
-                if (device_mouse_x_to_gui(0) > bar_x && device_mouse_x_to_gui(0) < bar_x + bar_width &&
-                    device_mouse_y_to_gui(0) > bar_y + 30 && device_mouse_y_to_gui(0) < bar_y + 30 + bar_height) {
-                    global.sfx_volume = (device_mouse_x_to_gui(0) - bar_x) / bar_width;
-                    global.sfx_volume = clamp(global.sfx_volume, 0, 1);
-                }
-            }
+            // Texto da porcentagem (%)
+            draw_set_color(c_white);
+            var percent_str = string_format(value * 100, 0, 0) + "%";
+            draw_text(slider_x + slider_width + 10, label_y, percent_str);
         }
     }
 }
+
+

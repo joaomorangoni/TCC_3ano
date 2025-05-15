@@ -9,9 +9,9 @@
     {"name":"Fontes","order":7,"path":"folders/Fontes.yy",},
     {"name":"Linhas do tempo","order":8,"path":"folders/Linhas do tempo.yy",},
     {"name":"Objetos","order":9,"path":"folders/Objetos.yy",},
+    {"name":"Drops","order":8,"path":"folders/Objetos/Drops.yy",},
     {"name":"Entidade","order":5,"path":"folders/Objetos/Entidade.yy",},
     {"name":"Estruturas","order":2,"path":"folders/Objetos/Estruturas.yy",},
-    {"name":"Drops","order":8,"path":"folders/Objetos/Drops.yy",},
     {"name":"hitbox_atk","order":7,"path":"folders/Objetos/hitbox_atk.yy",},
     {"name":"Inimigos","order":4,"path":"folders/Objetos/Inimigos.yy",},
     {"name":"Jogador","order":3,"path":"folders/Objetos/Jogador.yy",},
@@ -63,7 +63,6 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_Audio_menu","order":5,"path":"objects/obj_Audio_menu/obj_Audio_menu.yy",},
-    {"name":"obj_Controller_Menu","order":6,"path":"objects/obj_Controller_Menu/obj_Controller_Menu.yy",},
     {"name":"obj_inimigos","order":1,"path":"objects/obj_inimigos/obj_inimigos.yy",},
     {"name":"obj_Options_Menu","order":4,"path":"objects/obj_Options_Menu/obj_Options_Menu.yy",},
     {"name":"obj_Pause_Menu","order":3,"path":"objects/obj_Pause_Menu/obj_Pause_Menu.yy",},
