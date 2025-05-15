@@ -62,6 +62,7 @@
     {"name":"Tiles","order":16,"path":"folders/Tiles.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Códigos para guardar durante a atualização do inimigo","order":2,"path":"notes/Códigos para guardar durante a atualização do inimigo/Códigos para guardar durante a atualização do inimigo.yy",},
     {"name":"obj_Audio_menu","order":5,"path":"objects/obj_Audio_menu/obj_Audio_menu.yy",},
     {"name":"obj_inimigos","order":1,"path":"objects/obj_inimigos/obj_inimigos.yy",},
     {"name":"obj_Options_Menu","order":4,"path":"objects/obj_Options_Menu/obj_Options_Menu.yy",},

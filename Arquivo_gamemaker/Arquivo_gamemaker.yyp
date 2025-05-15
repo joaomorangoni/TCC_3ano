@@ -81,6 +81,7 @@
   },
   "name":"Arquivo_gamemaker",
   "resources":[
+    {"id":{"name":"Códigos para guardar durante a atualização do inimigo","path":"notes/Códigos para guardar durante a atualização do inimigo/Códigos para guardar durante a atualização do inimigo.yy",},},
     {"id":{"name":"chao","path":"objects/chao/chao.yy",},},
     {"id":{"name":"hitbox_atkleve1","path":"objects/hitbox_atkleve1/hitbox_atkleve1.yy",},},
     {"id":{"name":"Ini_rato","path":"objects/Ini_rato/Ini_rato.yy",},},
