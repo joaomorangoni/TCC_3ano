@@ -6,9 +6,7 @@ var _col = instance_place(x + velh, y - 2, chao);
 if (global.pause) {
 	exit;
 }
-switch(estado) {
-	case (estado_inimigos.livre): 
-	
+	//Causar dano no Player
 		if (_player && _player.inv_timer <= 0 && !_player.ataque && !_player.dashp)
 			{
 				_player.vida -= dano_inimigo;
@@ -44,8 +42,7 @@ switch(estado) {
 			play.adr += _Dano.adrgot;
 			play.adr = clamp(play.adr, 0, play.adr_max);
 		}
-		break;
-}
+
       if (vida_inimigo <= 0)
 		{
 			estado = estado_inimigos.morto;

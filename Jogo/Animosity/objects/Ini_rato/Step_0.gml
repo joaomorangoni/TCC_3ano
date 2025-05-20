@@ -81,16 +81,6 @@ switch(estado) {
 		        sprite_index = rato_sofrendodano;
 		        image_index = 0;
 		    }
-	// knockback
-		 x += vel_knockback;
-		vel_knockback *= 0.9;
-		
-		if (abs(vel_knockback) < 0.5)
-		 {
-	        vel_knockback = 0;
-	        dano = false;
-	        estado = estado_inimigos.livre;
-		 }
 	break;
 	case(estado_inimigos.morto):
 		sprite_index = rato_morto;
