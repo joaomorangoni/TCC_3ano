@@ -1,0 +1,26 @@
+-----------------------------------------------------------------------------------------------------------
+
+O Que Considerar
+
+Estilo gráfico do seu jogo:
+
+Quer um visual retrô? → 16x16
+
+Algo mais moderno, mas ainda pixelado? → 32x32
+
+Gráficos mais suaves e grandes? → 64x64 ou mais
+
+Resolução da tela:
+
+Se seu jogo for 1280x720 (HD), usar 32x32 te dá uma boa densidade (22.5 tiles na horizontal).
+
+Com 64x64, você terá menos tiles visíveis (20x11 em 1280x720), mas com mais detalhe.
+
+Desempenho:
+
+Tamanhos menores significam mais tiles por tela → pode impactar o desempenho, mas geralmente só se forem muitos objetos ativos.
+
+Facilidade de mapeamento:
+
+Use tamanhos que sejam potências de 2 (16, 32, 64...) para facilitar colisões, grid, tilesets e ajuste nas salas.
+---------------------------------------------------------------------------------------------------------------
