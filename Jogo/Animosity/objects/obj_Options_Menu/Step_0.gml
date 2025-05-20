@@ -16,8 +16,8 @@ if (global.menu) {
                 instance_destroy();
                 break;
             case 1: // Controllers
-                instance_create_layer(x, y, "HUD", obj_Controller_Menu);
-                instance_destroy();
+                //instance_create_layer(x, y, "HUD", obj_Controller_Menu);
+                //instance_destroy();
                 break;
             case 2: // Language
                 // Lógica de mudança de idioma

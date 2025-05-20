@@ -139,7 +139,7 @@
     {"id":{"name":"vazio","path":"sprites/vazio/vazio.yy",},},
     {"id":{"name":"Chao","path":"tilesets/Chao/Chao.yy",},},
     {"id":{"name":"Grama","path":"tilesets/Grama/Grama.yy",},},
-    {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},},
+    {"id":{"name":"Tutorial_Chao","path":"tilesets/Tutorial_Chao/Tutorial_Chao.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

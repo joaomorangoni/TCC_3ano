@@ -100,6 +100,6 @@
     {"name":"Tocha_de_chao","order":5,"path":"sprites/Tocha_de_chao/Tocha_de_chao.yy",},
     {"name":"vazio","order":2,"path":"sprites/vazio/vazio.yy",},
     {"name":"Chao","order":1,"path":"tilesets/Chao/Chao.yy",},
-    {"name":"TileSet3","order":2,"path":"tilesets/TileSet3/TileSet3.yy",},
+    {"name":"Tutorial_Chao","order":2,"path":"tilesets/Tutorial_Chao/Tutorial_Chao.yy",},
   ],
 }
