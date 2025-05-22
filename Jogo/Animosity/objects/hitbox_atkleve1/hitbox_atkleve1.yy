@@ -35,5 +35,5 @@
     "path":"sprites/atk_leve_hitbox/atk_leve_hitbox.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

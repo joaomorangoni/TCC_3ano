@@ -25,6 +25,11 @@ scr_carregar_adrenalina(self)
 switch(estado) {
 case(estado_player.livre):
 
+	if (dash_cd >= 0)
+	{
+		dash_cd--;
+	}
+	
 	if (velh != 0) // Trocar sprite de direção
 	{
 		image_xscale = sign(velh);
@@ -35,13 +40,14 @@ case(estado_player.livre):
 		velh = (_right - _left) * vel;
 	}
 	
-	if (_dash) // Dash 
+	if (_dash && dash_cd <= 0) // Dash 
 	{
 		  dashp = true;
 		  ataque = false;
 		  velv = 0;
 		  image_index = 0;
 		  estado = estado_player.dash;
+		  dash_cd = 10;
 	}
 	
 	if (_chao) // Sistema de salto e corrida 

@@ -47,7 +47,7 @@ tempo_adr = 0;
 
 hbx_leve = hitbox_atkleve1;
 dashp = false;
-dash_cd = room_speed * 0.7;
+dash_cd = 10;
 reset_jump = true;
 
 // Permissões
