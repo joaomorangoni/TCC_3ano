@@ -7,6 +7,7 @@ if (global.pause) {
 	exit;
 }
 	//Causar dano no Player
+	if (estado = estado_inimigos.livre) {
 		if (_player && _player.inv_timer <= 0 && !_player.ataque && !_player.dashp)
 			{
 				_player.vida -= dano_inimigo;
@@ -22,6 +23,7 @@ if (global.pause) {
 				_player.adr = clamp(_player.adr, 0, _player.adr_max);
 				}
 			}
+	}
 
 		if (_Dano && !morto && !dano)
 		{

@@ -27,7 +27,7 @@ if (global.menu) {
                 instance_destroy();
                 break;
             case 3:
-                game_end();
+                room_goto(Sala_Menu);
                 break;
         }
     }
@@ -71,7 +71,7 @@ if (global.menu) {
                         instance_destroy();
                         break;
                     case 3:
-                        game_end();
+                        room_goto(Sala_Menu);
                         break;
                 }
             }

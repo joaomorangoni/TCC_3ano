@@ -23,7 +23,6 @@ if (global.menu) {
                 // Lógica de mudança de idioma
                 break;
             case 3: // Back
-                instance_create_layer(x, y, "HUD", obj_Pause_Menu);
                 instance_destroy();
                 break;
         }

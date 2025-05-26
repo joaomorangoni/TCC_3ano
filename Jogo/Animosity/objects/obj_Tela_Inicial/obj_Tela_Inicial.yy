@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"hitbox_atkleve1",
+  "%Name":"obj_Tela_Inicial",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"hitbox_atkleve1",
+  "name":"obj_Tela_Inicial",
   "overriddenProperties":[],
   "parent":{
-    "name":"colisões",
-    "path":"folders/Objetos/colisões.yy",
+    "name":"Menus",
+    "path":"folders/Objetos/Outros/Menus.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"atk_leve_hitbox",
-    "path":"sprites/atk_leve_hitbox/atk_leve_hitbox.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

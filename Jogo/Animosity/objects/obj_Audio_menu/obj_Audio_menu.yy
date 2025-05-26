@@ -10,8 +10,8 @@
   "name":"obj_Audio_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"Outros",
-    "path":"folders/Objetos/Outros.yy",
+    "name":"Menus",
+    "path":"folders/Objetos/Outros/Menus.yy",
   },
   "parentObjectId":null,
   "persistent":false,

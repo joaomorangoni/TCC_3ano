@@ -74,7 +74,7 @@ if (global.menu) {
 	     my > back_y && my < back_y + back_h &&
 	     mouse_check_button_pressed(mb_left))) {
     
-	    instance_create_layer(x, y, "HUD", obj_Pause_Menu);
+	    instance_create_layer(0, 0, "HUD", obj_Options_Menu);
 	    instance_destroy();
 	}
 }

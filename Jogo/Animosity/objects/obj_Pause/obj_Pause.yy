@@ -9,8 +9,8 @@
   "name":"obj_Pause",
   "overriddenProperties":[],
   "parent":{
-    "name":"Outros",
-    "path":"folders/Objetos/Outros.yy",
+    "name":"Menus",
+    "path":"folders/Objetos/Outros/Menus.yy",
   },
   "parentObjectId":null,
   "persistent":false,

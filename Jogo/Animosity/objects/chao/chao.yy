@@ -6,8 +6,8 @@
   "name":"chao",
   "overriddenProperties":[],
   "parent":{
-    "name":"Estruturas",
-    "path":"folders/Objetos/Estruturas.yy",
+    "name":"colisões",
+    "path":"folders/Objetos/colisões.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,5 +32,5 @@
     "path":"sprites/Col/Col.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

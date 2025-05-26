@@ -81,6 +81,8 @@ switch(estado) {
 		        sprite_index = rato_sofrendodano;
 		        image_index = 0;
 		    }
+		velh = 0;
+		velv = 0;
 	break;
 	case(estado_inimigos.morto):
 		sprite_index = rato_morto;

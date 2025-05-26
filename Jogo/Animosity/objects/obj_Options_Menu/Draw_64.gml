@@ -49,20 +49,27 @@ if (global.menu) {
             if (mouse_check_button_pressed(mb_left)) {
                 switch(option) {
                     case 0: // Audio
-                        instance_create_layer(x, y, "HUD", obj_Audio_menu);
+                        instance_create_layer(0, 0, "HUD", obj_Audio_menu);
                         instance_destroy();
                         break;
                     case 1: // Controllers
-                        instance_create_layer(x, y, "HUD", obj_Controller_Menu);
-                        instance_destroy();
+                       // instance_create_layer(x, y, "HUD", obj_Controller_Menu);
+                       // instance_destroy();
                         break;
                     case 2: // Language
                         // Adicionar lógica de mudança de idioma
                         break;
                     case 3: // Back
-                        instance_create_layer(x, y, "HUD", obj_Pause_Menu);
+					if (room != Sala_Menu) {
+                        instance_create_layer(0, 0, "HUD", obj_Pause_Menu);
                         instance_destroy();
                         break;
+					}
+					else
+					{
+						instance_destroy();
+						break;
+					}
                 }
             }
         }
