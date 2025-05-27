@@ -15,6 +15,7 @@
     {"name":"inst_3797FAC9","path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},
     {"name":"inst_5A8732C","path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},
     {"name":"inst_71FD2207","path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},
+    {"name":"inst_75B0701F","path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -27,6 +28,7 @@
       ],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Inimigos","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_7D6508C8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7D6508C8","objectId":{"name":"Ini_rato","path":"objects/Ini_rato/Ini_rato.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":672.0,},
+        {"$GMRInstance":"v2","%Name":"inst_75B0701F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_75B0701F","objectId":{"name":"Ini_morcego","path":"objects/Ini_morcego/Ini_morcego.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":448.0,},
       ],"layers":[],"name":"Inimigos","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Colisores","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_1DB0F24D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1DB0F24D","objectId":{"name":"chao","path":"objects/chao/chao.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":19.5,"scaleY":1.0,"x":64.0,"y":704.0,},

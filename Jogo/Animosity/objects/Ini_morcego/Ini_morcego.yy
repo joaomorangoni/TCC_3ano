@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Ini_rato",
+  "%Name":"Ini_morcego",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Ini_rato",
+  "name":"Ini_morcego",
   "overriddenProperties":[],
   "parent":{
     "name":"Pri_Area",
@@ -30,15 +29,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"permissao_cair","filters":[],"listItems":[],"multiselect":false,"name":"permissao_cair","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"rato_parado",
-    "path":"sprites/rato_parado/rato_parado.yy",
+    "name":"parou",
+    "path":"sprites/parou/parou.yy",
   },
   "spriteMaskId":null,
   "visible":true,
