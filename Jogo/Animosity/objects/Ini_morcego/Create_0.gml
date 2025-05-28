@@ -6,4 +6,6 @@ dano_inimigo = 1;
 vida_inimigo = 2;
 
 andar = choose(true, false);
-timer_decisao_andar = 3;
+timer_decisao_andar = 180;
+alerta = false;
+

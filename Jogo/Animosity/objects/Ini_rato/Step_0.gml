@@ -1,5 +1,5 @@
 event_inherited()
-var _chao = place_meeting(x, y + 1, chao)
+var _chao = place_meeting(x, y + 1, obj_chao)
 
 if (global.pause) {
 	image_speed = 0;
@@ -36,11 +36,11 @@ switch(estado) {
 				}
 				// Resetar o timer
 		
-				timer_decisao_andar = room_speed * 3;
+				timer_decisao_andar = 180;
 		
 				// se bater na parede troca de direção
 		
-				if (place_meeting(x + velh, y, chao)) 
+				if (place_meeting(x + velh, y, obj_chao)) 
 				{
 					velh *= -1;
 				}

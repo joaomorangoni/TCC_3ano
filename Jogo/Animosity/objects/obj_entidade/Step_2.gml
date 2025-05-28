@@ -1,5 +1,5 @@
 // Colisão - Horizontal
-var _col = instance_place(x + velh, y, chao); //Verifica a colisão
+var _col = instance_place(x + velh, y, obj_chao); //Verifica a colisão
 
 
 if (_col) {
@@ -24,7 +24,7 @@ if (_col) {
 
 
 // Colisão - Vertical
-var _col = instance_place(x, y + velv, chao);
+var _col = instance_place(x, y + velv, obj_chao);
 if (_col) {
 	
 	// Checando se está indo para baixo

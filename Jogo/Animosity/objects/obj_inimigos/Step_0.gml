@@ -1,7 +1,7 @@
 var _player = instance_place(x, y, Player);
 var _Dano = instance_place(x, y, hitbox_atkleve1);
 var play = instance_find(Player, 0);
-var _col = instance_place(x + velh, y - 2, chao);
+var _col = instance_place(x + velh, y - 2, obj_chao);
 
 if (global.pause) {
 	exit;
@@ -27,17 +27,6 @@ if (global.pause) {
 
 		if (_Dano && !morto && !dano)
 		{
-			if (_Dano.x < x && !_col)
-			{
-			    vel_knockback = 4; 
-			}
-			else
-			{
-				if (_Dano.x > x && !_col) 
-				{
-			      vel_knockback = -4;
-				}
-			}
 			estado = estado_inimigos.dano;
 			dano = true;
 			vida_inimigo -= _Dano.Dano;
@@ -49,4 +38,5 @@ if (global.pause) {
 		{
 			estado = estado_inimigos.morto;
 		}
+		
 

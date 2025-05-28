@@ -84,11 +84,11 @@
   },
   "name":"Animosity",
   "resources":[
-    {"id":{"name":"chao","path":"objects/chao/chao.yy",},},
     {"id":{"name":"hitbox_atkleve1","path":"objects/hitbox_atkleve1/hitbox_atkleve1.yy",},},
     {"id":{"name":"Ini_morcego","path":"objects/Ini_morcego/Ini_morcego.yy",},},
     {"id":{"name":"Ini_rato","path":"objects/Ini_rato/Ini_rato.yy",},},
     {"id":{"name":"obj_Audio_menu","path":"objects/obj_Audio_menu/obj_Audio_menu.yy",},},
+    {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
     {"id":{"name":"obj_entidade","path":"objects/obj_entidade/obj_entidade.yy",},},
     {"id":{"name":"obj_HUD","path":"objects/obj_HUD/obj_HUD.yy",},},
     {"id":{"name":"obj_inimigos","path":"objects/obj_inimigos/obj_inimigos.yy",},},

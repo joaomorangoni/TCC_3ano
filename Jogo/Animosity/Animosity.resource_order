@@ -65,9 +65,9 @@
     {"name":"Tiles","order":16,"path":"folders/Tiles.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"chao","order":1,"path":"objects/chao/chao.yy",},
     {"name":"Ini_morcego","order":1,"path":"objects/Ini_morcego/Ini_morcego.yy",},
     {"name":"obj_Audio_menu","order":1,"path":"objects/obj_Audio_menu/obj_Audio_menu.yy",},
+    {"name":"obj_chao","order":1,"path":"objects/obj_chao/obj_chao.yy",},
     {"name":"obj_HUD","order":2,"path":"objects/obj_HUD/obj_HUD.yy",},
     {"name":"obj_inimigos","order":1,"path":"objects/obj_inimigos/obj_inimigos.yy",},
     {"name":"obj_Options_Menu","order":3,"path":"objects/obj_Options_Menu/obj_Options_Menu.yy",},
