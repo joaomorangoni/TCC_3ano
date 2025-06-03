@@ -9,6 +9,8 @@ else
 	image_speed = 1;
 }
 
+scr_alerta(self, Player);
+
 switch(estado) {
 	
 	case(estado_inimigos.livre):

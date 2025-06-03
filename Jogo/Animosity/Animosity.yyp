@@ -101,6 +101,7 @@
     {"id":{"name":"Sala_Teste_Entidades","path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},},
     {"id":{"name":"Sala_Teste_Texturas","path":"rooms/Sala_Teste_Texturas/Sala_Teste_Texturas.yy",},},
     {"id":{"name":"randomizer","path":"scripts/randomizer/randomizer.yy",},},
+    {"id":{"name":"scr_alerta","path":"scripts/scr_alerta/scr_alerta.yy",},},
     {"id":{"name":"scr_carregar_adrenalina","path":"scripts/scr_carregar_adrenalina/scr_carregar_adrenalina.yy",},},
     {"id":{"name":"scr_criar_hitbox","path":"scripts/scr_criar_hitbox/scr_criar_hitbox.yy",},},
     {"id":{"name":"scr_dash","path":"scripts/scr_dash/scr_dash.yy",},},

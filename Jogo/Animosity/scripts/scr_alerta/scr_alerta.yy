@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_alerta",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_alerta",
+  "parent":{
+    "name":"inimigos",
+    "path":"folders/Scripts/inimigos.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

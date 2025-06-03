@@ -75,6 +75,7 @@
     {"name":"obj_Tela_Inicial","order":5,"path":"objects/obj_Tela_Inicial/obj_Tela_Inicial.yy",},
     {"name":"Sala_Menu","order":2,"path":"rooms/Sala_Menu/Sala_Menu.yy",},
     {"name":"Sala_Teste_Entidades","order":1,"path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},
+    {"name":"scr_alerta","order":1,"path":"scripts/scr_alerta/scr_alerta.yy",},
     {"name":"scr_carregar_adrenalina","order":4,"path":"scripts/scr_carregar_adrenalina/scr_carregar_adrenalina.yy",},
     {"name":"scr_criar_hitbox","order":3,"path":"scripts/scr_criar_hitbox/scr_criar_hitbox.yy",},
     {"name":"scr_dash","order":2,"path":"scripts/scr_dash/scr_dash.yy",},
