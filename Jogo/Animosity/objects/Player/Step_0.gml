@@ -187,4 +187,12 @@ case(estado_player.livre):
 	// Caso ele morra.
 	sprite_index = Morrendo;
 	
+	if(_morreu)
+	{
+		image_speed = 0;
+		image_index = 5;
+		image_alpha -= 0.025;
+		velv = 0;
+	 }
+	
 }

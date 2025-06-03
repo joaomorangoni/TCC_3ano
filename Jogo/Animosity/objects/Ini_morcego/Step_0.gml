@@ -8,13 +8,23 @@ else
 { 
 	image_speed = 1;
 }
+if (instance_exists(Player)){
+	scr_alerta(self, Player);
+}
+if(velh != 0) {
+	sprite_index = andou;
+	image_xscale = sign(velh);
+}
+else {
+	sprite_index = parou;
+}
 
-scr_alerta(self, Player);
+scr_alerta(self , Player);
 
 switch(estado) {
 	
 	case(estado_inimigos.livre):
-		
+
 		if(!alerta) {
 			
 			timer_decisao_andar -= 1;
@@ -28,9 +38,7 @@ switch(estado) {
 				// Escolher a direção
 				if(andar)
 				{
-			
 					velh = choose(vel, -vel);
-		
 				}
 				else
 				{
@@ -47,16 +55,11 @@ switch(estado) {
 				{
 					velh *= -1;
 				}
-		
 			}
-			
-			
 		}
-		if(velh != 0) {
-			sprite_index = andou;
-			image_xscale = sign(velh);
-		}
-		else {
-			sprite_index = parou;
-		}
+	break; 
+	case(estado_inimigos.alerta):
+	
+	
+	break;
 }

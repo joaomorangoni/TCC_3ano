@@ -13,8 +13,7 @@ if (sprite_index == Ataque_correndo) {
 }
 
 if (sprite_index == Morrendo) {
-	image_speed = 0;
-	instance_destroy();
+	_morreu = true;
 }
 
 if (sprite_index == dash) {
