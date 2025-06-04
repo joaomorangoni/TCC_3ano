@@ -8,10 +8,9 @@ else
 { 
 	image_speed = 1;
 }
-if (instance_exists(Player)){
-	scr_alerta(self, Player);
-}
-if(velh != 0) {
+scr_alerta(self, Player);
+
+if(velh != 0 || velv != 0) {
 	sprite_index = andou;
 	image_xscale = sign(velh);
 }
@@ -60,6 +59,7 @@ switch(estado) {
 	break; 
 	case(estado_inimigos.alerta):
 	
+		scr_perseguidor(Player);
 	
 	break;
 }

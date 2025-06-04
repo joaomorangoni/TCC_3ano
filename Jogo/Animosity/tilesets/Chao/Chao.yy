@@ -16,8 +16,8 @@
   "out_tilehborder":0,
   "out_tilevborder":2,
   "parent":{
-    "name":"Tiles",
-    "path":"folders/Tiles.yy",
+    "name":"Conjuntos de tiles",
+    "path":"folders/Conjuntos de tiles.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
