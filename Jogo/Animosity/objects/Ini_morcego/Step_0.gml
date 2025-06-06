@@ -8,7 +8,6 @@ else
 { 
 	image_speed = 1;
 }
-scr_alerta(self, Player);
 
 if(velh != 0 || velv != 0) {
 	sprite_index = andou;
@@ -23,7 +22,7 @@ scr_alerta(self , Player);
 switch(estado) {
 	
 	case(estado_inimigos.livre):
-
+		
 		if(!alerta) {
 			
 			timer_decisao_andar -= 1;
@@ -60,6 +59,13 @@ switch(estado) {
 	case(estado_inimigos.alerta):
 	
 		scr_perseguidor(Player);
+	
+	break;
+	case(estado_inimigos.dano):
+		
+		velh = 0;
+		velv = 0;
+		sprite_index = ph_hit;
 	
 	break;
 }

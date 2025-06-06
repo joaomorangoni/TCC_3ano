@@ -1,5 +1,8 @@
 function scr_alerta()
 {
+	
+	if (estado == estado_inimigos.livre || estado == estado_inimigos.alerta)
+	{
 		var _inimigo = argument0;
 		var _player = argument1;
 		var _alertt = 200; //distância de alerta, era 200
@@ -15,5 +18,5 @@ function scr_alerta()
 			_inimigo.alerta = false;
 			_inimigo.estado = estado_inimigos.livre;
 		}
-		
+	}
 }
