@@ -3,7 +3,7 @@ logo_frame = 0;
 
 // Botões
 menu_items = [
-    {text: "Play", action: function() { room_goto(Sala_Teste_Entidades); global.menu = false;}},
+    {text: "Play", action: function() { room_goto(Sala_Teste_Boss); global.menu = false;}},
     {text: "Options", action: function() { instance_create_layer(0, 0, "HUD", obj_Options_Menu); }},
     {text: "Achievments", action: function() { show_debug_message("Abrir conquistas"); }},
     {text: "Leave", action: function() { game_end(); }}
