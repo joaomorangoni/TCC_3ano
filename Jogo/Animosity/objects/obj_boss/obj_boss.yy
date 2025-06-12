@@ -1,20 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Time_rat",
+  "%Name":"obj_boss",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Time_rat",
+  "name":"obj_boss",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bosses",
-    "path":"folders/Objetos/Bosses.yy",
+    "name":"Entidade",
+    "path":"folders/Objetos/Entidade.yy",
   },
   "parentObjectId":{
-    "name":"obj_boss",
-    "path":"objects/obj_boss/obj_boss.yy",
+    "name":"obj_entidade",
+    "path":"objects/obj_entidade/obj_entidade.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"parou",
-    "path":"sprites/parou/parou.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

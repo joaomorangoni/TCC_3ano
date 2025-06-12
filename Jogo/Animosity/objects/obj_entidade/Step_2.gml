@@ -1,14 +1,14 @@
 // Colisão - Horizontal
-var _col = instance_place(x + velh, y, obj_chao); //Verifica a colisão
+var _colx = instance_place(x + velh, y, obj_chao); //Verifica a colisão
 
 
-if (_col) {
+if (_colx) {
 	
 	// Checando se está indo para direita
 	if (velh > 0)
 	{ 
 	 // Ajustando pixel
-		 x = _col.bbox_left + (x - bbox_right);
+		 x = _colx.bbox_left + (x - bbox_right);
 		 
 		 
 	}
@@ -16,7 +16,7 @@ if (_col) {
 	// Checando esquerda
 	if (velh < 0) 
 	{
-		x = _col.bbox_right + (x - bbox_left);
+		x = _colx.bbox_right + (x - bbox_left);
 	}
 	
 	velh = 0;
@@ -24,19 +24,19 @@ if (_col) {
 
 
 // Colisão - Vertical
-var _col = instance_place(x, y + velv, obj_chao);
-if (_col) {
+var _colv = instance_place(x, y + velv, obj_chao);
+if (_colv) {
 	
 	// Checando se está indo para baixo
 	if (velv > 0)
 	{ 
-		y = _col.bbox_top + (y - bbox_bottom);
+		y = _colv.bbox_top + (y - bbox_bottom);
 	}
 	
 	// Checando cima
 	if (velv < 0) 
 	{
-		y = _col.bbox_bottom + (y - bbox_top);
+		y = _colv.bbox_bottom + (y - bbox_top);
 	}
 	
 	velv = 0;

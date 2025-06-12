@@ -1,5 +1,6 @@
 var _chao = place_meeting(x, y + 1, obj_chao);
 var _inimigo = instance_place(x, y, obj_inimigos);
+var _boss = instance_place(x, y, obj_boss);
 
 var _left, _right, _jump, _dash, _atk_l, _int;
 	_left = keyboard_check(global.inputs.left);
@@ -160,7 +161,8 @@ case(estado_player.livre):
 		    if (timer_dano > 0)
 		    {
 		        timer_dano--;
-				scr_knockback_stun(self, obj_inimigos);
+				if (_inimigo) { scr_knockback_stun(self, obj_inimigos);}
+				if (_boss) {scr_knockback_stun(self, obj_boss);}
 		    }
 		    else
 		    {

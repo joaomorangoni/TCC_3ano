@@ -12,14 +12,14 @@ vel_jump = 10;
 
 dano = false;
 ataque = false;
-tempo_dano = room_speed * 0.5;
+tempo_dano = 30;
 timer_dano = 0;
 dano_recebido = 0.5;
 _morreu = false;
 
 //invencibilidade
 
-inv_tempo = room_speed * 0.7;
+inv_tempo = 45;
 inv_timer = 0;
 
 // Inputs 
