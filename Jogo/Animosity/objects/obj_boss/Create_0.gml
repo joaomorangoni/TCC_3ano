@@ -11,3 +11,5 @@ timer_decisao = 180;
 dano_leve = 0;
 dano_pesado = 0;
 dano_especial = 0;
+
+estado = estado_boss.livre;

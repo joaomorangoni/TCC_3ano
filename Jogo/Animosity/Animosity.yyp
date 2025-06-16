@@ -115,6 +115,7 @@
     {"id":{"name":"scr_esvaziar_adrenalina","path":"scripts/scr_esvaziar_adrenalina/scr_esvaziar_adrenalina.yy",},},
     {"id":{"name":"scr_knockback_stun","path":"scripts/scr_knockback_stun/scr_knockback_stun.yy",},},
     {"id":{"name":"scr_perseguidor","path":"scripts/scr_perseguidor/scr_perseguidor.yy",},},
+    {"id":{"name":"scr_screen_shake_static","path":"scripts/scr_screen_shake_static/scr_screen_shake_static.yy",},},
     {"id":{"name":"alertou","path":"sprites/alertou/alertou.yy",},},
     {"id":{"name":"andou","path":"sprites/andou/andou.yy",},},
     {"id":{"name":"atacou","path":"sprites/atacou/atacou.yy",},},

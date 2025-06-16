@@ -85,6 +85,7 @@
     {"name":"scr_esvaziar_adrenalina","order":1,"path":"scripts/scr_esvaziar_adrenalina/scr_esvaziar_adrenalina.yy",},
     {"name":"scr_knockback_stun","order":1,"path":"scripts/scr_knockback_stun/scr_knockback_stun.yy",},
     {"name":"scr_perseguidor","order":2,"path":"scripts/scr_perseguidor/scr_perseguidor.yy",},
+    {"name":"scr_screen_shake_static","order":2,"path":"scripts/scr_screen_shake_static/scr_screen_shake_static.yy",},
     {"name":"alertou","order":4,"path":"sprites/alertou/alertou.yy",},
     {"name":"atacou","order":3,"path":"sprites/atacou/atacou.yy",},
     {"name":"Ataque_Solo","order":1,"path":"sprites/Ataque_Solo/Ataque_Solo.yy",},

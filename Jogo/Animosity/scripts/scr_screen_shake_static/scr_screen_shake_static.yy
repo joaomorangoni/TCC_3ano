@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_screen_shake_static",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_screen_shake_static",
+  "parent":{
+    "name":"geral",
+    "path":"folders/Scripts/geral.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
