@@ -166,8 +166,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Sala_Menu","path":"rooms/Sala_Menu/Sala_Menu.yy",},},
     {"roomId":{"name":"Sala_Teste_Entidades","path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},},
+    {"roomId":{"name":"Sala_Menu","path":"rooms/Sala_Menu/Sala_Menu.yy",},},
     {"roomId":{"name":"Sala_Teste_Texturas","path":"rooms/Sala_Teste_Texturas/Sala_Teste_Texturas.yy",},},
     {"roomId":{"name":"Sala_Teste_Boss","path":"rooms/Sala_Teste_Boss/Sala_Teste_Boss.yy",},},
   ],
