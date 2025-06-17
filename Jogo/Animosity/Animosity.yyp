@@ -98,6 +98,7 @@
     {"id":{"name":"obj_Pause_Menu","path":"objects/obj_Pause_Menu/obj_Pause_Menu.yy",},},
     {"id":{"name":"obj_Pause","path":"objects/obj_Pause/obj_Pause.yy",},},
     {"id":{"name":"obj_Tela_Inicial","path":"objects/obj_Tela_Inicial/obj_Tela_Inicial.yy",},},
+    {"id":{"name":"obj_vida_b1","path":"objects/obj_vida_b1/obj_vida_b1.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Time_rat","path":"objects/Time_rat/Time_rat.yy",},},
     {"id":{"name":"Sala_Menu","path":"rooms/Sala_Menu/Sala_Menu.yy",},},
@@ -141,6 +142,7 @@
     {"id":{"name":"morreu","path":"sprites/morreu/morreu.yy",},},
     {"id":{"name":"Parado","path":"sprites/Parado/Parado.yy",},},
     {"id":{"name":"parou","path":"sprites/parou/parou.yy",},},
+    {"id":{"name":"ph_clock","path":"sprites/ph_clock/ph_clock.yy",},},
     {"id":{"name":"ph_hit","path":"sprites/ph_hit/ph_hit.yy",},},
     {"id":{"name":"ph_pulou","path":"sprites/ph_pulou/ph_pulou.yy",},},
     {"id":{"name":"rato_andando","path":"sprites/rato_andando/rato_andando.yy",},},
@@ -166,10 +168,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Sala_Teste_Boss","path":"rooms/Sala_Teste_Boss/Sala_Teste_Boss.yy",},},
     {"roomId":{"name":"Sala_Teste_Entidades","path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},},
     {"roomId":{"name":"Sala_Menu","path":"rooms/Sala_Menu/Sala_Menu.yy",},},
     {"roomId":{"name":"Sala_Teste_Texturas","path":"rooms/Sala_Teste_Texturas/Sala_Teste_Texturas.yy",},},
-    {"roomId":{"name":"Sala_Teste_Boss","path":"rooms/Sala_Teste_Boss/Sala_Teste_Boss.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

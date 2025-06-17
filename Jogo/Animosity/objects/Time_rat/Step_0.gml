@@ -5,8 +5,9 @@ if (estado == estado_boss.livre)
 {
 	if (timer_decisao <= 0)
 	{
-		estado =  estado_boss.ataque_1;
-		timer_decisao = 180;
+		//estado = choose(estado_boss.rugido, estado_boss.ataque_1, estado_boss.ataque_2);
+		estado = estado_boss.ataque_2;
+		timer_decisao = 300;
 	}
 	else
 	{
@@ -16,9 +17,10 @@ if (estado == estado_boss.livre)
 
 if (estado == estado_boss.rugido)
 {
-	//scr_screen_shake_static(2 , 5)
+	scr_screen_shake_static(2 , 5)
 	if (timer_decisao <= 0)
 	{
+		estado = choose(estado_boss.livre, estado_boss.ataque_1);
 		timer_decisao = 180;
 	}
 	else
@@ -39,4 +41,23 @@ if (estado == estado_boss.ataque_1)
 		velh *= -1;
 	}
 	
+	if (timer_decisao <= 0)
+	{
+		estado =  estado_boss.livre;
+		timer_decisao = 300;
+	}
+	else
+	{
+		timer_decisao -= 1;
+	}
+}
+
+if (estado == estado_boss.ataque_2)
+{
+	
+}
+
+if (estado == estado_boss.morto)
+{
+	instance_destroy();
 }

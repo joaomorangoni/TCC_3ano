@@ -13,3 +13,4 @@ dano_pesado = 0;
 dano_especial = 0;
 
 estado = estado_boss.livre;
+iframe = 30;

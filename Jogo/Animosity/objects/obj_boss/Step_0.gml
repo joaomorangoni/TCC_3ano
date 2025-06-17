@@ -21,3 +21,29 @@ if (global.pause) {
 				_player.adr = clamp(_player.adr, 0, _player.adr_max);
 				}
 		}
+		
+		if (_Dano && !morto && !dano)
+		{
+			vida -= _Dano.Dano;
+			dano = true;
+			iframe = 30;
+			play.adr += _Dano.adrgot;
+			play.adr = clamp(play.adr, 0, play.adr_max);
+		}
+
+      if (vida <= 0)
+		{
+			estado = estado_boss.morto;
+		}
+		
+		if (dano)
+		{
+			if(iframe <= 0)
+			{
+				dano = false;
+			}
+			else
+			{
+				iframe -= 1;
+			}
+		}
