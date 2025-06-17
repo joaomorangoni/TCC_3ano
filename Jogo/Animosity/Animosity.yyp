@@ -108,6 +108,7 @@
     {"id":{"name":"randomizer","path":"scripts/randomizer/randomizer.yy",},},
     {"id":{"name":"scr_alerta","path":"scripts/scr_alerta/scr_alerta.yy",},},
     {"id":{"name":"scr_carregar_adrenalina","path":"scripts/scr_carregar_adrenalina/scr_carregar_adrenalina.yy",},},
+    {"id":{"name":"scr_clock","path":"scripts/scr_clock/scr_clock.yy",},},
     {"id":{"name":"scr_criar_hitbox","path":"scripts/scr_criar_hitbox/scr_criar_hitbox.yy",},},
     {"id":{"name":"scr_dash","path":"scripts/scr_dash/scr_dash.yy",},},
     {"id":{"name":"scr_estado_boss","path":"scripts/scr_estado_boss/scr_estado_boss.yy",},},

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_clock",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_clock",
+  "parent":{
+    "name":"scr_bosses",
+    "path":"folders/Scripts/scr_bosses.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
