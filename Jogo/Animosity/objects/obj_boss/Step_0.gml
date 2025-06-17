@@ -6,7 +6,7 @@ if (global.pause) {
 	exit;
 }
 	//Causar dano no Player AO ENCOSTAR
-		if (_player && _player.inv_timer <= 0 && !_player.ataque && !_player.dashp)
+		if (_player && _player.inv_timer <= 0 && !_player.ataque && !_player.dashp && image_alpha = 1)
 			{
 				_player.vida -= dano_leve;
 				_player.timer_dano = _player.tempo_dano;
@@ -22,7 +22,7 @@ if (global.pause) {
 				}
 		}
 		
-		if (_Dano && !morto && !dano)
+		if (_Dano && !morto && !dano && image_alpha = 1)
 		{
 			vida -= _Dano.Dano;
 			dano = true;

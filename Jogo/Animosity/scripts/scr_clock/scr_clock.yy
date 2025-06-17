@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_clock",
   "parent":{
-    "name":"scr_bosses",
-    "path":"folders/Scripts/scr_bosses.yy",
+    "name":"geral",
+    "path":"folders/Scripts/geral.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

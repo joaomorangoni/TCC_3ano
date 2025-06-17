@@ -43,6 +43,6 @@ if (_colv) {
 }
 
 if (!global.pause) {
-x += velh;
-y += velv;
+x += velh * global.tempo;
+y += velv * global.tempo;
 }

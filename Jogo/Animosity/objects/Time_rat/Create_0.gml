@@ -13,4 +13,6 @@ dano_pesado = 1.5;
 dano_especial = 2;
 
 estado = estado_boss.livre;
+ts = false;
+atk = false;
 
