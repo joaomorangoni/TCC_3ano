@@ -6,20 +6,16 @@ if (global.pause) {
 	exit;
 }
 	//Causar dano no Player AO ENCOSTAR
-		if (_player && _player.inv_timer <= 0 && !_player.ataque && !_player.dashp && image_alpha = 1)
+		if (_player && _player.inv_timer <= 0 && !morto && !_player.ataque && !_player.dashp && image_alpha = 1)
 			{
 				_player.vida -= dano_leve;
 				_player.timer_dano = _player.tempo_dano;
 				_player.inv_timer = _player.inv_tempo;
-		
-				if (!morto)
-				{
 				_player.dano = true;
 				_player.velh = 0;
 				_player.velv = 0;
 				_player.adr += _player.adr_dano;
 				_player.adr = clamp(_player.adr, 0, _player.adr_max);
-				}
 		}
 		
 		if (_Dano && !morto && !dano && image_alpha = 1)
@@ -33,6 +29,7 @@ if (global.pause) {
 
       if (vida <= 0)
 		{
+			morto = true;
 			estado = estado_boss.morto;
 		}
 		

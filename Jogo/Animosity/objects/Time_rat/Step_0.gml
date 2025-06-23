@@ -3,6 +3,8 @@ var _col = instance_place(x + velh, y, obj_chao);
 
 if (estado == estado_boss.livre)
 {
+	sprite_index = spr_idle_tr;
+	
 	if (timer_decisao <= 0)
 	{
 		estado = choose(estado_boss.rugido, estado_boss.ataque_1, estado_boss.ataque_2);
@@ -17,6 +19,7 @@ if (estado == estado_boss.livre)
 
 if (estado == estado_boss.rugido)
 {
+	sprite_index = spr_scream_tr;
 	scr_screen_shake_static(2 , 5)
 	if (timer_decisao <= 0)
 	{
@@ -31,6 +34,8 @@ if (estado == estado_boss.rugido)
 
 if (estado == estado_boss.ataque_1)
 {
+	sprite_index = spr_run_tr;
+	image_xscale = sign(-velh);
 	if (velh == 0)
 	{
 		velh = choose(vel, -vel);
@@ -54,6 +59,11 @@ if (estado == estado_boss.ataque_1)
 
 if (estado == estado_boss.ataque_2)
 {
+	if (velh != 0)
+	{
+		sprite_index = spr_run_tr;
+		image_xscale = sign(-velh);
+	}
 	if (!ts && !atk)
 	{
 		atk = true;
@@ -89,6 +99,10 @@ if (estado == estado_boss.ataque_2)
 	}
 	if (_col)
 	{
+	    if(ts == true)
+		{
+			image_xscale *= -1
+		}
 		estado = estado_boss.livre;
 		timer_decisao = 120;
 		ts = false;
@@ -103,5 +117,5 @@ if (estado == estado_boss.ataque_3)
 
 if (estado == estado_boss.morto)
 {
-	instance_destroy();
+	sprite_index = spr_die_tr;
 }

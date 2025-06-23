@@ -21,3 +21,5 @@ for (var i = 0; i < array_length(menu_items); i++) {
 	    draw_text(bx + 10, by + bh / 2, item.text);
 	}
 }
+
+draw_text(8, 730, "v0.1.0");
