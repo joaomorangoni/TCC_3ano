@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_init_conquistas",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_init_conquistas",
+  "parent":{
+    "name":"geral",
+    "path":"folders/Scripts/geral.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

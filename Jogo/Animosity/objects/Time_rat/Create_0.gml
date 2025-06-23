@@ -1,5 +1,5 @@
-vida = 50;
-vida_max = 50;
+vida = 30;
+vida_max = 30;
 vel = 10;
 velh = 0;
 velv = 0;

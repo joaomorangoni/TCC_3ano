@@ -3,6 +3,13 @@ var _col = instance_place(x + velh, y, obj_chao);
 
 if (estado == estado_boss.livre)
 {
+	
+	var camm = view_camera[0];
+	var ini_x = camera_get_view_x(camm);
+	var ini_y = camera_get_view_y(camm);
+	
+	camera_set_view_pos(camm, ini_x, ini_y);
+	
 	sprite_index = spr_idle_tr;
 	
 	if (timer_decisao <= 0)

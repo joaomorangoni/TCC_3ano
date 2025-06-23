@@ -26,7 +26,7 @@ if (global.menu) {
         var option_text = "";
         switch(i) {
             case 0: option_text = "Resume"; break;
-            case 1: option_text = "Achievements"; break;
+            case 1: option_text = "..."; break;
             case 2: option_text = "Options"; break;
             case 3: option_text = "Leave"; break;
         }

@@ -1,14 +1,13 @@
 var boss = instance_find(Time_rat, 0);
 
 if (boss != noone) {
-    // ----------- ADRENALINA -----------
     var vida = boss.vida;
     var vida_max = boss.vida_max;
 
     var barra_largura = 700;
     var barra_altura = 20;
     var barra_x = 300;
-    var barra_y = 700; // fica abaixo dos corações
+    var barra_y = 700; 
 
     var proporcao = vida / vida_max;
     var largura_preenchida = barra_largura * proporcao;

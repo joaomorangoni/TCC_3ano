@@ -28,3 +28,8 @@ if (!instance_exists(obj_Options_Menu))
 	    }
 	}
 }
+
+if (keyboard_check_pressed(ord("G")))
+{
+	room_goto(Sala_Teste_Boss);
+}

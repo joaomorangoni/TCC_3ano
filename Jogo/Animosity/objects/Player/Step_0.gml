@@ -161,8 +161,6 @@ case(estado_player.livre):
 		    if (timer_dano > 0)
 		    {
 		        timer_dano--;
-				if (_inimigo) { scr_knockback_stun(self, obj_inimigos);}
-				if (_boss) {scr_knockback_stun(self, obj_boss);}
 		    }
 		    else
 		    {

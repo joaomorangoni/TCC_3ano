@@ -1,22 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Ini_morcego",
+  "%Name":"obj_achievements",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Ini_morcego",
+  "name":"obj_achievements",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pri_Area",
-    "path":"folders/Objetos/Inimigos/Pri_Area.yy",
+    "name":"Menus",
+    "path":"folders/Objetos/Outros/Menus.yy",
   },
-  "parentObjectId":{
-    "name":"obj_inimigos",
-    "path":"objects/obj_inimigos/obj_inimigos.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite33",
-    "path":"sprites/Sprite33/Sprite33.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -29,6 +29,7 @@ global.inputs = {
 	right : ord("D"),
 	jump  : vk_space,
 	dashin  : vk_shift,
+	//dashin  : ord("Q"),
 	atk_leve : mb_left,
 	interact : ord("X")
 }

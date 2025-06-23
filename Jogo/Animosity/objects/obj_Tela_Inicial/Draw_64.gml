@@ -22,4 +22,8 @@ for (var i = 0; i < array_length(menu_items); i++) {
 	}
 }
 
-draw_text(8, 730, "v0.1.0");
+draw_text(8, 675, "Nota de desenvolvedor:");
+draw_text(8, 690, "Para ir ao boss pressione [G]");
+draw_text(8, 720, "v0.1.0");
+
+
