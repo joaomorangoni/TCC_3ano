@@ -12,9 +12,9 @@ global.achievements = [
         description: ""
     },
 	 {
-        name: "",
+        name: "Foco Constante",
         unlocked: false,
-        goal: "",
+        goal: "Derrote o Terceiro Chefe",
         description: ""
     },
 	 {

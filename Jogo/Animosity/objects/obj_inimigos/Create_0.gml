@@ -9,5 +9,3 @@ morto = false;
 iframe = 0;
 
 estado = estado_inimigos.livre;
-
-//variavel para ganho de adrenalina

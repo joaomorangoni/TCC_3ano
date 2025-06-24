@@ -69,6 +69,7 @@
     {"name":"Flaming","order":14,"path":"folders/Sprites/Protagonist/Flaming.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Ini_bat","order":1,"path":"objects/Ini_bat/Ini_bat.yy",},
     {"name":"obj_achievements","order":7,"path":"objects/obj_achievements/obj_achievements.yy",},
     {"name":"obj_Audio_menu","order":1,"path":"objects/obj_Audio_menu/obj_Audio_menu.yy",},
     {"name":"obj_boss","order":2,"path":"objects/obj_boss/obj_boss.yy",},
