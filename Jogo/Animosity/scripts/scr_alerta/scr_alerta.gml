@@ -1,6 +1,5 @@
 function scr_alerta()
 {
-	
 	if (estado == estado_inimigos.livre || estado == estado_inimigos.alerta)
 	{
 		var _inimigo = argument0;
@@ -11,7 +10,7 @@ function scr_alerta()
 		if (dist <= _alertt && !_player._morreu) 
 		 {
 	        _inimigo.alerta = true; 
-			_inimigo.estado = estado_inimigos.alerta;
+			//_inimigo.estado = estado_inimigos.alerta;
 	     }
 		else
 		{

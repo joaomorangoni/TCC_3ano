@@ -1,12 +1,53 @@
+event_inherited()
+var _col = instance_place(x + velh, y, obj_chao);
+
+scr_alerta(self, Player);
+
 if (estado == estado_inimigos.livre)
 {
-	if (timer_decisao <= 0)
+	if(!alerta)
 	{
-		timer_decisao = 120;
-		velh = choose(vel,-vel);
+		velv = 0;
+		
+		if (timer_decisao <= 0)
+		{
+			timer_decisao = 120;
+			velh = choose(vel,-vel, 0);
+		}
+		else
+		{
+			timer_decisao--;
+		}
+		if (_col)
+		{
+			velh *= -1;
+		}
 	}
 	else
 	{
-		timer_decisao--
+		scr_perseguidor(Player);
 	}
+}
+if (estado == estado_inimigos.dano)
+{
+	if(iframe > 0)
+	{
+		sprite_index = spr_bat_hit;
+		iframe--;
+		velh = 0;
+		velv = 0;
+	}
+	else
+	{
+		sprite_index = spr_bat_idle;
+		iframe = 30;
+		dano = false;
+		estado = estado_inimigos.livre;
+	}
+}
+if (estado == estado_inimigos.morto)
+{
+	velh = 0;
+	velv = 0;
+	sprite_index = spr_bat_die;
 }
