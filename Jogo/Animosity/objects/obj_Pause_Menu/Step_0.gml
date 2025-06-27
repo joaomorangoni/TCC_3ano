@@ -1,83 +1,45 @@
-if (global.menu) {
-    // Recalcular tamanho da GUI no Step
-    var gui_w = display_get_gui_width();
-    var gui_h = display_get_gui_height();
+if(global.pause)
+{
+	// Atualiza seleção por teclado
+	if (keyboard_check_pressed(vk_down)) {
+	    selected_index = (selected_index + 1) mod array_length(menu_items);
+	}
 
-    // Teclado
-    if (keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"))) {
-        option = (option - 1 + option_count) mod option_count;
-    }
+	if (keyboard_check_pressed(vk_up)) {
+	    selected_index = (selected_index - 1 + array_length(menu_items)) mod array_length(menu_items);
+	}
 
-    if (keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"))) {
-        option = (option + 1) mod option_count;
-    }
+	if (keyboard_check_pressed(vk_enter)) {
+	    var opt = menu_items[selected_index];
+	    opt.action();
+	}
 
-    if (keyboard_check_pressed(vk_enter)) {
-        switch(option) {
-            case 0:
-                global.pause = false;
-                global.menu = false;
-                instance_destroy();
-                break;
-            case 1:
-                // Conquistas
-                break;
-            case 2:
-                instance_create_layer(x, y, "HUD", obj_Options_Menu);
-                instance_destroy();
-                break;
-            case 3:
-                room_goto(Sala_Menu);
-                break;
-        }
-    }
+	// Verifica posição do mouse e clica
+	var mx = device_mouse_x(0);
+	var my = device_mouse_y(0);
 
-    // Mouse (com conversão de coordenadas e GUI corrigido)
-    var mx = device_mouse_x_to_gui(0);
-    var my = device_mouse_y_to_gui(0);
+	var center_x = display_get_width() * 0.5;
+	var start_y = display_get_height() * 0.5 - (array_length(menu_items) * menu_spacing) * 0.5;
 
-    for (var i = 0; i < option_count; i++) {
-        var option_text = "";
-        switch(i) {
-            case 0: option_text = "Resume"; break;
-            case 1: option_text = "Achievements"; break;
-            case 2: option_text = "Options"; break;
-            case 3: option_text = "Leave"; break;
-        }
+	for (var i = 0; i < array_length(menu_items); i++) {
+	    var text = menu_items[i].text;
+	    var text_w = string_width(text);
+	    var text_h = string_height(text);
 
-        var option_width = string_width(option_text);
-        var option_x = (gui_w - option_width) / 2;
-        var option_y = gui_h / 2 - 100 + (i * 40);
-        var option_height = 32;
+	    var item_x = center_x - text_w * 0.5;
+	    var item_y = start_y + i * menu_spacing;
 
-        // Atualiza a seleção ao passar o mouse (sempre, não só no primeiro frame)
-        if (mx > option_x && mx < option_x + option_width &&
-            my > option_y && my < option_y + option_height) {
+	    // Verifica se o mouse está sobre o item
+	    if (mx >= item_x && mx <= item_x + text_w && my >= item_y - text_h * 0.5 && my <= item_y + text_h * 0.5) {
+	        selected_index = i;
 
-            option = i;
-
-            if (mouse_check_button_pressed(mb_left)) {
-                switch(option) {
-                    case 0:
-                        global.pause = false;
-                        global.menu = false;
-                        instance_destroy();
-                        break;
-                    case 1:
-                        // Conquistas
-                        break;
-                    case 2:
-                        instance_create_layer(x, y, "HUD", obj_Options_Menu);
-                        instance_destroy();
-                        break;
-                    case 3:
-                        room_goto(Sala_Menu);
-                        break;
-                }
-            }
-        }
-    }
+	        if (mouse_check_button_pressed(mb_left)) {
+	            menu_items[i].action();
+	        }
+	    }
+	}
 }
-else {
-    instance_destroy();
+else
+{
+	instance_destroy();
 }

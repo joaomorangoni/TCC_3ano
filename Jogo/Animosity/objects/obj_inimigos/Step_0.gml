@@ -28,7 +28,7 @@ if (global.pause) {
 		if (_Dano && !morto && !dano)
 		{
 			estado = estado_inimigos.dano;
-			iframe = 30;
+			iframe = 20;
 			dano = true;
 			vida_inimigo -= _Dano.Dano;
 			play.adr += _Dano.adrgot;

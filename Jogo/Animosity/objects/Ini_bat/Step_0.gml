@@ -1,6 +1,15 @@
 event_inherited()
 var _col = instance_place(x + velh, y, obj_chao);
 
+if (global.pause) {
+	image_speed = 0;
+	exit;
+}
+else
+{ 
+	image_speed = 1;
+}
+
 scr_alerta(self, Player);
 
 if (estado == estado_inimigos.livre)
@@ -40,7 +49,6 @@ if (estado == estado_inimigos.dano)
 	else
 	{
 		sprite_index = spr_bat_idle;
-		iframe = 30;
 		dano = false;
 		estado = estado_inimigos.livre;
 	}
