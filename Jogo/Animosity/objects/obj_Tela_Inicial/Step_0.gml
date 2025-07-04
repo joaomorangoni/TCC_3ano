@@ -33,3 +33,7 @@ if (keyboard_check_pressed(ord("G")))
 {
 	room_goto(Sala_Teste_Boss);
 }
+if (keyboard_check_pressed(ord("H")))
+{
+	room_goto(Sala_Teste_Entidades);
+}

@@ -81,6 +81,7 @@
     {"name":"obj_Tela_Inicial","order":5,"path":"objects/obj_Tela_Inicial/obj_Tela_Inicial.yy",},
     {"name":"obj_vida_b1","order":6,"path":"objects/obj_vida_b1/obj_vida_b1.yy",},
     {"name":"Sala_Conquistas","order":4,"path":"rooms/Sala_Conquistas/Sala_Conquistas.yy",},
+    {"name":"Sala_Inicial","order":5,"path":"rooms/Sala_Inicial/Sala_Inicial.yy",},
     {"name":"Sala_Menu","order":2,"path":"rooms/Sala_Menu/Sala_Menu.yy",},
     {"name":"Sala_Teste_Boss","order":3,"path":"rooms/Sala_Teste_Boss/Sala_Teste_Boss.yy",},
     {"name":"Sala_Teste_Entidades","order":1,"path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},
