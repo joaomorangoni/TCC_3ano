@@ -30,12 +30,12 @@ if (global.pause) {
 			estado = estado_inimigos.dano;
 			iframe = 20;
 			dano = true;
-			vida_inimigo -= _Dano.Dano;
+			vida -= _Dano.Dano;
 			play.adr += _Dano.adrgot;
 			play.adr = clamp(play.adr, 0, play.adr_max);
 		}
 
-      if (vida_inimigo <= 0)
+      if (vida <= 0)
 		{
 			estado = estado_inimigos.morto;
 		}

@@ -1,6 +1,6 @@
 event_inherited()
 
-vida_inimigo = 5;
+vida = 5;
 dano_inimigo = 1;
 dano = false;
 morto = false;

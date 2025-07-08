@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_chao",
-  "eventList":[],
+  "%Name":"obj_dmg_area",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_chao",
+  "name":"obj_dmg_area",
   "overriddenProperties":[],
   "parent":{
     "name":"colisões",
@@ -28,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Col",
-    "path":"sprites/Col/Col.yy",
+    "name":"Dmg_Col",
+    "path":"sprites/Dmg_Col/Dmg_Col.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

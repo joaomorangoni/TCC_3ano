@@ -156,6 +156,7 @@ case(estado_player.livre):
 		    {
 		        sprite_index = Hit;
 		        image_index = 0;
+				timer_dano = tempo_dano;
 		    }
 
 		    if (timer_dano > 0)
