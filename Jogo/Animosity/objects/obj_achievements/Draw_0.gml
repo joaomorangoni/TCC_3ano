@@ -1,4 +1,4 @@
-draw_set_font(fnt_arial); // Use o default ou defina sua fonte
+
 draw_set_color(c_white);
 
 // Desenhar lista de conquistas

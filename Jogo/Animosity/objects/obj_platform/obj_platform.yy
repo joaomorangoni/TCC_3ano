@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_chao",
+  "%Name":"obj_platform",
   "eventList":[],
   "managed":true,
-  "name":"obj_chao",
+  "name":"obj_platform",
   "overriddenProperties":[],
   "parent":{
     "name":"colisões",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Col",
-    "path":"sprites/Col/Col.yy",
+    "name":"alertou",
+    "path":"sprites/alertou/alertou.yy",
   },
   "spriteMaskId":null,
   "visible":true,

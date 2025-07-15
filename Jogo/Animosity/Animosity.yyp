@@ -90,6 +90,7 @@
   },
   "name":"Animosity",
   "resources":[
+    {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"hitbox_atkleve1","path":"objects/hitbox_atkleve1/hitbox_atkleve1.yy",},},
     {"id":{"name":"Ini_bat","path":"objects/Ini_bat/Ini_bat.yy",},},
     {"id":{"name":"Ini_rato","path":"objects/Ini_rato/Ini_rato.yy",},},
@@ -104,6 +105,7 @@
     {"id":{"name":"obj_Options_Menu","path":"objects/obj_Options_Menu/obj_Options_Menu.yy",},},
     {"id":{"name":"obj_Pause_Menu","path":"objects/obj_Pause_Menu/obj_Pause_Menu.yy",},},
     {"id":{"name":"obj_Pause","path":"objects/obj_Pause/obj_Pause.yy",},},
+    {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},},
     {"id":{"name":"obj_Tela_Inicial","path":"objects/obj_Tela_Inicial/obj_Tela_Inicial.yy",},},
     {"id":{"name":"obj_vida_b1","path":"objects/obj_vida_b1/obj_vida_b1.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
@@ -176,6 +178,7 @@
     {"id":{"name":"spr_bat_hit","path":"sprites/spr_bat_hit/spr_bat_hit.yy",},},
     {"id":{"name":"spr_bat_idle","path":"sprites/spr_bat_idle/spr_bat_idle.yy",},},
     {"id":{"name":"spr_die_tr","path":"sprites/spr_die_tr/spr_die_tr.yy",},},
+    {"id":{"name":"spr_fogueira","path":"sprites/spr_fogueira/spr_fogueira.yy",},},
     {"id":{"name":"spr_idle_tr","path":"sprites/spr_idle_tr/spr_idle_tr.yy",},},
     {"id":{"name":"spr_nome","path":"sprites/spr_nome/spr_nome.yy",},},
     {"id":{"name":"spr_run_tr","path":"sprites/spr_run_tr/spr_run_tr.yy",},},
