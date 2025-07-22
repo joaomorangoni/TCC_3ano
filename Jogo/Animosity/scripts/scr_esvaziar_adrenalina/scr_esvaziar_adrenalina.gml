@@ -1,13 +1,11 @@
 function scr_esvaziar_adrenalina(){
 	
-	var entidade = argument0;
+	if (adr > 0)
+	{
+	    // Diminui a adrenalina aos poucos
+	    adr -= 0.25;
 
-if (entidade.adr > 0)
-{
-    // Diminui a adrenalina aos poucos
-    entidade.adr -= 0.25;
-
-    // Garante que nunca vai abaixo de 0
-    entidade.adr = max(entidade.adr, 0);
-}
+	    // Garante que nunca vai abaixo de 0
+	    adr = max(adr, 0);
+	}
 }

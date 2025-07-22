@@ -1,62 +1,27 @@
 event_inherited()
 
-// Velocidades
+// Triggers --------------------------------
 
-velh = 0;
-velv = 0;
-vel = 3;
-grav = 0.4;
-vel_jump = 9;
-
-// Dano e tempo stun
-
-dano = false;
-ataque = false;
-tempo_dano = 30;
-timer_dano = 0;
-dano_recebido = 0.5;
-_morreu = false;
-
-//invencibilidade
-
-inv_tempo = 45;
-inv_timer = 0;
-
-// Inputs 
-
-global.inputs = {
-	left  : ord("A"),
-	right : ord("D"),
-	jump  : vk_space,
-	dashin  : vk_shift,
-	//dashin  : ord("Q"),
-	atk_leve : mb_left,
-	interact : ord("X")
-}
-
+control = true;
 estado = estado_player.livre;
+attack = false;
+dano = false;
+iframe = false;
 
-// Atributos
+// Atributos -------------------------------
 
 vida = 5;
 vida_max = 5;
 adr = 0;
 adr_max = 100;
 adr_dano = 20;
-tempo_adr = 0;
+vel_jump = 9;
+vel = 3.5;
 
-// Skills
+// Cooldowns -------------------------------
 
-hbx_leve = hitbox_atkleve1;
-dashp = false;
-dash_cd = 10;
-reset_jump = true;
-
-// Permissões
-
-doublejump = true;
-
-
-
-
+cd_dash = 0;
+cd_dano = 0;
+cd_inv = 0;
+cd_adr = 0;
 

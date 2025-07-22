@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_chamarfade",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_chamarfade",
+  "parent":{
+    "name":"geral",
+    "path":"folders/Scripts/geral.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

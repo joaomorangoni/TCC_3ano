@@ -1,0 +1,1 @@
+tangivel = false;

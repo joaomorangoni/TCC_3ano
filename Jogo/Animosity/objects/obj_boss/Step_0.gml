@@ -1,5 +1,5 @@
 var _player = instance_place(x, y, Player);
-var _Dano = instance_place(x, y, hitbox_atkleve1);
+var _Dano = instance_place(x, y, hb_sword_1);
 var play = instance_find(Player, 0);
 
 if (global.pause) {

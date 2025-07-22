@@ -1,23 +1,16 @@
-if (sprite_index == Hit) {
-	// Quando terminar a animação de dano, libera o personagem
-	dano = false;
-	ataque = false; // Garante que o ataque também é cancelado
-	}
-	
-if (sprite_index == Sequencia_Ataque1) {
-    ataque = false;
+if (sprite_index == spr_base_atk || sprite_index = spr_run_atk)
+{
+	attack = false;
 }
 
-if (sprite_index == Ataque_correndo) {
-    ataque = false;
-}
-
-if (sprite_index == Morrendo) {
-	_morreu = true;
-}
-
-if (sprite_index == dash) {
-	dashp = false;
+if (sprite_index == spr_dash)
+{
 	estado = estado_player.livre;
-	grav = 0.4;
+}
+
+if (sprite_index == spr_die)
+{
+	image_index = 5;
+	image_speed = 0;
+	image_alpha -= 0.2;
 }
