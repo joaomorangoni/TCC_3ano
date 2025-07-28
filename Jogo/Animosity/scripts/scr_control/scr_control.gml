@@ -7,21 +7,37 @@ function scr_control(){
 	var	_dash = keyboard_check_pressed(global.inputs.dashin);
 	var	_atk_1 = mouse_check_button_pressed(global.inputs.atk_leve);
 	var	_int = keyboard_check_pressed(global.inputs.interact);
+	var _crouch = keyboard_check(global.inputs.crouch);
 	
 // Controles -------------------------------------------------
 	if (_chao) {
 		
-		if (_jump)
+		if (!agachado)
 		{
-			velv = -vel_jump;
+			if (_jump)
+			{
+				velv = -vel_jump;
+			}
+		}
+		if (_crouch)
+		{
+			agachado = true;
+			velh = 0;
+		}
+		else
+		{
+			agachado = false;
 		}
 	}
 	else
 	{
-		
+		agachado = false;
 	}
 	
-	velh = (_right - _left) * vel;
+	if (!agachado)
+	{
+		velh = (_right - _left) * vel;
+	}
 	
 	if (attack) // Chamar hitbox
 	{
@@ -54,6 +70,7 @@ function scr_control(){
 		{
 			if (velv > 0)
 			{
+				agachado = false;
 				sprite_index = spr_fall;
 			}
 			else if (velv < 0)
@@ -76,6 +93,11 @@ function scr_control(){
 			image_xscale = sign(velh);
 			image_index = 0;
 			image_speed = 1;
+		}
+		
+		if (agachado)
+		{
+			sprite_index = spr_crouch;
 		}
 	}
 }

@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_platform",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_platform",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"colisões",
     "path":"folders/Objetos/colisões.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_chao",
+    "path":"objects/obj_chao/obj_chao.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,9 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"alertou",
-    "path":"sprites/alertou/alertou.yy",
+    "name":"Platform_Col",
+    "path":"sprites/Platform_Col/Platform_Col.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -7,6 +7,7 @@ estado = estado_player.livre;
 attack = false;
 dano = false;
 iframe = false;
+agachado = false;
 
 // Atributos -------------------------------
 
