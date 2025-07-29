@@ -78,23 +78,25 @@ function scr_control(){
 				sprite_index = spr_jump;
 			}
 		}
-		if ( _atk_1 && velh == 0) // Ataque parado
+		if (!agachado)
 		{
-			attack = true;
-			sprite_index = spr_base_atk;
-			image_speed = 1;
+			if ( _atk_1 && velh == 0) // Ataque parado
+			{
+				attack = true;
+				sprite_index = spr_base_atk;
+				image_speed = 1;
 		
-		}
+			}
 	
-		if (_atk_1 && velh != 0) // Ataque correndo
-		{
-			attack = true;
-			sprite_index = spr_run_atk;
-			image_xscale = sign(velh);
-			image_index = 0;
-			image_speed = 1;
+			if (_atk_1 && velh != 0) // Ataque correndo
+			{
+				attack = true;
+				sprite_index = spr_run_atk;
+				image_xscale = sign(velh);
+				image_index = 0;
+				image_speed = 1;
+			}
 		}
-		
 		if (agachado)
 		{
 			sprite_index = spr_crouch;

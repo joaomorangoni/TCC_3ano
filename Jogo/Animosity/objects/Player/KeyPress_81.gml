@@ -1,0 +1,1 @@
+show_debug_message("Player pos: x = " + string(x) + ", y = " + string(y));

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_start_transition",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_start_transition",
+  "parent":{
+    "name":"geral",
+    "path":"folders/Scripts/geral.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

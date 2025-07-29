@@ -1,3 +1,3 @@
-dir = 1; // 0 = esquerda, 1 = direita, 2 = cima/baixo
-passou = false;
-destino = noone;
+target_room = Sala_Porto_Seguro // substitua pelo nome real
+target_x = 11; // onde o jogador deve aparecer
+target_y = 320.40;

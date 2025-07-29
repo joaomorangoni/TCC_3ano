@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_troca_sala",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_portal",
+  "eventList":[],
   "managed":true,
-  "name":"obj_troca_sala",
+  "name":"obj_portal",
   "overriddenProperties":[],
   "parent":{
     "name":"triggers",
@@ -31,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Dmg_Col",
-    "path":"sprites/Dmg_Col/Dmg_Col.yy",
+    "name":"spr_portal",
+    "path":"sprites/spr_portal/spr_portal.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
