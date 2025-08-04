@@ -1,3 +1,7 @@
+// Controle Portas ------------------------------------------
+
+
+// Transição ------------------------------------------------
 if (global.is_transitioning) {
     // Fade out
     global.transition_alpha += global.transition_speed;

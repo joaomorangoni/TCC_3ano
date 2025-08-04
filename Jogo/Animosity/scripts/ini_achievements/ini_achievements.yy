@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_ini_achievements",
+  "%Name":"ini_achievements",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_ini_achievements",
+  "name":"ini_achievements",
   "parent":{
     "name":"initializer",
     "path":"folders/Scripts/initializer.yy",

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_ini_controllers",
+  "%Name":"ini_controllers",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_ini_controllers",
+  "name":"ini_controllers",
   "parent":{
     "name":"initializer",
     "path":"folders/Scripts/initializer.yy",
