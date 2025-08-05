@@ -1,3 +1,3 @@
-target_room = Sala_Porto_Seguro 
-target_x = 11; 
-target_y = 320.40;
+target_room = noone; 
+target_x = 0; 
+target_y = 0;
