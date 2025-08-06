@@ -16,7 +16,7 @@ vida_max = 5;
 adr = 0;
 adr_max = 100;
 adr_dano = 20;
-vel_jump = 9.5;
+vel_jump = 9.8;
 vel = 3.5;
 
 // Cooldowns -------------------------------
