@@ -6,7 +6,6 @@ function scr_control(){
 	var	_jump = keyboard_check_pressed(global.inputs.jump);
 	var	_dash = keyboard_check_pressed(global.inputs.dashin);
 	var	_atk_1 = mouse_check_button_pressed(global.inputs.atk_leve);
-	var	_int = keyboard_check_pressed(global.inputs.interact);
 	var _crouch = keyboard_check(global.inputs.crouch);
 	
 // Controles -------------------------------------------------
