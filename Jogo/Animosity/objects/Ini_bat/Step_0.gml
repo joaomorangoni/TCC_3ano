@@ -1,5 +1,5 @@
 event_inherited()
-var _col = instance_place(x + velh, y, obj_chao);
+var _col = instance_place(x + velh, y, obj_col);
 
 if (global.pause) {
 	image_speed = 0;

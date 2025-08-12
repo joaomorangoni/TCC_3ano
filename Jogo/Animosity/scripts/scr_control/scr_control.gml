@@ -1,6 +1,6 @@
 function scr_control(){
 // Variaveis -------------------------------------------------
-	var _chao = place_meeting(x, y + 1, obj_chao);
+	var _chao = place_meeting(x, y + 1, obj_col);
 	var	_left = keyboard_check(global.inputs.left);
 	var	_right = keyboard_check(global.inputs.right);
 	var	_jump = keyboard_check_pressed(global.inputs.jump);

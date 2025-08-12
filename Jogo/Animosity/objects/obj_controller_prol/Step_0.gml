@@ -8,7 +8,7 @@ if(player_p){
 		if(porta.target_room != Sala_Porto_Seguro)
 		{
 			porta.target_room = Sala_Porto_Seguro;
-			porta.target_x = 11; 
+			porta.target_x = 13; 
 			porta.target_y = 320.40;
 		}
 	}

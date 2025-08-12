@@ -1,5 +1,5 @@
 event_inherited()
-var _chao = place_meeting(x, y + 1, obj_chao)
+var _chao = place_meeting(x, y + 1, obj_col)
 
 if (global.pause) {
 	image_speed = 0;

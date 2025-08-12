@@ -7,7 +7,7 @@ function scr_alerta()
 		var _alertt = 200; //distância de alerta, era 200
 		var dist = point_distance(_inimigo.x, _inimigo.y, _player.x, _player.y);
 	
-		if (dist <= _alertt && !_player._morreu) 
+		if (dist <= _alertt && _player.vida > 0) 
 		 {
 	        _inimigo.alerta = true; 
 			//_inimigo.estado = estado_inimigos.alerta;

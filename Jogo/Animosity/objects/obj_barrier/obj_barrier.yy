@@ -3,7 +3,9 @@
   "%Name":"obj_barrier",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":84,"eventType":5,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":72,"eventType":10,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_barrier",
@@ -13,8 +15,8 @@
     "path":"folders/Objetos/colisões.yy",
   },
   "parentObjectId":{
-    "name":"obj_chao",
-    "path":"objects/obj_chao/obj_chao.yy",
+    "name":"obj_col",
+    "path":"objects/obj_col/obj_col.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,9 +36,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"parou",
-    "path":"sprites/parou/parou.yy",
+    "name":"spr_barrier_m1",
+    "path":"sprites/spr_barrier_m1/spr_barrier_m1.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

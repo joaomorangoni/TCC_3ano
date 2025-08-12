@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Cenario",
-    "path":"folders/Sprites/Cenario.yy",
+    "name":"transicoes",
+    "path":"folders/Sprites/Cenario/transicoes.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
