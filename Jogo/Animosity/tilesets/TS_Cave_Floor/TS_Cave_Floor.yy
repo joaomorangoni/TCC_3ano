@@ -1,14 +1,14 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TS_Pri_Area_M1",
+  "%Name":"TS_Cave_Floor",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TS_Pri_Area_M1",
-  "out_columns":15,
+  "name":"TS_Cave_Floor",
+  "out_columns":16,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Pri_Area_1",
-    "path":"sprites/Pri_Area_1/Pri_Area_1.yy",
+    "name":"Cave_Floor",
+    "path":"sprites/Cave_Floor/Cave_Floor.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":32,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":228,
+  "tile_count":247,
 }
