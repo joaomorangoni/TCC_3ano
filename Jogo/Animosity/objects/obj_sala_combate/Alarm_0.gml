@@ -1,7 +1,7 @@
 if (inimigos_spawnados < inimigos_totais) {
     var tipo = lista_inimigos[irandom(array_length(lista_inimigos) - 1)];
-    var offset_x = random_range(64, 384);
-    var offset_y = random_range(270, 275);
+    var offset_x = random_range(x1, x2);
+    var offset_y = random_range(y1, y1);
 
     var inimigo = instance_create_layer(x + offset_x, y + offset_y, "Inimigos", tipo);
 

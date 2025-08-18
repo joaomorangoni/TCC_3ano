@@ -32,10 +32,7 @@ if (!instance_exists(obj_Options_Menu)) {
 
         draw_set_color(c_white);
         draw_text(bx + 20, by + bh/2, item.text);
+		
+		draw_text(10, 750, "v0.1.0");
     }
 }
-
-// Info de desenvolvedor
-draw_set_color(c_white);
-draw_text(8, display_get_height() - 80, "Nota de desenvolvedor: [G] [H]");
-draw_text(8, display_get_height() - 35, "v0.1.0");
