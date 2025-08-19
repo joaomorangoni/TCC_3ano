@@ -147,6 +147,7 @@
     {"name":"Recompensa2","order":1,"path":"sprites/Recompensa2/Recompensa2.yy",},
     {"name":"Recompensa3","order":2,"path":"sprites/Recompensa3/Recompensa3.yy",},
     {"name":"Recompensa4","order":3,"path":"sprites/Recompensa4/Recompensa4.yy",},
+    {"name":"Spikes_m1","order":6,"path":"sprites/Spikes_m1/Spikes_m1.yy",},
     {"name":"spr_base_atk","order":2,"path":"sprites/spr_base_atk/spr_base_atk.yy",},
     {"name":"spr_bat_die","order":2,"path":"sprites/spr_bat_die/spr_bat_die.yy",},
     {"name":"spr_bat_hit","order":1,"path":"sprites/spr_bat_hit/spr_bat_hit.yy",},
@@ -168,5 +169,6 @@
     {"name":"TS_Background_m1","order":3,"path":"tilesets/TS_Background_m1/TS_Background_m1.yy",},
     {"name":"TS_Cave_Floor","order":1,"path":"tilesets/TS_Cave_Floor/TS_Cave_Floor.yy",},
     {"name":"TS_Platform_Sp","order":2,"path":"tilesets/TS_Platform_Sp/TS_Platform_Sp.yy",},
+    {"name":"TS_Spikes_m1","order":4,"path":"tilesets/TS_Spikes_m1/TS_Spikes_m1.yy",},
   ],
 }
