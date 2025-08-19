@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Pri_Area",
-    "path":"folders/Objetos/Inimigos/Pri_Area.yy",
+    "path":"folders/Objetos/characters/Inimigos/Pri_Area.yy",
   },
   "parentObjectId":{
     "name":"obj_inimigos",

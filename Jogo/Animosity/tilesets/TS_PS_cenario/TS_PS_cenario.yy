@@ -1,14 +1,14 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TS_PS_Floor",
+  "%Name":"TS_PS_cenario",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TS_PS_Floor",
-  "out_columns":16,
+  "name":"TS_PS_cenario",
+  "out_columns":5,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_Floor_m1",
-    "path":"sprites/spr_Floor_m1/spr_Floor_m1.yy",
+    "name":"spr_PS_cenario",
+    "path":"sprites/spr_PS_cenario/spr_PS_cenario.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -32,7 +32,7 @@
   "tilehsep":0,
   "tilevsep":0,
   "tileWidth":32,
-  "tilexoff":0,
+  "tilexoff":16,
   "tileyoff":0,
-  "tile_count":247,
+  "tile_count":24,
 }

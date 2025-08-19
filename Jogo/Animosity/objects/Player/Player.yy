@@ -13,7 +13,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Jogador",
-    "path":"folders/Objetos/Jogador.yy",
+    "path":"folders/Objetos/characters/Jogador.yy",
   },
   "parentObjectId":{
     "name":"obj_entidade",

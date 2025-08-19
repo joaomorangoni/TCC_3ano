@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"sword_1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_gato",
+  "eventList":[],
   "managed":true,
-  "name":"sword_1",
+  "name":"obj_gato",
   "overriddenProperties":[],
   "parent":{
-    "name":"attacks",
-    "path":"folders/Objetos/characters/Jogador/attacks.yy",
+    "name":"secundarios",
+    "path":"folders/Objetos/characters/secundarios.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_sword_atk",
-    "path":"sprites/spr_sword_atk/spr_sword_atk.yy",
+    "name":"spr_gato",
+    "path":"sprites/spr_gato/spr_gato.yy",
   },
   "spriteMaskId":null,
   "visible":true,
