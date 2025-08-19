@@ -106,7 +106,6 @@
     {"name":"Sala_Neutra_v1","order":9,"path":"rooms/Sala_Neutra_v1/Sala_Neutra_v1.yy",},
     {"name":"Sala_Porto_Seguro","order":8,"path":"rooms/Sala_Porto_Seguro/Sala_Porto_Seguro.yy",},
     {"name":"Sala_Prol","order":6,"path":"rooms/Sala_Prol/Sala_Prol.yy",},
-    {"name":"Sala_Teste_Boss","order":3,"path":"rooms/Sala_Teste_Boss/Sala_Teste_Boss.yy",},
     {"name":"Sala_Teste_Entidades","order":1,"path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},
     {"name":"ini_config","order":3,"path":"scripts/ini_config/ini_config.yy",},
     {"name":"ini_controllers","order":1,"path":"scripts/ini_controllers/ini_controllers.yy",},

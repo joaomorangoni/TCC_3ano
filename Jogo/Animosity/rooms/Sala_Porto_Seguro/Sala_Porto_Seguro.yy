@@ -46,8 +46,9 @@
       ],"layers":[],"name":"Colisores","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"cenario","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"cenario","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":40,"TileCompressedData":[
           -107,-2147483648,-3,0,-37,-2147483648,-3,0,-37,-2147483648,-3,0,-56,-2147483648,-3,0,-2,-2147483648,
-          -3,0,-3,-2147483648,-2,0,-25,-2147483648,-18,0,3,-2147483648,10,11,-3,0,-16,-2147483648,-3,0,-2,-2147483648,
-          -13,0,3,-2147483648,16,17,-3,0,-16,-2147483648,-3,0,-2,-2147483648,-13,0,-3,-2147483648,-3,0,-92,-2147483648,
+          -3,0,-3,-2147483648,-2,0,-25,-2147483648,4,0,6,7,8,-10,0,7,6,7,8,0,-2147483648,10,11,-3,0,-16,-2147483648,
+          5,0,12,13,14,-2147483648,-9,0,7,12,13,14,0,-2147483648,16,17,-3,0,-16,-2147483648,5,0,18,19,20,-2147483648,
+          -9,0,4,18,19,20,0,-3,-2147483648,-3,0,-92,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TS_PS_cenario","path":"tilesets/TS_PS_cenario/TS_PS_cenario.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Texturas","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Texturas","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":40,"TileCompressedData":[
           42,230,231,232,233,234,0,236,237,229,230,231,232,233,234,235,236,237,216,217,218,210,211,212,213,214,

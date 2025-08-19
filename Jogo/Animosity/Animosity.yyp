@@ -140,7 +140,6 @@
     {"id":{"name":"Sala_Neutra_v1","path":"rooms/Sala_Neutra_v1/Sala_Neutra_v1.yy",},},
     {"id":{"name":"Sala_Porto_Seguro","path":"rooms/Sala_Porto_Seguro/Sala_Porto_Seguro.yy",},},
     {"id":{"name":"Sala_Prol","path":"rooms/Sala_Prol/Sala_Prol.yy",},},
-    {"id":{"name":"Sala_Teste_Boss","path":"rooms/Sala_Teste_Boss/Sala_Teste_Boss.yy",},},
     {"id":{"name":"Sala_Teste_Entidades","path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},},
     {"id":{"name":"ini_achievements","path":"scripts/ini_achievements/ini_achievements.yy",},},
     {"id":{"name":"ini_config","path":"scripts/ini_config/ini_config.yy",},},
@@ -239,7 +238,6 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Sala_Menu","path":"rooms/Sala_Menu/Sala_Menu.yy",},},
     {"roomId":{"name":"Sala_Prol","path":"rooms/Sala_Prol/Sala_Prol.yy",},},
-    {"roomId":{"name":"Sala_Teste_Boss","path":"rooms/Sala_Teste_Boss/Sala_Teste_Boss.yy",},},
     {"roomId":{"name":"Sala_Teste_Entidades","path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},},
     {"roomId":{"name":"Sala_Conquistas","path":"rooms/Sala_Conquistas/Sala_Conquistas.yy",},},
     {"roomId":{"name":"Sala_Modelo","path":"rooms/Sala_Modelo/Sala_Modelo.yy",},},
