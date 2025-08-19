@@ -1,3 +1,32 @@
+if (show_level_name) {
+    switch (level_state) {
+        case 0: // Fade in
+            alpha += fade_speed;
+            if (alpha >= 1) {
+                alpha = 1;
+                level_state = 1;
+                level_timer = visible_time;
+            }
+            break;
+
+        case 1: // Visível
+            level_timer -= 1;
+            if (level_timer <= 0) {
+                level_state = 2;
+            }
+            break;
+
+        case 2: // Fade out
+            alpha -= fade_speed;
+            if (alpha <= 0) {
+                alpha = 0;
+                level_state = 3;
+                show_level_name = false; // Desativa completamente
+            }
+            break;
+    }
+}
+
 if (room == salav.v1) // ------------------------------------------
 {
 	var combat1 = instance_find(obj_sala_combate, 0)

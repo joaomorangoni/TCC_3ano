@@ -1,17 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_controller_neutra",
+  "%Name":"obj_fonte",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_controller_neutra",
+  "name":"obj_fonte",
   "overriddenProperties":[],
   "parent":{
-    "name":"control_fases",
-    "path":"folders/Objetos/Controller/control_fases.yy",
+    "name":"Interagiveis",
+    "path":"folders/Objetos/Interagiveis.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_fonte",
+    "path":"sprites/spr_fonte/spr_fonte.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

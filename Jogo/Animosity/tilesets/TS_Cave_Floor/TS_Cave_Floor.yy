@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Cave_Floor",
-    "path":"sprites/Cave_Floor/Cave_Floor.yy",
+    "name":"spr_Cave_Floor",
+    "path":"sprites/spr_Cave_Floor/spr_Cave_Floor.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

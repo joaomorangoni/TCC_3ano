@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Platform_Sp",
-    "path":"sprites/Platform_Sp/Platform_Sp.yy",
+    "name":"spr_Platform_Sp",
+    "path":"sprites/spr_Platform_Sp/spr_Platform_Sp.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
