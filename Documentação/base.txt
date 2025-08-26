@@ -1,0 +1,13 @@
+* Narrador:
+- introdução
+- chegada a area da ansiedade
+- batalha contra a ansiedade (inicio)
+- batalha contra a ansiedade (meio - minigame de relaxamento)
+- batalha contra a ansiedade (final)
+
+* psicologa:
+- conhecendo
+- 3 dialogos base para interações no porto seguro
+
+* Linhas de dialogo para npcs coletáveis inspirados em nossos amigos (mín 5) {deve haver respostas para que o jogador o ajude}f
+
