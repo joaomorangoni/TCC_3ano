@@ -134,6 +134,7 @@
     {"id":{"name":"sword_1","path":"objects/sword_1/sword_1.yy",},},
     {"id":{"name":"Time_Lapse","path":"objects/Time_Lapse/Time_Lapse.yy",},},
     {"id":{"name":"Time_rat","path":"objects/Time_rat/Time_rat.yy",},},
+    {"id":{"name":"Sala_ans_v1","path":"rooms/Sala_ans_v1/Sala_ans_v1.yy",},},
     {"id":{"name":"Sala_Conquistas","path":"rooms/Sala_Conquistas/Sala_Conquistas.yy",},},
     {"id":{"name":"Sala_Menu","path":"rooms/Sala_Menu/Sala_Menu.yy",},},
     {"id":{"name":"Sala_Modelo","path":"rooms/Sala_Modelo/Sala_Modelo.yy",},},
@@ -243,6 +244,7 @@
     {"roomId":{"name":"Sala_Modelo","path":"rooms/Sala_Modelo/Sala_Modelo.yy",},},
     {"roomId":{"name":"Sala_Porto_Seguro","path":"rooms/Sala_Porto_Seguro/Sala_Porto_Seguro.yy",},},
     {"roomId":{"name":"Sala_Neutra_v1","path":"rooms/Sala_Neutra_v1/Sala_Neutra_v1.yy",},},
+    {"roomId":{"name":"Sala_ans_v1","path":"rooms/Sala_ans_v1/Sala_ans_v1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

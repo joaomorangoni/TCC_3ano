@@ -99,6 +99,7 @@
     {"name":"obj_troca_sala","order":1,"path":"objects/obj_troca_sala/obj_troca_sala.yy",},
     {"name":"obj_vida_b1","order":5,"path":"objects/obj_vida_b1/obj_vida_b1.yy",},
     {"name":"Player","order":1,"path":"objects/Player/Player.yy",},
+    {"name":"Sala_ans_v1","order":10,"path":"rooms/Sala_ans_v1/Sala_ans_v1.yy",},
     {"name":"Sala_Conquistas","order":4,"path":"rooms/Sala_Conquistas/Sala_Conquistas.yy",},
     {"name":"Sala_Menu","order":2,"path":"rooms/Sala_Menu/Sala_Menu.yy",},
     {"name":"Sala_Modelo","order":7,"path":"rooms/Sala_Modelo/Sala_Modelo.yy",},
