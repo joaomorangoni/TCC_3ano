@@ -29,9 +29,18 @@ if (show_level_name) {
 
 if (room == salav.v1) // ------------------------------------------
 {
+	var portal1 = instance_find(obj_portal, 1)
 	var combat1 = instance_find(obj_sala_combate, 0)
 	var combat2 = instance_find(obj_sala_combate, 1)
 	var combat3 = instance_find(obj_sala_combate, 2)
+// portal para a ansiedade
+	if (instance_exists(portal1))
+	{
+		if (keyboard_check(ord("Q")))
+		{
+			portal1.visible = false;
+		}
+	}
 // Area de combate de cima ---------------------------------------
 	if (instance_exists(combat1))
 	{
