@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ini_achievements",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ini_achievements",
+  "parent":{
+    "name":"initializer",
+    "path":"folders/Scripts/initializer.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

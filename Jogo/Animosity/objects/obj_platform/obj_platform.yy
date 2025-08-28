@@ -12,8 +12,8 @@
     "path":"folders/Objetos/colisões.yy",
   },
   "parentObjectId":{
-    "name":"obj_chao",
-    "path":"objects/obj_chao/obj_chao.yy",
+    "name":"obj_col",
+    "path":"objects/obj_col/obj_col.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ini_config",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ini_config",
+  "parent":{
+    "name":"initializer",
+    "path":"folders/Scripts/initializer.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

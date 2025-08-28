@@ -27,5 +27,4 @@ if (!instance_exists(obj_Options_Menu)) {
 }
 
 // Teclas de atalho para desenvolvedor
-if (keyboard_check_pressed(ord("G"))) room_goto(Sala_Teste_Boss);
-if (keyboard_check_pressed(ord("H"))) room_goto(Sala_Teste_Entidades);
+if (keyboard_check_pressed(ord("G"))) room_goto(Sala_Neutra_v1);

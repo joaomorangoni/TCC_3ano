@@ -11,7 +11,10 @@
     "name":"colisões",
     "path":"folders/Objetos/colisões.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_col",
+    "path":"objects/obj_col/obj_col.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Col",
-    "path":"sprites/Col/Col.yy",
+    "name":"Chao",
+    "path":"sprites/Chao/Chao.yy",
   },
   "spriteMaskId":null,
   "visible":false,

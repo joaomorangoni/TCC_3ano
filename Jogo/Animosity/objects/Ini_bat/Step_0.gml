@@ -1,5 +1,5 @@
 event_inherited()
-var _col = instance_place(x + velh, y, obj_chao);
+var _col = instance_place(x + velh, y, obj_col);
 
 if (global.pause) {
 	image_speed = 0;
@@ -14,10 +14,13 @@ scr_alerta(self, Player);
 
 if (estado == estado_inimigos.livre)
 {
+	if (velh != 0)
+	{
+		image_xscale = sign(velh);
+	}
 	if(!alerta)
 	{
 		velv = 0;
-		
 		if (timer_decisao <= 0)
 		{
 			timer_decisao = 120;

@@ -1,6 +1,6 @@
 event_inherited()
 
-vida = 5;
+vida = 3;
 dano_inimigo = 1;
 dano = false;
 morto = false;
@@ -9,6 +9,6 @@ alerta = false;
 
 iframe = 30;
 timer_decisao = 0;
-vel = 1.2;
+vel = 2.2;
 
 estado = estado_inimigos.livre;

@@ -6,8 +6,8 @@ if (_player && !usada) {
     ativa = true;
 
     with (obj_barrier) {
-        visible = true;
         tangivel = true;
+		ativada = true;
     }
 
     // Começa o spawn via alarm
@@ -19,7 +19,7 @@ if (ativa && inimigos_restantes <= 0 && inimigos_spawnados == inimigos_totais) {
     ativa = false;
 
     with (obj_barrier) {
-        visible = false;
         tangivel = false;
+		ativada = false;
     }
 }

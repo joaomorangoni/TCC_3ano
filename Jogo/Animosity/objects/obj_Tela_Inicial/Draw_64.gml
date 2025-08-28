@@ -9,8 +9,8 @@ draw_sprite_ext(spr_nome, floor(logo_frame), logo_x, 30, 2, 2, 0, c_white, 1);
 
 // Desenhar fogueira animada no canto inferior direito
 var fog_margin = 30;
-var fog_x = display_get_width() - sprite_get_width(spr_fogueira) - fog_margin;
-var fog_y = display_get_height() - sprite_get_height(spr_fogueira) - fog_margin;
+var fog_x = 900
+var fog_y = 250
 draw_sprite(spr_fogueira, floor(current_time div 100) mod sprite_get_number(spr_fogueira), fog_x, fog_y);
 
 // Desenhar os botões
@@ -32,10 +32,7 @@ if (!instance_exists(obj_Options_Menu)) {
 
         draw_set_color(c_white);
         draw_text(bx + 20, by + bh/2, item.text);
+		
+		draw_text(10, 750, "v0.1.0");
     }
 }
-
-// Info de desenvolvedor
-draw_set_color(c_white);
-draw_text(8, display_get_height() - 80, "Nota de desenvolvedor: [G] [H]");
-draw_text(8, display_get_height() - 35, "v0.1.0");

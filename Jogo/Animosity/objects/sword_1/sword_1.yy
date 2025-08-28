@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"attacks",
-    "path":"folders/Objetos/Jogador/attacks.yy",
+    "path":"folders/Objetos/characters/Jogador/attacks.yy",
   },
   "parentObjectId":null,
   "persistent":false,
