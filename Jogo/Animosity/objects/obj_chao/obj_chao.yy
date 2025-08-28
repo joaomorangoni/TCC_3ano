@@ -37,5 +37,5 @@
     "path":"sprites/Chao/Chao.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
