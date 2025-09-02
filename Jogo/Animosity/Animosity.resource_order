@@ -141,7 +141,6 @@
     {"name":"Platform_Col","order":2,"path":"sprites/Platform_Col/Platform_Col.yy",},
     {"name":"rato_caindo","order":3,"path":"sprites/rato_caindo/rato_caindo.yy",},
     {"name":"rato_morto","order":4,"path":"sprites/rato_morto/rato_morto.yy",},
-    {"name":"rato_parado","order":2,"path":"sprites/rato_parado/rato_parado.yy",},
     {"name":"rato_sofrendodano","order":1,"path":"sprites/rato_sofrendodano/rato_sofrendodano.yy",},
     {"name":"Recompensa2","order":1,"path":"sprites/Recompensa2/Recompensa2.yy",},
     {"name":"Recompensa3","order":2,"path":"sprites/Recompensa3/Recompensa3.yy",},

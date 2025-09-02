@@ -35,5 +35,5 @@
     "path":"sprites/Dmg_Col/Dmg_Col.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

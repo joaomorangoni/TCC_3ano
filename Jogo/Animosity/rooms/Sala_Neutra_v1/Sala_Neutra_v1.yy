@@ -97,7 +97,6 @@
     {"name":"inst_3E735D69","path":"rooms/Sala_Neutra_v1/Sala_Neutra_v1.yy",},
     {"name":"inst_326FC418","path":"rooms/Sala_Neutra_v1/Sala_Neutra_v1.yy",},
     {"name":"inst_69568CCF","path":"rooms/Sala_Neutra_v1/Sala_Neutra_v1.yy",},
-    {"name":"inst_19DBD1F","path":"rooms/Sala_Neutra_v1/Sala_Neutra_v1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -204,7 +203,6 @@
         {"$GMRInstance":"v2","%Name":"inst_56302D22","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56302D22","objectId":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.3636364,"x":1216.0,"y":544.0,},
         {"$GMRInstance":"v2","%Name":"inst_3E735D69","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E735D69","objectId":{"name":"obj_sala_combate","path":"objects/obj_sala_combate/obj_sala_combate.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":7.0,"scaleY":3.5,"x":3328.0,"y":832.0,},
         {"$GMRInstance":"v2","%Name":"inst_326FC418","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_326FC418","objectId":{"name":"obj_sala_combate","path":"objects/obj_sala_combate/obj_sala_combate.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":7.5,"scaleY":6.0,"x":1792.0,"y":1344.0,},
-        {"$GMRInstance":"v2","%Name":"inst_19DBD1F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_19DBD1F","objectId":{"name":"Player","path":"objects/Player/Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4000.0,"y":1664.0,},
       ],"layers":[],"name":"Colisores","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Platform","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Platform","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":65,"SerialiseWidth":142,"TileCompressedData":[
           -1885,-2147483648,4,155,156,156,157,-9,-2147483648,4,159,160,160,161,-130,-2147483648,1,0,-141,-2147483648,

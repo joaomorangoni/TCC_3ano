@@ -186,7 +186,6 @@
     {"id":{"name":"rato_andando","path":"sprites/rato_andando/rato_andando.yy",},},
     {"id":{"name":"rato_caindo","path":"sprites/rato_caindo/rato_caindo.yy",},},
     {"id":{"name":"rato_morto","path":"sprites/rato_morto/rato_morto.yy",},},
-    {"id":{"name":"rato_parado","path":"sprites/rato_parado/rato_parado.yy",},},
     {"id":{"name":"rato_sofrendodano","path":"sprites/rato_sofrendodano/rato_sofrendodano.yy",},},
     {"id":{"name":"Recompensa1","path":"sprites/Recompensa1/Recompensa1.yy",},},
     {"id":{"name":"Recompensa2","path":"sprites/Recompensa2/Recompensa2.yy",},},

@@ -2,19 +2,19 @@ draw_set_font(fnt_menu);
 draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 draw_set_color(c_white);
-
-// Desenhar logo (mais à esquerda agora)
-var logo_x = 50; // margem esquerda
-draw_sprite_ext(spr_nome, floor(logo_frame), logo_x, 30, 2, 2, 0, c_white, 1);
-
-// Desenhar fogueira animada no canto inferior direito
-var fog_margin = 30;
-var fog_x = 900
-var fog_y = 250
-draw_sprite(spr_fogueira, floor(current_time div 100) mod sprite_get_number(spr_fogueira), fog_x, fog_y);
-
-// Desenhar os botões
 if (!instance_exists(obj_Options_Menu)) {
+	// Desenhar logo (mais à esquerda agora)
+	var logo_x = 50; // margem esquerda
+	draw_sprite_ext(spr_nome, floor(logo_frame), logo_x, 30, 2, 2, 0, c_white, 1);
+
+	// Desenhar fogueira animada no canto inferior direito
+	var fog_margin = 30;
+	var fog_x = 900
+	var fog_y = 250
+	draw_sprite_ext(spr_fogueira, floor(current_time div 100) mod sprite_get_number(spr_fogueira), fog_x, fog_y, 2, 2, 0, c_white, 1)
+
+	// Desenhar os botões
+
     for (var i = 0; i < array_length(menu_items); i++) {
         var item = menu_items[i];
         var bx = start_x;

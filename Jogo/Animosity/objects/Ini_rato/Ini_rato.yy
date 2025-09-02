@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"rato_parado",
-    "path":"sprites/rato_parado/rato_parado.yy",
+    "name":"rato_andando",
+    "path":"sprites/rato_andando/rato_andando.yy",
   },
   "spriteMaskId":null,
   "visible":true,

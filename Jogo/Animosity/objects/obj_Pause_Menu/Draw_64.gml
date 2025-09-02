@@ -34,11 +34,5 @@ for (var i = 0; i < array_length(menu_items); i++) {
     }
 
     draw_text(center_x, item_y, text);
-
-    // === DEBUG: visualize a hitbox do botão ===
-    /*draw_set_alpha(0.25);
-    draw_set_color(c_red);
-    draw_rectangle(box_left, box_top, box_right, box_bottom, false);
-    draw_set_alpha(1);*/
 }
 

@@ -37,5 +37,5 @@
     "path":"sprites/Platform_Col/Platform_Col.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

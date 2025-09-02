@@ -1,4 +1,4 @@
-
+	draw_set_font(fnt_menu)
     // Pega as dimensões da GUI atual
     var gui_w = display_get_gui_width();
     var gui_h = display_get_gui_height();
@@ -47,10 +47,10 @@
             if (mouse_check_button_pressed(mb_left)) {
                 switch(option) {
                     case 0: 
-                        room_goto(Sala_Prol);
+                        game_restart();
                         break;
                     case 1: 
-                       room_goto(Sala_Menu);
+                       game_end();
                         break;
 				}
 			}
