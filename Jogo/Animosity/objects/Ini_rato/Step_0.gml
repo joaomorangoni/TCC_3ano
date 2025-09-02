@@ -20,10 +20,10 @@ if (estado == estado_inimigos.livre)
 		if (timer_decisao_andar <= 0)
 		{
 			velh = choose(vel, -vel)
-			timer_decisao_andar = 180;
+			timer_decisao_andar = 90;
 			image_xscale = sign(velh);
 		}
-		if (place_meeting(x + velh, y, obj_chao))
+		if (place_meeting(x + velh, y, obj_chao) || !place_meeting(x + velh * 5, y + 1, obj_chao))
 		{
 			velh *= -1;
 			image_xscale = sign(velh);
@@ -52,9 +52,10 @@ if (estado == estado_inimigos.dano)
 		        sprite_index = rato_sofrendodano;
 		        image_index = 0;
 		    }
-		velh = 0;
+		velh = vel/2;
 		velv = 0;
 }
+
 if (estado == estado_inimigos.morto)
 {
 	sprite_index = rato_morto;

@@ -2,7 +2,7 @@
 event_inherited();
 
 //Decidindo sua direção
-vel = 1.8;
+vel = 2.1;
 dano_inimigo = 1;
 vida = 5;
-timer_decisao_andar = 180; 
+timer_decisao_andar = 30; 
