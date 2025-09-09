@@ -1,0 +1,1 @@
+start_transition(Sala_ans_boss, 90, 171);

@@ -1,0 +1,1 @@
+start_transition(Sala_ans_v2, 69, 1088);

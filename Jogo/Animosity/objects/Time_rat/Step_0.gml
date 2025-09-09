@@ -87,20 +87,20 @@ if (estado == estado_boss.ataque_2)
 		if (ts)
 		{
 			ts = false;
-			x = choose(795, 1212);
+			x = choose(600, 1020);
 		}
 	}
-	if (x == 795 || x == 1212)
+	if (x == 600 || x == 1020)
 	{
 		image_alpha += 0.05;
 		ts = true;
 	}
 	
-	if (image_alpha >= 1 && x == 795 && atk)
+	if (image_alpha >= 1 && x == 600 && atk)
 	{
 		velh = vel
 	}
-	if (image_alpha >= 1 && x == 1212 && atk)
+	if (image_alpha >= 1 && x == 1020 && atk)
 	{
 		velh = -vel
 	}
