@@ -1,1 +1,9 @@
-start_transition(Sala_ans_v1, 69, 120);
+var player = instance_find(Player, 0);
+
+if (instance_exists(player)) 
+{
+	  player.x = 69;
+	  player.y = 120;
+}
+	
+room_goto(Sala_ans_v1)

@@ -11,8 +11,8 @@ agachado = false;
 
 // Atributos -------------------------------
 
-vida = 5;
-vida_max = 5;
+vida = 8;
+vida_max = 8;
 adr = 0;
 adr_max = 100;
 adr_dano = 20;

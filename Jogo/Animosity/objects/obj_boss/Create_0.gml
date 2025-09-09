@@ -8,7 +8,7 @@ morto = false;
 dano = false;
 timer_decisao = 180;
 
-dano_leve = 0;
+dano_leve = 1;
 dano_pesado = 0;
 dano_especial = 0;
 

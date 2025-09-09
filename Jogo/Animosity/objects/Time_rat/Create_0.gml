@@ -1,6 +1,6 @@
 vida = 30;
 vida_max = 30;
-vel = 10;
+vel = 6.5;
 velh = 0;
 velv = 0;
 

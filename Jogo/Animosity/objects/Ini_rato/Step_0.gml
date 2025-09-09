@@ -52,7 +52,7 @@ if (estado == estado_inimigos.dano)
 		        sprite_index = rato_sofrendodano;
 		        image_index = 0;
 		    }
-		velh = vel/2;
+		velh = 0;
 		velv = 0;
 }
 
