@@ -1,0 +1,248 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram name="Página-1" id="RCzkGJYYs9-jPXKirjap">
+    <mxGraphModel dx="3039" dy="1210" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uK8a453I1g_zuiDEpBss-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-1" target="uK8a453I1g_zuiDEpBss-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-1" target="uK8a453I1g_zuiDEpBss-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-1" value="Psicologa" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.414;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-2" target="uK8a453I1g_zuiDEpBss-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="250" />
+              <mxPoint x="-140" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-2" target="uK8a453I1g_zuiDEpBss-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-2" target="uK8a453I1g_zuiDEpBss-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="250" />
+              <mxPoint x="710" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-2" value="Sim" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-3" value="Não" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="480" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-9" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;line-height: 107%;&quot;&gt;“Que ótimo, o que gostaria de saber? ”&lt;/span&gt;&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="180" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-11" target="uK8a453I1g_zuiDEpBss-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-170" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-130" y="410" />
+              <mxPoint x="-520" y="410" />
+              <mxPoint x="-520" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-11" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;Como&lt;br&gt;faço para me recuperar?&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-12" target="uK8a453I1g_zuiDEpBss-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-12" target="uK8a453I1g_zuiDEpBss-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="410" />
+              <mxPoint x="700" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-12" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;Quem&lt;br&gt;é você?&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-13" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;Não&lt;br&gt;tenho mais nada a perguntar&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="650" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-17" value="&lt;p class=&quot;MsoListParagraphCxSpFirst&quot;&gt;“Há muitos jeitos de se recuperar dos mais&lt;br&gt;diversos problemas, se você diz dos que fazem o seu corpo tremer, não te deixam&lt;br&gt;dormir e dificultam a sua concentração...”&lt;br&gt;“... nesse caso, atividades físicas, alimentação saudável, técnicas de&lt;br&gt;relaxamento são um bom começo.”&lt;/p&gt;&lt;p class=&quot;MsoListParagraphCxSpLast&quot;&gt;“Agora se você diz aquele que faz seu corpo&lt;br&gt;doer e sangrar, beber da fonte da vida”&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="170" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-20" value="&lt;p class=&quot;MsoListParagraph&quot;&gt;“Eu sou Christina, uma antiga psicóloga do reino, fui capturada tentando resgatar os outros prisioneiros” &lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="300" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-21" target="uK8a453I1g_zuiDEpBss-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-520" y="560" />
+              <mxPoint x="-710" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-21" target="uK8a453I1g_zuiDEpBss-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-21" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;Aonde&lt;br&gt;posso encontrar a fonte da vida?&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-23" value="&lt;p class=&quot;MsoListParagraph&quot;&gt;“Em todo lugar basicamente, sempre em locais seguros... Apenas não deixe nenhum inimigo quebra-las. ”&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="440" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-24" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;Não&lt;br&gt;tenho mais nada a perguntar&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-26" target="uK8a453I1g_zuiDEpBss-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-26" value="Quem os capturou?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-27" target="uK8a453I1g_zuiDEpBss-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="600" />
+              <mxPoint x="260" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-27" value="Prisioneiros?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-30" value="&lt;p class=&quot;MsoListParagraph&quot;&gt;“O povo que restou do reino”&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="490" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-31" value="&lt;span style=&quot;line-height: 107%; font-family: Calibri, sans-serif;&quot;&gt;“Foram capturados pela Iselder, a devastadora de vidas”&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="470" y="490" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-34" target="uK8a453I1g_zuiDEpBss-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="710" />
+              <mxPoint x="700" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-34" target="uK8a453I1g_zuiDEpBss-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-34" value="Quem os capturou?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-36" target="uK8a453I1g_zuiDEpBss-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-36" target="uK8a453I1g_zuiDEpBss-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="710" />
+              <mxPoint x="260" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-36" value="Prisioneiros?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-39" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;Não&lt;br&gt;tenho mais nada a perguntar&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="640" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-44" target="uK8a453I1g_zuiDEpBss-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-520" y="720" />
+              <mxPoint x="-310" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-44" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;Quem&lt;br&gt;é você?&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-46" target="uK8a453I1g_zuiDEpBss-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-46" value="Quem os capturou?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-47" target="uK8a453I1g_zuiDEpBss-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-47" value="Prisioneiros?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-44" target="uK8a453I1g_zuiDEpBss-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-580" y="759" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-520" y="720" />
+              <mxPoint x="-700" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-50" target="uK8a453I1g_zuiDEpBss-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-700" y="1010" />
+              <mxPoint x="-20" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-50" value="Quem os capturou?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-51" target="uK8a453I1g_zuiDEpBss-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-310" y="1010" />
+              <mxPoint x="-20" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-51" value="Prisioneiros?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-54" target="uK8a453I1g_zuiDEpBss-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="850" />
+              <mxPoint x="700" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-54" target="uK8a453I1g_zuiDEpBss-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-54" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;Como&lt;br&gt;faço para me recuperar?&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uK8a453I1g_zuiDEpBss-57" target="uK8a453I1g_zuiDEpBss-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="1010" />
+              <mxPoint x="-20" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-57" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;Aonde&lt;br&gt;posso encontrar a fonte da vida?&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="640" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-59" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;Não&lt;br&gt;tenho mais nada a perguntar&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-61" value="Muito obrigado por tudo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uK8a453I1g_zuiDEpBss-67" value="&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;Eu que agradeço, foi um prazer conhece-lo --,&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp;vou&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-wrap-mode: nowrap; text-align: center;&quot;&gt;permanecer no santuário do&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-wrap-mode: nowrap; text-align: center;&quot;&gt;repouso caso&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;precise da minha ajuda mais tarde.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="1060" width="220" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
