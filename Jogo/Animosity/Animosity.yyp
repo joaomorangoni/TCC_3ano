@@ -177,6 +177,7 @@
     {"id":{"name":"andou","path":"sprites/andou/andou.yy",},},
     {"id":{"name":"atacou","path":"sprites/atacou/atacou.yy",},},
     {"id":{"name":"bg_cave","path":"sprites/bg_cave/bg_cave.yy",},},
+    {"id":{"name":"bg_forest","path":"sprites/bg_forest/bg_forest.yy",},},
     {"id":{"name":"cair","path":"sprites/cair/cair.yy",},},
     {"id":{"name":"Chao","path":"sprites/Chao/Chao.yy",},},
     {"id":{"name":"cheio","path":"sprites/cheio/cheio.yy",},},

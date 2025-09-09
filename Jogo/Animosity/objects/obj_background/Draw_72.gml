@@ -4,8 +4,8 @@ var cam_y = camera_get_view_y(cam);
 var cam_w = camera_get_view_width(cam);
 var cam_h = camera_get_view_height(cam);
 
-var sw = sprite_get_width(bg_cave);
-var sh = sprite_get_height(bg_cave);
+var sw = sprite_get_width(fundo);
+var sh = sprite_get_height(fundo);
 
 var parallax_x = 0.9;
 var parallax_y = 0.9;
@@ -22,4 +22,4 @@ var offset_y = (sh - bg_h) * parallax_y * 0.5;
 var draw_x = cam_x * parallax_x - offset_x + extra_offset_x;
 var draw_y = cam_y * parallax_y - offset_y;
 
-draw_sprite_stretched(bg_cave, 0, draw_x, draw_y, bg_w, bg_h);
+draw_sprite_stretched(fundo, 0, draw_x, draw_y, bg_w, bg_h);

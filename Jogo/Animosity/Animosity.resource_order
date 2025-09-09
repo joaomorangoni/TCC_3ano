@@ -134,6 +134,7 @@
     {"name":"scr_transicao","order":6,"path":"scripts/scr_transicao/scr_transicao.yy",},
     {"name":"alertou","order":4,"path":"sprites/alertou/alertou.yy",},
     {"name":"atacou","order":3,"path":"sprites/atacou/atacou.yy",},
+    {"name":"bg_forest","order":1,"path":"sprites/bg_forest/bg_forest.yy",},
     {"name":"cair","order":1,"path":"sprites/cair/cair.yy",},
     {"name":"Dmg_Col","order":1,"path":"sprites/Dmg_Col/Dmg_Col.yy",},
     {"name":"meio","order":1,"path":"sprites/meio/meio.yy",},
