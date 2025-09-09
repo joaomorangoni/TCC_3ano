@@ -9,8 +9,8 @@ draw_set_alpha(1);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
-var center_x = display_get_width() * 0.5;
-var start_y = display_get_height() * 0.5 - (array_length(menu_items) * menu_spacing) * 0.5;
+var center_x = display_get_width() * 0.43;
+var start_y = display_get_height() * 0.43 - (array_length(menu_items) * menu_spacing) * 0.5;
 
 for (var i = 0; i < array_length(menu_items); i++) {
     var text = menu_items[i].text;

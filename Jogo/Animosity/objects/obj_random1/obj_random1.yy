@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_water",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_random1",
+  "eventList":[],
   "managed":true,
-  "name":"obj_water",
+  "name":"obj_random1",
   "overriddenProperties":[],
   "parent":{
-    "name":"cenario",
-    "path":"folders/Objetos/cenario.yy",
+    "name":"secundarios",
+    "path":"folders/Objetos/characters/secundarios.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_water",
-    "path":"sprites/spr_water/spr_water.yy",
+    "name":"spr_npc1",
+    "path":"sprites/spr_npc1/spr_npc1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
