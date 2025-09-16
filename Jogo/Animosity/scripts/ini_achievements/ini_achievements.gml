@@ -1,7 +1,7 @@
 global.achievements = [
     {
         name: "Diálogo Aberto",
-        unlocked: false,
+        unlocked: true,
         goal: "Conversar com qualquer NPC secundário",
         description: "Falar com alguém já é um avanço"
     },
@@ -19,13 +19,13 @@ global.achievements = [
     },
 	 {
         name: "Água da Calma",
-        unlocked: false,
+        unlocked: true,
         goal: "Beber água de uma fonte 3 vezes.",
         description: "Hidratar-se ajuda mais do que parece."
     },
 	{
         name: "Trilha dos Pequenos Passos",
-        unlocked: false,
+        unlocked: true,
         goal: "Coletar seis conquistas comuns.",
         description: "Celebre pequenas vitórias."
     },
@@ -43,19 +43,19 @@ global.achievements = [
     },
 	{
         name: "Registrar é entender",
-        unlocked: false,
-        goal: "Registre algo pela primeira vez no diário.",
+        unlocked: true,
+        goal: "Observe as estatisticas pela primeira vez.",
         description: "As vezes tudo que precisamos é desabafar"
     },
 	{
         name: "Ajudar é ser ajudado",
-        unlocked: false,
+        unlocked: true,
         goal: "Escolha as opções certas para acalmar um npc.",
         description: "As vezes para ajudar a nós mesmo precisamos ajudar os outros."
     },
 	{
         name: "Brilho da Persistência",
-        unlocked: false,
+        unlocked: true,
         goal: "Vencer qualquer boss sem tomar dano.",
         description: "O esforço importa, mesmo nos dias difíceis."
     },

@@ -14,7 +14,7 @@ dialogue_tree = [
         speaker: "",
         text: "...Tá difícil... mas... ok...",
         options: [
-            {text: "(Ajudar Luan a respirar – mini game de respiração)", next: 4}
+            {text: "(Ajudar Luan a respirar)", next: 4}
         ]
     },
 
@@ -22,8 +22,7 @@ dialogue_tree = [
         speaker: "",
         text: "Eu sei que parece irracional... mas minha cabeça insiste que algo vai dar errado.",
         options: [
-            {text: "Tudo bem sentir isso, mas estou aqui com você. Não precisa enfrentar sozinho.", next: 5},
-            {text: "Vamos tentar focar em algo à nossa volta, só por um momento.", next: 6}
+            {text: "Tudo bem sentir isso, mas estou aqui com você.", next: 5}
         ]
     },
 
@@ -32,11 +31,10 @@ dialogue_tree = [
         text: "Eu... tenho medo de falhar. Parece que, não importa o que eu faça, vou decepcionar todo mundo.",
         options: [
             {text: "Esse medo deve ser muito pesado. Quer que eu só te ouça agora?", next: 7},
-            {text: "Você já percebeu que esse pensamento aparece muito? Talvez possamos pensar em formas de enfrentá-lo.", next: 8}
         ]
     },
 
-    { speaker: "", text: "Eu me sinto... um pouco melhor. Obrigado por não me deixar sozinho nisso.", options: [] },
+    { speaker: "", text: "Eu me sinto... um pouco melhor. Obrigado por não me deixar sozinho.", options: [] },
     { speaker: "", text: "É bom ouvir isso... às vezes sinto que ninguém entende.", options: [] },
     { speaker: "", text: "Ok... vamos tentar focar em algo concreto.", options: [] },
     { speaker: "", text: "Obrigado... só de você estar aqui, já ajuda.", options: [] },
