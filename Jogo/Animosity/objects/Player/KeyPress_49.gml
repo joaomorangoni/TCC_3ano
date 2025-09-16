@@ -1,3 +1,5 @@
+if (control) {
+
 var player = instance_find(Player, 0);
 
 if (instance_exists(player)) 
@@ -6,4 +8,4 @@ if (instance_exists(player))
 	  player.y = 120;
 }
 	
-room_goto(Sala_ans_v1)
+room_goto(Sala_ans_v1)}

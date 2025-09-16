@@ -3,6 +3,7 @@ event_inherited()
 // Triggers --------------------------------
 
 control = true;
+HUD = true;
 estado = estado_player.livre;
 attack = false;
 dano = false;

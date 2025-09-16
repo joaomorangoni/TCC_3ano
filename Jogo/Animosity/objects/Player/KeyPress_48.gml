@@ -1,3 +1,5 @@
+if (control) {
+
 var player = instance_find(Player, 0);
 
 if (instance_exists(player)) 
@@ -7,3 +9,4 @@ if (instance_exists(player))
 }
 	
 room_goto(Sala_Porto_Seguro)
+}

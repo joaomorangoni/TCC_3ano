@@ -7,6 +7,7 @@ if (!dialogue_active) {
             dialogue_active = true;
             current_node = 0;
 			Player.control = false;
+			Player.HUD = false;
         }
     }
 }
@@ -36,6 +37,7 @@ if (dialogue_active) {
         if (keyboard_check_pressed(vk_space)) {
             dialogue_active = false;
 			Player.control = true;
+			Player.HUD = true;
         }
     }
 }

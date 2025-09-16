@@ -1,6 +1,8 @@
 var player = instance_find(Player, 0);
 
 if (player != noone) {
+	
+	if(player.HUD) {
     // ----------- VIDA -----------
     var vida = player.vida;
     var vida_max = player.vida_max;
@@ -47,4 +49,5 @@ if (player != noone) {
     // Contorno
     draw_set_color(c_white);
     draw_rectangle(barra_x, barra_y, barra_x + barra_largura, barra_y + barra_altura, true);
+    }
 }
