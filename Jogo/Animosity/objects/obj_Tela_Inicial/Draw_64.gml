@@ -11,7 +11,7 @@ if (!instance_exists(obj_Options_Menu)) {
 	var fog_margin = 30;
 	var fog_x = 900
 	var fog_y = 250
-	draw_sprite_ext(spr_fogueira, floor(current_time div 100) mod sprite_get_number(spr_fogueira), fog_x, fog_y, 2, 2, 0, c_white, 1)
+	draw_sprite_ext(fogueira, floor(current_time div 100) mod sprite_get_number(fogueira), fog_x, fog_y, 2, 2, 0, c_white, 1)
 
 	// Desenhar os botões
 

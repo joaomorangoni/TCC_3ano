@@ -1,1 +1,0 @@
-fundo = bg_forest;
