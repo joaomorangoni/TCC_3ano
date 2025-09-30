@@ -14,6 +14,14 @@ if (velh != 0)
 scr_carregar_adrenalina();
 scr_cooldown();
 
+if (keyboard_check(vk_up) || keyboard_check(vk_down)) {
+    view_visible[0] = false; // esconde padrão
+    view_visible[1] = true;  // mostra a que mexe
+} else {
+    view_visible[0] = true;  // volta pro padrão
+    view_visible[1] = false;
+}
+
 // Controles ----------------------------------
 if (control && estado == estado_player.livre)
 {

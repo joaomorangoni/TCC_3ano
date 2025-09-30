@@ -152,7 +152,6 @@
     {"id":{"name":"Sala_Neutra_v1","path":"rooms/Sala_Neutra_v1/Sala_Neutra_v1.yy",},},
     {"id":{"name":"Sala_Porto_Seguro","path":"rooms/Sala_Porto_Seguro/Sala_Porto_Seguro.yy",},},
     {"id":{"name":"Sala_Prol","path":"rooms/Sala_Prol/Sala_Prol.yy",},},
-    {"id":{"name":"Sala_Teste_Entidades","path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},},
     {"id":{"name":"ini_achievements","path":"scripts/ini_achievements/ini_achievements.yy",},},
     {"id":{"name":"ini_config","path":"scripts/ini_config/ini_config.yy",},},
     {"id":{"name":"ini_controllers","path":"scripts/ini_controllers/ini_controllers.yy",},},
@@ -160,6 +159,7 @@
     {"id":{"name":"randomizer","path":"scripts/randomizer/randomizer.yy",},},
     {"id":{"name":"scr_alerta","path":"scripts/scr_alerta/scr_alerta.yy",},},
     {"id":{"name":"scr_attack","path":"scripts/scr_attack/scr_attack.yy",},},
+    {"id":{"name":"scr_camera","path":"scripts/scr_camera/scr_camera.yy",},},
     {"id":{"name":"scr_carregar_adrenalina","path":"scripts/scr_carregar_adrenalina/scr_carregar_adrenalina.yy",},},
     {"id":{"name":"scr_chamarfade","path":"scripts/scr_chamarfade/scr_chamarfade.yy",},},
     {"id":{"name":"scr_clock","path":"scripts/scr_clock/scr_clock.yy",},},
@@ -256,7 +256,6 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Sala_Menu","path":"rooms/Sala_Menu/Sala_Menu.yy",},},
     {"roomId":{"name":"Sala_Prol","path":"rooms/Sala_Prol/Sala_Prol.yy",},},
-    {"roomId":{"name":"Sala_Teste_Entidades","path":"rooms/Sala_Teste_Entidades/Sala_Teste_Entidades.yy",},},
     {"roomId":{"name":"Sala_Conquistas","path":"rooms/Sala_Conquistas/Sala_Conquistas.yy",},},
     {"roomId":{"name":"Sala_Modelo","path":"rooms/Sala_Modelo/Sala_Modelo.yy",},},
     {"roomId":{"name":"Sala_Porto_Seguro","path":"rooms/Sala_Porto_Seguro/Sala_Porto_Seguro.yy",},},

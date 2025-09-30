@@ -1,4 +1,13 @@
-var cam = view_camera[0];
+var cam = view_camera;
+
+if (view_visible[0] == false)
+{
+	cam = view_camera[1];
+}
+else
+{
+	cam = view_camera[0];
+}
 var cam_x = camera_get_view_x(cam);
 var cam_y = camera_get_view_y(cam);
 var cam_w = camera_get_view_width(cam);

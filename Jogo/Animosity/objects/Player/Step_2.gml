@@ -47,3 +47,5 @@ if (!global.pause) {
 x += velh * global.tempo;
 y += velv * global.tempo;
 }
+
+scr_camera();

@@ -5,7 +5,7 @@ draw_set_color(c_white);
 if (!instance_exists(obj_Options_Menu)) {
 	// Desenhar logo (mais à esquerda agora)
 	var logo_x = 50; // margem esquerda
-	draw_sprite_ext(spr_nome, floor(logo_frame), logo_x, 30, 2, 2, 0, c_white, 1);
+	draw_sprite_ext(spr_nome, floor(logo_frame), logo_x, 90 , 0.3, 0.3, 0, c_white, 1);
 
 	// Desenhar fogueira animada no canto inferior direito
 	var fog_margin = 30;

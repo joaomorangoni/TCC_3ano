@@ -38,3 +38,23 @@ if (global.spawn_x != 0 || global.spawn_y != 0) {
     global.spawn_y = 0;
 }
 
+// --- Inicializa as câmeras
+cam0 = view_camera[0];
+cam1 = view_camera[1];
+
+// --- Dimensões da câmera
+w = camera_get_view_width(cam0);
+h = camera_get_view_height(cam0);
+
+// --- Offsets de olhar
+look_amount_up   = h * 0.01;
+look_amount_down = h * 0.65;
+smooth = 0.12;
+
+var base_y = y - h;
+offsetY = camera_get_view_y(cam0) - base_y - 4;
+
+
+
+
+
