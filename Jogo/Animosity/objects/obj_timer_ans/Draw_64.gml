@@ -1,0 +1,1 @@
+draw_text(650, 30, sec);

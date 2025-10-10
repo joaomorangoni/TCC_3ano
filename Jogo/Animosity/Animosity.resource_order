@@ -106,6 +106,7 @@
     {"name":"obj_quadro","order":1,"path":"objects/obj_quadro/obj_quadro.yy",},
     {"name":"obj_random1","order":2,"path":"objects/obj_random1/obj_random1.yy",},
     {"name":"obj_Tela_Inicial","order":4,"path":"objects/obj_Tela_Inicial/obj_Tela_Inicial.yy",},
+    {"name":"obj_timer_ans","order":3,"path":"objects/obj_timer_ans/obj_timer_ans.yy",},
     {"name":"obj_troca_sala","order":1,"path":"objects/obj_troca_sala/obj_troca_sala.yy",},
     {"name":"obj_vida_b1","order":5,"path":"objects/obj_vida_b1/obj_vida_b1.yy",},
     {"name":"Player","order":1,"path":"objects/Player/Player.yy",},

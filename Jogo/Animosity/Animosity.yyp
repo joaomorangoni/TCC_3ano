@@ -139,6 +139,7 @@
     {"id":{"name":"obj_random1","path":"objects/obj_random1/obj_random1.yy",},},
     {"id":{"name":"obj_sala_combate","path":"objects/obj_sala_combate/obj_sala_combate.yy",},},
     {"id":{"name":"obj_Tela_Inicial","path":"objects/obj_Tela_Inicial/obj_Tela_Inicial.yy",},},
+    {"id":{"name":"obj_timer_ans","path":"objects/obj_timer_ans/obj_timer_ans.yy",},},
     {"id":{"name":"obj_troca_sala","path":"objects/obj_troca_sala/obj_troca_sala.yy",},},
     {"id":{"name":"obj_vida_b1","path":"objects/obj_vida_b1/obj_vida_b1.yy",},},
     {"id":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},},

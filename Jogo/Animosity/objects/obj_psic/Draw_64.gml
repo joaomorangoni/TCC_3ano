@@ -35,7 +35,7 @@ if (dialogue_active) {
             draw_set_color(c_lime);
             option_hover = i;
         } else {
-            draw_set_color(c_black);
+            draw_set_color(c_white);
         }
 
         draw_text_ext(opt_x1, opt_y1 + 5, opt_text, -1, box_x2 - box_x1 - margin);
