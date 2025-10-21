@@ -4,6 +4,6 @@ global.inputs = {
 	crouch : ord("S"),
 	jump  : vk_space,
 	dashin  : vk_shift,
-	atk_leve : mb_left,
+	atk_leve : ord("K"),
 	interact : ord("X")
 }

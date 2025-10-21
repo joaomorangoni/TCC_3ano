@@ -33,7 +33,6 @@
     {"$GMFolder":"","%Name":"triggers","folderPath":"folders/Objetos/Controller/triggers.yy","name":"triggers","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Drops","folderPath":"folders/Objetos/Drops.yy","name":"Drops","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Entidade","folderPath":"folders/Objetos/Entidade.yy","name":"Entidade","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"grupo1","folderPath":"folders/Objetos/grupo1.yy","name":"grupo1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Interagiveis","folderPath":"folders/Objetos/Interagiveis.yy","name":"Interagiveis","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Outros","folderPath":"folders/Objetos/Outros.yy","name":"Outros","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Efeitos","folderPath":"folders/Objetos/Outros/Efeitos.yy","name":"Efeitos","resourceType":"GMFolder","resourceVersion":"2.0",},

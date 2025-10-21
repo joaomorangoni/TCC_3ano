@@ -33,6 +33,6 @@ if (!instance_exists(obj_Options_Menu)) {
         draw_set_color(c_white);
         draw_text(bx + 20, by + bh/2, item.text);
 		
-		draw_text(10, 750, "v0.1.0");
+		draw_text(10, 750, "v0.1.1 - Demo Feira Tecnológica");
     }
 }
