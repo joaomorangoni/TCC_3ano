@@ -1,3 +1,8 @@
+if (keyboard_check_pressed(ord("U")))
+{
+	game_restart();
+}
+
 if (global.pause) // Pausar
 {
 	image_speed = 0;

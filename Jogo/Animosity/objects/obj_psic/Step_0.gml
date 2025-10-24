@@ -19,13 +19,13 @@ if (dialogue_active) {
     var node = dialogue_tree[current_node];
 
     // Teclado (1,2,3)
-    if (keyboard_check_pressed(ord("I")) && array_length(node.options) >= 1) {
+    if (keyboard_check_pressed(ord("1")) && array_length(node.options) >= 1) {
         current_node = node.options[0].next;
     }
-    if (keyboard_check_pressed(ord("O")) && array_length(node.options) >= 2) {
+    if (keyboard_check_pressed(ord("2")) && array_length(node.options) >= 2) {
         current_node = node.options[1].next;
     }
-    if (keyboard_check_pressed(ord("P")) && array_length(node.options) >= 3) {
+    if (keyboard_check_pressed(ord("3")) && array_length(node.options) >= 3) {
         current_node = node.options[2].next;
     }
 

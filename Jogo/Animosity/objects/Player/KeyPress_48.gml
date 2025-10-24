@@ -1,4 +1,4 @@
-/*if (control) {
+if (control) {
 
 var player = instance_find(Player, 0);
 

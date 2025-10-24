@@ -1,5 +1,8 @@
 event_inherited()
 
+// Define o tamanho fixo da camada GUI (ajuste conforme a resolução base do seu jogo)
+
+
 // Triggers --------------------------------
 
 control = true;
