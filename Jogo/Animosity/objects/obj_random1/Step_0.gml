@@ -7,6 +7,7 @@ if (!dialogue_active) {
             dialogue_active = true;
 			Player.control = false;
 			Player.HUD = false;
+			Player.velh = 0;
             current_node = 0; // reinicia o diálogo
         }
     }
